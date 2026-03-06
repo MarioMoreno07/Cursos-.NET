@@ -1,0 +1,14 @@
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\POO_SOLID_6Proyectos_Pedagogicos_VisualStudio2022_alumn\01_PrincipiosPOO_Pedagogico\bin\Debug\net6.0\01_PrincipiosPOO_Pedagogico.exe
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\POO_SOLID_6Proyectos_Pedagogicos_VisualStudio2022_alumn\01_PrincipiosPOO_Pedagogico\bin\Debug\net6.0\01_PrincipiosPOO_Pedagogico.deps.json
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\POO_SOLID_6Proyectos_Pedagogicos_VisualStudio2022_alumn\01_PrincipiosPOO_Pedagogico\bin\Debug\net6.0\01_PrincipiosPOO_Pedagogico.runtimeconfig.json
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\POO_SOLID_6Proyectos_Pedagogicos_VisualStudio2022_alumn\01_PrincipiosPOO_Pedagogico\bin\Debug\net6.0\01_PrincipiosPOO_Pedagogico.dll
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\POO_SOLID_6Proyectos_Pedagogicos_VisualStudio2022_alumn\01_PrincipiosPOO_Pedagogico\bin\Debug\net6.0\01_PrincipiosPOO_Pedagogico.pdb
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\POO_SOLID_6Proyectos_Pedagogicos_VisualStudio2022_alumn\01_PrincipiosPOO_Pedagogico\obj\Debug\net6.0\01_PrincipiosPOO_Pedagogico.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\POO_SOLID_6Proyectos_Pedagogicos_VisualStudio2022_alumn\01_PrincipiosPOO_Pedagogico\obj\Debug\net6.0\01_PrincipiosPOO_Pedagogico.AssemblyInfoInputs.cache
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\POO_SOLID_6Proyectos_Pedagogicos_VisualStudio2022_alumn\01_PrincipiosPOO_Pedagogico\obj\Debug\net6.0\01_PrincipiosPOO_Pedagogico.AssemblyInfo.cs
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\POO_SOLID_6Proyectos_Pedagogicos_VisualStudio2022_alumn\01_PrincipiosPOO_Pedagogico\obj\Debug\net6.0\01_PrincipiosPOO_Pedagogico.csproj.CoreCompileInputs.cache
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\POO_SOLID_6Proyectos_Pedagogicos_VisualStudio2022_alumn\01_PrincipiosPOO_Pedagogico\obj\Debug\net6.0\01_PrincipiosPOO_Pedagogico.dll
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\POO_SOLID_6Proyectos_Pedagogicos_VisualStudio2022_alumn\01_PrincipiosPOO_Pedagogico\obj\Debug\net6.0\refint\01_PrincipiosPOO_Pedagogico.dll
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\POO_SOLID_6Proyectos_Pedagogicos_VisualStudio2022_alumn\01_PrincipiosPOO_Pedagogico\obj\Debug\net6.0\01_PrincipiosPOO_Pedagogico.pdb
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\POO_SOLID_6Proyectos_Pedagogicos_VisualStudio2022_alumn\01_PrincipiosPOO_Pedagogico\obj\Debug\net6.0\01_PrincipiosPOO_Pedagogico.genruntimeconfig.cache
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\POO_SOLID_6Proyectos_Pedagogicos_VisualStudio2022_alumn\01_PrincipiosPOO_Pedagogico\obj\Debug\net6.0\ref\01_PrincipiosPOO_Pedagogico.dll

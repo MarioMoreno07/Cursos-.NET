@@ -1,0 +1,14 @@
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\POO_SOLID_6Proyectos_Pedagogicos_VisualStudio2022_alumn\03_SOLID_OCP_Pedagogico\bin\Debug\net6.0\03_SOLID_OCP_Pedagogico.exe
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\POO_SOLID_6Proyectos_Pedagogicos_VisualStudio2022_alumn\03_SOLID_OCP_Pedagogico\bin\Debug\net6.0\03_SOLID_OCP_Pedagogico.deps.json
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\POO_SOLID_6Proyectos_Pedagogicos_VisualStudio2022_alumn\03_SOLID_OCP_Pedagogico\bin\Debug\net6.0\03_SOLID_OCP_Pedagogico.runtimeconfig.json
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\POO_SOLID_6Proyectos_Pedagogicos_VisualStudio2022_alumn\03_SOLID_OCP_Pedagogico\bin\Debug\net6.0\03_SOLID_OCP_Pedagogico.dll
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\POO_SOLID_6Proyectos_Pedagogicos_VisualStudio2022_alumn\03_SOLID_OCP_Pedagogico\bin\Debug\net6.0\03_SOLID_OCP_Pedagogico.pdb
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\POO_SOLID_6Proyectos_Pedagogicos_VisualStudio2022_alumn\03_SOLID_OCP_Pedagogico\obj\Debug\net6.0\03_SOLID_OCP_Pedagogico.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\POO_SOLID_6Proyectos_Pedagogicos_VisualStudio2022_alumn\03_SOLID_OCP_Pedagogico\obj\Debug\net6.0\03_SOLID_OCP_Pedagogico.AssemblyInfoInputs.cache
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\POO_SOLID_6Proyectos_Pedagogicos_VisualStudio2022_alumn\03_SOLID_OCP_Pedagogico\obj\Debug\net6.0\03_SOLID_OCP_Pedagogico.AssemblyInfo.cs
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\POO_SOLID_6Proyectos_Pedagogicos_VisualStudio2022_alumn\03_SOLID_OCP_Pedagogico\obj\Debug\net6.0\03_SOLID_OCP_Pedagogico.csproj.CoreCompileInputs.cache
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\POO_SOLID_6Proyectos_Pedagogicos_VisualStudio2022_alumn\03_SOLID_OCP_Pedagogico\obj\Debug\net6.0\03_SOLID_OCP_Pedagogico.dll
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\POO_SOLID_6Proyectos_Pedagogicos_VisualStudio2022_alumn\03_SOLID_OCP_Pedagogico\obj\Debug\net6.0\refint\03_SOLID_OCP_Pedagogico.dll
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\POO_SOLID_6Proyectos_Pedagogicos_VisualStudio2022_alumn\03_SOLID_OCP_Pedagogico\obj\Debug\net6.0\03_SOLID_OCP_Pedagogico.pdb
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\POO_SOLID_6Proyectos_Pedagogicos_VisualStudio2022_alumn\03_SOLID_OCP_Pedagogico\obj\Debug\net6.0\03_SOLID_OCP_Pedagogico.genruntimeconfig.cache
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\POO_SOLID_6Proyectos_Pedagogicos_VisualStudio2022_alumn\03_SOLID_OCP_Pedagogico\obj\Debug\net6.0\ref\03_SOLID_OCP_Pedagogico.dll

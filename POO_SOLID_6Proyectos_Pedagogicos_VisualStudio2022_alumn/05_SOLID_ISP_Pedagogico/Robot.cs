@@ -6,11 +6,13 @@ using System.Threading.Tasks;
 
 namespace SOLID_ISP
 {
-    public class Robot : ITrabajador
+     class Robot : ITrabajador
     {
         public string nombre {  get; set; }
 
-        public Robot(string nombre) { }
+        public Robot(string nombre) {
+            nombre = nombre;
+        }
         public void Trabajar()
         {
             Console.WriteLine("El robot trabaja");

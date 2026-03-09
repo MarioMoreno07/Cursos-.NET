@@ -3,11 +3,13 @@
 
 namespace SOLID_ISP
 {
-    public class Humano : IComedor, ITrabajador
+     class Humano : IComedor, ITrabajador
     {
 
         public string nombre { get; set; }
-        public Humano(string nombre) { }
+        public Humano(string nombre) {
+            nombre = nombre;
+        }
         public void Comer()
         {
             Console.WriteLine("El humano come");

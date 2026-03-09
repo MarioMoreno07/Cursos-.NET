@@ -5,7 +5,10 @@ namespace SOLID_LSP
 
 	public class Aguila : Ave,IAveVoladora
 	{
-		public Aguila(string nombre) : base(nombre) { }
+        public string nombre;
+		public Aguila(string nombre) : base(nombre) {
+            nombre = nombre;
+        }
 
     public override void Moverse()
         {

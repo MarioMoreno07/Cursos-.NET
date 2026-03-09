@@ -1,0 +1,15 @@
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\Refactorizacion_A_B_C_D_E_F_VisualStudio2022_alumn\A_ComposicionMetodos\bin\Debug\net6.0\A_ComposicionMetodos.exe
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\Refactorizacion_A_B_C_D_E_F_VisualStudio2022_alumn\A_ComposicionMetodos\bin\Debug\net6.0\A_ComposicionMetodos.deps.json
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\Refactorizacion_A_B_C_D_E_F_VisualStudio2022_alumn\A_ComposicionMetodos\bin\Debug\net6.0\A_ComposicionMetodos.runtimeconfig.json
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\Refactorizacion_A_B_C_D_E_F_VisualStudio2022_alumn\A_ComposicionMetodos\bin\Debug\net6.0\A_ComposicionMetodos.dll
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\Refactorizacion_A_B_C_D_E_F_VisualStudio2022_alumn\A_ComposicionMetodos\bin\Debug\net6.0\A_ComposicionMetodos.pdb
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\Refactorizacion_A_B_C_D_E_F_VisualStudio2022_alumn\A_ComposicionMetodos\obj\Debug\net6.0\A_ComposicionMetodos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\Refactorizacion_A_B_C_D_E_F_VisualStudio2022_alumn\A_ComposicionMetodos\obj\Debug\net6.0\A_ComposicionMetodos.AssemblyInfoInputs.cache
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\Refactorizacion_A_B_C_D_E_F_VisualStudio2022_alumn\A_ComposicionMetodos\obj\Debug\net6.0\A_ComposicionMetodos.AssemblyInfo.cs
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\Refactorizacion_A_B_C_D_E_F_VisualStudio2022_alumn\A_ComposicionMetodos\obj\Debug\net6.0\A_ComposicionMetodos.csproj.CoreCompileInputs.cache
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\Refactorizacion_A_B_C_D_E_F_VisualStudio2022_alumn\A_ComposicionMetodos\obj\Debug\net6.0\A_ComposicionMetodos.sourcelink.json
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\Refactorizacion_A_B_C_D_E_F_VisualStudio2022_alumn\A_ComposicionMetodos\obj\Debug\net6.0\A_ComposicionMetodos.dll
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\Refactorizacion_A_B_C_D_E_F_VisualStudio2022_alumn\A_ComposicionMetodos\obj\Debug\net6.0\refint\A_ComposicionMetodos.dll
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\Refactorizacion_A_B_C_D_E_F_VisualStudio2022_alumn\A_ComposicionMetodos\obj\Debug\net6.0\A_ComposicionMetodos.pdb
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\Refactorizacion_A_B_C_D_E_F_VisualStudio2022_alumn\A_ComposicionMetodos\obj\Debug\net6.0\A_ComposicionMetodos.genruntimeconfig.cache
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\Refactorizacion_A_B_C_D_E_F_VisualStudio2022_alumn\A_ComposicionMetodos\obj\Debug\net6.0\ref\A_ComposicionMetodos.dll

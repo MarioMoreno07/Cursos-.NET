@@ -1,0 +1,15 @@
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\Refactorizacion_A_B_C_D_E_F_VisualStudio2022_alumn\D_MoveMethod_TrasladoFunciones\obj\Debug\net6.0\D_MoveMethod_TrasladoFunciones.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\Refactorizacion_A_B_C_D_E_F_VisualStudio2022_alumn\D_MoveMethod_TrasladoFunciones\obj\Debug\net6.0\D_MoveMethod_TrasladoFunciones.AssemblyInfoInputs.cache
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\Refactorizacion_A_B_C_D_E_F_VisualStudio2022_alumn\D_MoveMethod_TrasladoFunciones\obj\Debug\net6.0\D_MoveMethod_TrasladoFunciones.AssemblyInfo.cs
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\Refactorizacion_A_B_C_D_E_F_VisualStudio2022_alumn\D_MoveMethod_TrasladoFunciones\obj\Debug\net6.0\D_MoveMethod_TrasladoFunciones.csproj.CoreCompileInputs.cache
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\Refactorizacion_A_B_C_D_E_F_VisualStudio2022_alumn\D_MoveMethod_TrasladoFunciones\obj\Debug\net6.0\D_MoveMethod_TrasladoFunciones.sourcelink.json
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\Refactorizacion_A_B_C_D_E_F_VisualStudio2022_alumn\D_MoveMethod_TrasladoFunciones\bin\Debug\net6.0\D_MoveMethod_TrasladoFunciones.exe
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\Refactorizacion_A_B_C_D_E_F_VisualStudio2022_alumn\D_MoveMethod_TrasladoFunciones\bin\Debug\net6.0\D_MoveMethod_TrasladoFunciones.deps.json
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\Refactorizacion_A_B_C_D_E_F_VisualStudio2022_alumn\D_MoveMethod_TrasladoFunciones\bin\Debug\net6.0\D_MoveMethod_TrasladoFunciones.runtimeconfig.json
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\Refactorizacion_A_B_C_D_E_F_VisualStudio2022_alumn\D_MoveMethod_TrasladoFunciones\bin\Debug\net6.0\D_MoveMethod_TrasladoFunciones.dll
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\Refactorizacion_A_B_C_D_E_F_VisualStudio2022_alumn\D_MoveMethod_TrasladoFunciones\bin\Debug\net6.0\D_MoveMethod_TrasladoFunciones.pdb
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\Refactorizacion_A_B_C_D_E_F_VisualStudio2022_alumn\D_MoveMethod_TrasladoFunciones\obj\Debug\net6.0\D_MoveMethod_TrasladoFunciones.dll
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\Refactorizacion_A_B_C_D_E_F_VisualStudio2022_alumn\D_MoveMethod_TrasladoFunciones\obj\Debug\net6.0\refint\D_MoveMethod_TrasladoFunciones.dll
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\Refactorizacion_A_B_C_D_E_F_VisualStudio2022_alumn\D_MoveMethod_TrasladoFunciones\obj\Debug\net6.0\D_MoveMethod_TrasladoFunciones.pdb
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\Refactorizacion_A_B_C_D_E_F_VisualStudio2022_alumn\D_MoveMethod_TrasladoFunciones\obj\Debug\net6.0\D_MoveMethod_TrasladoFunciones.genruntimeconfig.cache
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\Refactorizacion_A_B_C_D_E_F_VisualStudio2022_alumn\D_MoveMethod_TrasladoFunciones\obj\Debug\net6.0\ref\D_MoveMethod_TrasladoFunciones.dll

@@ -1,0 +1,15 @@
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\Refactorizacion_A_B_C_D_E_F_VisualStudio2022_alumn\F_SimplificarMetodos_EarlyReturn\bin\Debug\net6.0\F_SimplificarMetodos_EarlyReturn.exe
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\Refactorizacion_A_B_C_D_E_F_VisualStudio2022_alumn\F_SimplificarMetodos_EarlyReturn\bin\Debug\net6.0\F_SimplificarMetodos_EarlyReturn.deps.json
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\Refactorizacion_A_B_C_D_E_F_VisualStudio2022_alumn\F_SimplificarMetodos_EarlyReturn\bin\Debug\net6.0\F_SimplificarMetodos_EarlyReturn.runtimeconfig.json
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\Refactorizacion_A_B_C_D_E_F_VisualStudio2022_alumn\F_SimplificarMetodos_EarlyReturn\bin\Debug\net6.0\F_SimplificarMetodos_EarlyReturn.dll
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\Refactorizacion_A_B_C_D_E_F_VisualStudio2022_alumn\F_SimplificarMetodos_EarlyReturn\bin\Debug\net6.0\F_SimplificarMetodos_EarlyReturn.pdb
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\Refactorizacion_A_B_C_D_E_F_VisualStudio2022_alumn\F_SimplificarMetodos_EarlyReturn\obj\Debug\net6.0\F_SimplificarMetodos_EarlyReturn.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\Refactorizacion_A_B_C_D_E_F_VisualStudio2022_alumn\F_SimplificarMetodos_EarlyReturn\obj\Debug\net6.0\F_SimplificarMetodos_EarlyReturn.AssemblyInfoInputs.cache
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\Refactorizacion_A_B_C_D_E_F_VisualStudio2022_alumn\F_SimplificarMetodos_EarlyReturn\obj\Debug\net6.0\F_SimplificarMetodos_EarlyReturn.AssemblyInfo.cs
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\Refactorizacion_A_B_C_D_E_F_VisualStudio2022_alumn\F_SimplificarMetodos_EarlyReturn\obj\Debug\net6.0\F_SimplificarMetodos_EarlyReturn.csproj.CoreCompileInputs.cache
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\Refactorizacion_A_B_C_D_E_F_VisualStudio2022_alumn\F_SimplificarMetodos_EarlyReturn\obj\Debug\net6.0\F_SimplificarMetodos_EarlyReturn.sourcelink.json
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\Refactorizacion_A_B_C_D_E_F_VisualStudio2022_alumn\F_SimplificarMetodos_EarlyReturn\obj\Debug\net6.0\F_SimplificarMetodos_EarlyReturn.dll
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\Refactorizacion_A_B_C_D_E_F_VisualStudio2022_alumn\F_SimplificarMetodos_EarlyReturn\obj\Debug\net6.0\refint\F_SimplificarMetodos_EarlyReturn.dll
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\Refactorizacion_A_B_C_D_E_F_VisualStudio2022_alumn\F_SimplificarMetodos_EarlyReturn\obj\Debug\net6.0\F_SimplificarMetodos_EarlyReturn.pdb
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\Refactorizacion_A_B_C_D_E_F_VisualStudio2022_alumn\F_SimplificarMetodos_EarlyReturn\obj\Debug\net6.0\F_SimplificarMetodos_EarlyReturn.genruntimeconfig.cache
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\Refactorizacion_A_B_C_D_E_F_VisualStudio2022_alumn\F_SimplificarMetodos_EarlyReturn\obj\Debug\net6.0\ref\F_SimplificarMetodos_EarlyReturn.dll

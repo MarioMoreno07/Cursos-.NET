@@ -1,0 +1,15 @@
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\Refactorizacion_A_B_C_D_E_F_VisualStudio2022_alumn\B_PrincipiosRefactorizacion\obj\Debug\net6.0\B_PrincipiosRefactorizacion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\Refactorizacion_A_B_C_D_E_F_VisualStudio2022_alumn\B_PrincipiosRefactorizacion\obj\Debug\net6.0\B_PrincipiosRefactorizacion.AssemblyInfoInputs.cache
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\Refactorizacion_A_B_C_D_E_F_VisualStudio2022_alumn\B_PrincipiosRefactorizacion\obj\Debug\net6.0\B_PrincipiosRefactorizacion.AssemblyInfo.cs
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\Refactorizacion_A_B_C_D_E_F_VisualStudio2022_alumn\B_PrincipiosRefactorizacion\obj\Debug\net6.0\B_PrincipiosRefactorizacion.csproj.CoreCompileInputs.cache
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\Refactorizacion_A_B_C_D_E_F_VisualStudio2022_alumn\B_PrincipiosRefactorizacion\obj\Debug\net6.0\B_PrincipiosRefactorizacion.sourcelink.json
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\Refactorizacion_A_B_C_D_E_F_VisualStudio2022_alumn\B_PrincipiosRefactorizacion\bin\Debug\net6.0\B_PrincipiosRefactorizacion.exe
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\Refactorizacion_A_B_C_D_E_F_VisualStudio2022_alumn\B_PrincipiosRefactorizacion\bin\Debug\net6.0\B_PrincipiosRefactorizacion.deps.json
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\Refactorizacion_A_B_C_D_E_F_VisualStudio2022_alumn\B_PrincipiosRefactorizacion\bin\Debug\net6.0\B_PrincipiosRefactorizacion.runtimeconfig.json
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\Refactorizacion_A_B_C_D_E_F_VisualStudio2022_alumn\B_PrincipiosRefactorizacion\bin\Debug\net6.0\B_PrincipiosRefactorizacion.dll
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\Refactorizacion_A_B_C_D_E_F_VisualStudio2022_alumn\B_PrincipiosRefactorizacion\bin\Debug\net6.0\B_PrincipiosRefactorizacion.pdb
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\Refactorizacion_A_B_C_D_E_F_VisualStudio2022_alumn\B_PrincipiosRefactorizacion\obj\Debug\net6.0\B_PrincipiosRefactorizacion.dll
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\Refactorizacion_A_B_C_D_E_F_VisualStudio2022_alumn\B_PrincipiosRefactorizacion\obj\Debug\net6.0\refint\B_PrincipiosRefactorizacion.dll
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\Refactorizacion_A_B_C_D_E_F_VisualStudio2022_alumn\B_PrincipiosRefactorizacion\obj\Debug\net6.0\B_PrincipiosRefactorizacion.pdb
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\Refactorizacion_A_B_C_D_E_F_VisualStudio2022_alumn\B_PrincipiosRefactorizacion\obj\Debug\net6.0\B_PrincipiosRefactorizacion.genruntimeconfig.cache
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\Refactorizacion_A_B_C_D_E_F_VisualStudio2022_alumn\B_PrincipiosRefactorizacion\obj\Debug\net6.0\ref\B_PrincipiosRefactorizacion.dll

@@ -1,0 +1,15 @@
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\POO_SOLID_6Proyectos_Pedagogicos_VisualStudio2022_alumn\06_SOLID_DIP_Pedagogico\bin\Debug\net6.0\06_SOLID_DIP_Pedagogico.exe
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\POO_SOLID_6Proyectos_Pedagogicos_VisualStudio2022_alumn\06_SOLID_DIP_Pedagogico\bin\Debug\net6.0\06_SOLID_DIP_Pedagogico.deps.json
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\POO_SOLID_6Proyectos_Pedagogicos_VisualStudio2022_alumn\06_SOLID_DIP_Pedagogico\bin\Debug\net6.0\06_SOLID_DIP_Pedagogico.runtimeconfig.json
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\POO_SOLID_6Proyectos_Pedagogicos_VisualStudio2022_alumn\06_SOLID_DIP_Pedagogico\bin\Debug\net6.0\06_SOLID_DIP_Pedagogico.dll
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\POO_SOLID_6Proyectos_Pedagogicos_VisualStudio2022_alumn\06_SOLID_DIP_Pedagogico\bin\Debug\net6.0\06_SOLID_DIP_Pedagogico.pdb
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\POO_SOLID_6Proyectos_Pedagogicos_VisualStudio2022_alumn\06_SOLID_DIP_Pedagogico\obj\Debug\net6.0\06_SOLID_DIP_Pedagogico.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\POO_SOLID_6Proyectos_Pedagogicos_VisualStudio2022_alumn\06_SOLID_DIP_Pedagogico\obj\Debug\net6.0\06_SOLID_DIP_Pedagogico.AssemblyInfoInputs.cache
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\POO_SOLID_6Proyectos_Pedagogicos_VisualStudio2022_alumn\06_SOLID_DIP_Pedagogico\obj\Debug\net6.0\06_SOLID_DIP_Pedagogico.AssemblyInfo.cs
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\POO_SOLID_6Proyectos_Pedagogicos_VisualStudio2022_alumn\06_SOLID_DIP_Pedagogico\obj\Debug\net6.0\06_SOLID_DIP_Pedagogico.csproj.CoreCompileInputs.cache
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\POO_SOLID_6Proyectos_Pedagogicos_VisualStudio2022_alumn\06_SOLID_DIP_Pedagogico\obj\Debug\net6.0\06_SOLID_DIP_Pedagogico.sourcelink.json
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\POO_SOLID_6Proyectos_Pedagogicos_VisualStudio2022_alumn\06_SOLID_DIP_Pedagogico\obj\Debug\net6.0\06_SOLID_DIP_Pedagogico.dll
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\POO_SOLID_6Proyectos_Pedagogicos_VisualStudio2022_alumn\06_SOLID_DIP_Pedagogico\obj\Debug\net6.0\refint\06_SOLID_DIP_Pedagogico.dll
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\POO_SOLID_6Proyectos_Pedagogicos_VisualStudio2022_alumn\06_SOLID_DIP_Pedagogico\obj\Debug\net6.0\06_SOLID_DIP_Pedagogico.pdb
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\POO_SOLID_6Proyectos_Pedagogicos_VisualStudio2022_alumn\06_SOLID_DIP_Pedagogico\obj\Debug\net6.0\06_SOLID_DIP_Pedagogico.genruntimeconfig.cache
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\POO_SOLID_6Proyectos_Pedagogicos_VisualStudio2022_alumn\06_SOLID_DIP_Pedagogico\obj\Debug\net6.0\ref\06_SOLID_DIP_Pedagogico.dll

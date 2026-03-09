@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("F_SimplificarMetodos_EarlyReturn")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+860f2739d401ced5c43bbd749a54f19fbc2b2403")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8050800eec037819da3e1794a7c2298287246ca0")]
 [assembly: System.Reflection.AssemblyProductAttribute("F_SimplificarMetodos_EarlyReturn")]
 [assembly: System.Reflection.AssemblyTitleAttribute("F_SimplificarMetodos_EarlyReturn")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

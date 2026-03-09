@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("F_SimplificarMetodos_EarlyReturn")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Sesion3_MiniProyecto_Pedidos")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7481cf9c800b94c49203ffa647132209c7dfd254")]
-[assembly: System.Reflection.AssemblyProductAttribute("F_SimplificarMetodos_EarlyReturn")]
-[assembly: System.Reflection.AssemblyTitleAttribute("F_SimplificarMetodos_EarlyReturn")]
+[assembly: System.Reflection.AssemblyProductAttribute("Sesion3_MiniProyecto_Pedidos")]
+[assembly: System.Reflection.AssemblyTitleAttribute("Sesion3_MiniProyecto_Pedidos")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Generado por la clase WriteCodeFragment de MSBuild.

@@ -1,0 +1,109 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Migue\\Downloads\\Ejercicios_Parecidos_No_Iguales_POO_SOLID_Refact\\Ejercicios_Parecidos_No_Iguales_POO_SOLID_Refact\\Ejercicio1_POO_ProductosTienda\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7E4B5719-6584-A8FD-BD8B-851D0D406E63}|Ejercicio1_POO_ProductosTienda.csproj|c:\\users\\migue\\downloads\\ejercicios_parecidos_no_iguales_poo_solid_refact\\ejercicios_parecidos_no_iguales_poo_solid_refact\\ejercicio1_poo_productostienda\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{7E4B5719-6584-A8FD-BD8B-851D0D406E63}|Ejercicio1_POO_ProductosTienda.csproj|solutionrelative:readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E4B5719-6584-A8FD-BD8B-851D0D406E63}|Ejercicio1_POO_ProductosTienda.csproj|c:\\users\\migue\\downloads\\ejercicios_parecidos_no_iguales_poo_solid_refact\\ejercicios_parecidos_no_iguales_poo_solid_refact\\ejercicio1_poo_productostienda\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E4B5719-6584-A8FD-BD8B-851D0D406E63}|Ejercicio1_POO_ProductosTienda.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E4B5719-6584-A8FD-BD8B-851D0D406E63}|Ejercicio1_POO_ProductosTienda.csproj|c:\\users\\migue\\downloads\\ejercicios_parecidos_no_iguales_poo_solid_refact\\ejercicios_parecidos_no_iguales_poo_solid_refact\\ejercicio1_poo_productostienda\\modelos\\productodigital.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E4B5719-6584-A8FD-BD8B-851D0D406E63}|Ejercicio1_POO_ProductosTienda.csproj|solutionrelative:modelos\\productodigital.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E4B5719-6584-A8FD-BD8B-851D0D406E63}|Ejercicio1_POO_ProductosTienda.csproj|c:\\users\\migue\\downloads\\ejercicios_parecidos_no_iguales_poo_solid_refact\\ejercicios_parecidos_no_iguales_poo_solid_refact\\ejercicio1_poo_productostienda\\modelos\\productofisico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E4B5719-6584-A8FD-BD8B-851D0D406E63}|Ejercicio1_POO_ProductosTienda.csproj|solutionrelative:modelos\\productofisico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E4B5719-6584-A8FD-BD8B-851D0D406E63}|Ejercicio1_POO_ProductosTienda.csproj|c:\\users\\migue\\downloads\\ejercicios_parecidos_no_iguales_poo_solid_refact\\ejercicios_parecidos_no_iguales_poo_solid_refact\\ejercicio1_poo_productostienda\\modelos\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E4B5719-6584-A8FD-BD8B-851D0D406E63}|Ejercicio1_POO_ProductosTienda.csproj|solutionrelative:modelos\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\Users\\Migue\\Downloads\\Ejercicios_Parecidos_No_Iguales_POO_SOLID_Refact\\Ejercicios_Parecidos_No_Iguales_POO_SOLID_Refact\\Ejercicio1_POO_ProductosTienda\\README.md",
+              "RelativeDocumentMoniker": "README.md",
+              "ToolTip": "C:\\Users\\Migue\\Downloads\\Ejercicios_Parecidos_No_Iguales_POO_SOLID_Refact\\Ejercicios_Parecidos_No_Iguales_POO_SOLID_Refact\\Ejercicio1_POO_ProductosTienda\\README.md",
+              "RelativeToolTip": "README.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-03-09T15:19:30.097Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Migue\\Downloads\\Ejercicios_Parecidos_No_Iguales_POO_SOLID_Refact\\Ejercicios_Parecidos_No_Iguales_POO_SOLID_Refact\\Ejercicio1_POO_ProductosTienda\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Migue\\Downloads\\Ejercicios_Parecidos_No_Iguales_POO_SOLID_Refact\\Ejercicios_Parecidos_No_Iguales_POO_SOLID_Refact\\Ejercicio1_POO_ProductosTienda\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T15:19:23.667Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductoFisico.cs",
+              "DocumentMoniker": "C:\\Users\\Migue\\Downloads\\Ejercicios_Parecidos_No_Iguales_POO_SOLID_Refact\\Ejercicios_Parecidos_No_Iguales_POO_SOLID_Refact\\Ejercicio1_POO_ProductosTienda\\Modelos\\ProductoFisico.cs",
+              "RelativeDocumentMoniker": "Modelos\\ProductoFisico.cs",
+              "ToolTip": "C:\\Users\\Migue\\Downloads\\Ejercicios_Parecidos_No_Iguales_POO_SOLID_Refact\\Ejercicios_Parecidos_No_Iguales_POO_SOLID_Refact\\Ejercicio1_POO_ProductosTienda\\Modelos\\ProductoFisico.cs",
+              "RelativeToolTip": "Modelos\\ProductoFisico.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T15:19:06.375Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductoDigital.cs",
+              "DocumentMoniker": "C:\\Users\\Migue\\Downloads\\Ejercicios_Parecidos_No_Iguales_POO_SOLID_Refact\\Ejercicios_Parecidos_No_Iguales_POO_SOLID_Refact\\Ejercicio1_POO_ProductosTienda\\Modelos\\ProductoDigital.cs",
+              "RelativeDocumentMoniker": "Modelos\\ProductoDigital.cs",
+              "ToolTip": "C:\\Users\\Migue\\Downloads\\Ejercicios_Parecidos_No_Iguales_POO_SOLID_Refact\\Ejercicios_Parecidos_No_Iguales_POO_SOLID_Refact\\Ejercicio1_POO_ProductosTienda\\Modelos\\ProductoDigital.cs",
+              "RelativeToolTip": "Modelos\\ProductoDigital.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T15:18:51.545Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Producto.cs",
+              "DocumentMoniker": "C:\\Users\\Migue\\Downloads\\Ejercicios_Parecidos_No_Iguales_POO_SOLID_Refact\\Ejercicios_Parecidos_No_Iguales_POO_SOLID_Refact\\Ejercicio1_POO_ProductosTienda\\Modelos\\Producto.cs",
+              "RelativeDocumentMoniker": "Modelos\\Producto.cs",
+              "ToolTip": "C:\\Users\\Migue\\Downloads\\Ejercicios_Parecidos_No_Iguales_POO_SOLID_Refact\\Ejercicios_Parecidos_No_Iguales_POO_SOLID_Refact\\Ejercicio1_POO_ProductosTienda\\Modelos\\Producto.cs",
+              "RelativeToolTip": "Modelos\\Producto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T15:17:47.507Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

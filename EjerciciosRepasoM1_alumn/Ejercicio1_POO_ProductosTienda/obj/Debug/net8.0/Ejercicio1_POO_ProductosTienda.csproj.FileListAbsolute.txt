@@ -1,0 +1,29 @@
+C:\Users\Migue\source\repos\EjerciciosRepasoM1_alumn\Ejercicio1_POO_ProductosTienda\bin\Debug\net8.0\Ejercicio1_POO_ProductosTienda.exe
+C:\Users\Migue\source\repos\EjerciciosRepasoM1_alumn\Ejercicio1_POO_ProductosTienda\bin\Debug\net8.0\Ejercicio1_POO_ProductosTienda.deps.json
+C:\Users\Migue\source\repos\EjerciciosRepasoM1_alumn\Ejercicio1_POO_ProductosTienda\bin\Debug\net8.0\Ejercicio1_POO_ProductosTienda.runtimeconfig.json
+C:\Users\Migue\source\repos\EjerciciosRepasoM1_alumn\Ejercicio1_POO_ProductosTienda\bin\Debug\net8.0\Ejercicio1_POO_ProductosTienda.dll
+C:\Users\Migue\source\repos\EjerciciosRepasoM1_alumn\Ejercicio1_POO_ProductosTienda\bin\Debug\net8.0\Ejercicio1_POO_ProductosTienda.pdb
+C:\Users\Migue\source\repos\EjerciciosRepasoM1_alumn\Ejercicio1_POO_ProductosTienda\obj\Debug\net8.0\Ejercicio1_POO_ProductosTienda.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Migue\source\repos\EjerciciosRepasoM1_alumn\Ejercicio1_POO_ProductosTienda\obj\Debug\net8.0\Ejercicio1_POO_ProductosTienda.AssemblyInfoInputs.cache
+C:\Users\Migue\source\repos\EjerciciosRepasoM1_alumn\Ejercicio1_POO_ProductosTienda\obj\Debug\net8.0\Ejercicio1_POO_ProductosTienda.AssemblyInfo.cs
+C:\Users\Migue\source\repos\EjerciciosRepasoM1_alumn\Ejercicio1_POO_ProductosTienda\obj\Debug\net8.0\Ejercicio1_POO_ProductosTienda.csproj.CoreCompileInputs.cache
+C:\Users\Migue\source\repos\EjerciciosRepasoM1_alumn\Ejercicio1_POO_ProductosTienda\obj\Debug\net8.0\Ejercicio1_POO_ProductosTienda.dll
+C:\Users\Migue\source\repos\EjerciciosRepasoM1_alumn\Ejercicio1_POO_ProductosTienda\obj\Debug\net8.0\refint\Ejercicio1_POO_ProductosTienda.dll
+C:\Users\Migue\source\repos\EjerciciosRepasoM1_alumn\Ejercicio1_POO_ProductosTienda\obj\Debug\net8.0\Ejercicio1_POO_ProductosTienda.pdb
+C:\Users\Migue\source\repos\EjerciciosRepasoM1_alumn\Ejercicio1_POO_ProductosTienda\obj\Debug\net8.0\Ejercicio1_POO_ProductosTienda.genruntimeconfig.cache
+C:\Users\Migue\source\repos\EjerciciosRepasoM1_alumn\Ejercicio1_POO_ProductosTienda\obj\Debug\net8.0\ref\Ejercicio1_POO_ProductosTienda.dll
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\EjerciciosRepasoM1_alumn\Ejercicio1_POO_ProductosTienda\bin\Debug\net8.0\Ejercicio1_POO_ProductosTienda.exe
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\EjerciciosRepasoM1_alumn\Ejercicio1_POO_ProductosTienda\bin\Debug\net8.0\Ejercicio1_POO_ProductosTienda.deps.json
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\EjerciciosRepasoM1_alumn\Ejercicio1_POO_ProductosTienda\bin\Debug\net8.0\Ejercicio1_POO_ProductosTienda.runtimeconfig.json
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\EjerciciosRepasoM1_alumn\Ejercicio1_POO_ProductosTienda\bin\Debug\net8.0\Ejercicio1_POO_ProductosTienda.dll
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\EjerciciosRepasoM1_alumn\Ejercicio1_POO_ProductosTienda\bin\Debug\net8.0\Ejercicio1_POO_ProductosTienda.pdb
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\EjerciciosRepasoM1_alumn\Ejercicio1_POO_ProductosTienda\obj\Debug\net8.0\Ejercicio1_POO_ProductosTienda.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\EjerciciosRepasoM1_alumn\Ejercicio1_POO_ProductosTienda\obj\Debug\net8.0\Ejercicio1_POO_ProductosTienda.AssemblyInfoInputs.cache
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\EjerciciosRepasoM1_alumn\Ejercicio1_POO_ProductosTienda\obj\Debug\net8.0\Ejercicio1_POO_ProductosTienda.AssemblyInfo.cs
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\EjerciciosRepasoM1_alumn\Ejercicio1_POO_ProductosTienda\obj\Debug\net8.0\Ejercicio1_POO_ProductosTienda.csproj.CoreCompileInputs.cache
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\EjerciciosRepasoM1_alumn\Ejercicio1_POO_ProductosTienda\obj\Debug\net8.0\Ejercicio1_POO_ProductosTienda.sourcelink.json
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\EjerciciosRepasoM1_alumn\Ejercicio1_POO_ProductosTienda\obj\Debug\net8.0\Ejercicio1_POO_ProductosTienda.dll
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\EjerciciosRepasoM1_alumn\Ejercicio1_POO_ProductosTienda\obj\Debug\net8.0\refint\Ejercicio1_POO_ProductosTienda.dll
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\EjerciciosRepasoM1_alumn\Ejercicio1_POO_ProductosTienda\obj\Debug\net8.0\Ejercicio1_POO_ProductosTienda.pdb
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\EjerciciosRepasoM1_alumn\Ejercicio1_POO_ProductosTienda\obj\Debug\net8.0\Ejercicio1_POO_ProductosTienda.genruntimeconfig.cache
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\EjerciciosRepasoM1_alumn\Ejercicio1_POO_ProductosTienda\obj\Debug\net8.0\ref\Ejercicio1_POO_ProductosTienda.dll

@@ -1,0 +1,15 @@
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\EjerciciosRepasoM1_alumn\Ejercicio3_SOLID_DIP_ISP_Exportacion\bin\Debug\net8.0\Ejercicio3_SOLID_DIP_ISP_Exportacion.exe
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\EjerciciosRepasoM1_alumn\Ejercicio3_SOLID_DIP_ISP_Exportacion\bin\Debug\net8.0\Ejercicio3_SOLID_DIP_ISP_Exportacion.deps.json
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\EjerciciosRepasoM1_alumn\Ejercicio3_SOLID_DIP_ISP_Exportacion\bin\Debug\net8.0\Ejercicio3_SOLID_DIP_ISP_Exportacion.runtimeconfig.json
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\EjerciciosRepasoM1_alumn\Ejercicio3_SOLID_DIP_ISP_Exportacion\bin\Debug\net8.0\Ejercicio3_SOLID_DIP_ISP_Exportacion.dll
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\EjerciciosRepasoM1_alumn\Ejercicio3_SOLID_DIP_ISP_Exportacion\bin\Debug\net8.0\Ejercicio3_SOLID_DIP_ISP_Exportacion.pdb
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\EjerciciosRepasoM1_alumn\Ejercicio3_SOLID_DIP_ISP_Exportacion\obj\Debug\net8.0\Ejercicio3_SOLID_DIP_ISP_Exportacion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\EjerciciosRepasoM1_alumn\Ejercicio3_SOLID_DIP_ISP_Exportacion\obj\Debug\net8.0\Ejercicio3_SOLID_DIP_ISP_Exportacion.AssemblyInfoInputs.cache
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\EjerciciosRepasoM1_alumn\Ejercicio3_SOLID_DIP_ISP_Exportacion\obj\Debug\net8.0\Ejercicio3_SOLID_DIP_ISP_Exportacion.AssemblyInfo.cs
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\EjerciciosRepasoM1_alumn\Ejercicio3_SOLID_DIP_ISP_Exportacion\obj\Debug\net8.0\Ejercicio3_SOLID_DIP_ISP_Exportacion.csproj.CoreCompileInputs.cache
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\EjerciciosRepasoM1_alumn\Ejercicio3_SOLID_DIP_ISP_Exportacion\obj\Debug\net8.0\Ejercicio3_SOLID_DIP_ISP_Exportacion.sourcelink.json
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\EjerciciosRepasoM1_alumn\Ejercicio3_SOLID_DIP_ISP_Exportacion\obj\Debug\net8.0\Ejercicio3_SOLID_DIP_ISP_Exportacion.dll
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\EjerciciosRepasoM1_alumn\Ejercicio3_SOLID_DIP_ISP_Exportacion\obj\Debug\net8.0\refint\Ejercicio3_SOLID_DIP_ISP_Exportacion.dll
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\EjerciciosRepasoM1_alumn\Ejercicio3_SOLID_DIP_ISP_Exportacion\obj\Debug\net8.0\Ejercicio3_SOLID_DIP_ISP_Exportacion.pdb
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\EjerciciosRepasoM1_alumn\Ejercicio3_SOLID_DIP_ISP_Exportacion\obj\Debug\net8.0\Ejercicio3_SOLID_DIP_ISP_Exportacion.genruntimeconfig.cache
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\EjerciciosRepasoM1_alumn\Ejercicio3_SOLID_DIP_ISP_Exportacion\obj\Debug\net8.0\ref\Ejercicio3_SOLID_DIP_ISP_Exportacion.dll

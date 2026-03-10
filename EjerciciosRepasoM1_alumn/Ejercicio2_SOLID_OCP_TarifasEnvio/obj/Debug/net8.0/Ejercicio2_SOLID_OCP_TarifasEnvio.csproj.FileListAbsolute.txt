@@ -1,0 +1,15 @@
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\EjerciciosRepasoM1_alumn\Ejercicio2_SOLID_OCP_TarifasEnvio\bin\Debug\net8.0\Ejercicio2_SOLID_OCP_TarifasEnvio.exe
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\EjerciciosRepasoM1_alumn\Ejercicio2_SOLID_OCP_TarifasEnvio\bin\Debug\net8.0\Ejercicio2_SOLID_OCP_TarifasEnvio.deps.json
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\EjerciciosRepasoM1_alumn\Ejercicio2_SOLID_OCP_TarifasEnvio\bin\Debug\net8.0\Ejercicio2_SOLID_OCP_TarifasEnvio.runtimeconfig.json
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\EjerciciosRepasoM1_alumn\Ejercicio2_SOLID_OCP_TarifasEnvio\bin\Debug\net8.0\Ejercicio2_SOLID_OCP_TarifasEnvio.dll
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\EjerciciosRepasoM1_alumn\Ejercicio2_SOLID_OCP_TarifasEnvio\bin\Debug\net8.0\Ejercicio2_SOLID_OCP_TarifasEnvio.pdb
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\EjerciciosRepasoM1_alumn\Ejercicio2_SOLID_OCP_TarifasEnvio\obj\Debug\net8.0\Ejercicio2_SOLID_OCP_TarifasEnvio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\EjerciciosRepasoM1_alumn\Ejercicio2_SOLID_OCP_TarifasEnvio\obj\Debug\net8.0\Ejercicio2_SOLID_OCP_TarifasEnvio.AssemblyInfoInputs.cache
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\EjerciciosRepasoM1_alumn\Ejercicio2_SOLID_OCP_TarifasEnvio\obj\Debug\net8.0\Ejercicio2_SOLID_OCP_TarifasEnvio.AssemblyInfo.cs
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\EjerciciosRepasoM1_alumn\Ejercicio2_SOLID_OCP_TarifasEnvio\obj\Debug\net8.0\Ejercicio2_SOLID_OCP_TarifasEnvio.csproj.CoreCompileInputs.cache
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\EjerciciosRepasoM1_alumn\Ejercicio2_SOLID_OCP_TarifasEnvio\obj\Debug\net8.0\Ejercicio2_SOLID_OCP_TarifasEnvio.sourcelink.json
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\EjerciciosRepasoM1_alumn\Ejercicio2_SOLID_OCP_TarifasEnvio\obj\Debug\net8.0\Ejercicio2_SOLID_OCP_TarifasEnvio.dll
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\EjerciciosRepasoM1_alumn\Ejercicio2_SOLID_OCP_TarifasEnvio\obj\Debug\net8.0\refint\Ejercicio2_SOLID_OCP_TarifasEnvio.dll
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\EjerciciosRepasoM1_alumn\Ejercicio2_SOLID_OCP_TarifasEnvio\obj\Debug\net8.0\Ejercicio2_SOLID_OCP_TarifasEnvio.pdb
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\EjerciciosRepasoM1_alumn\Ejercicio2_SOLID_OCP_TarifasEnvio\obj\Debug\net8.0\Ejercicio2_SOLID_OCP_TarifasEnvio.genruntimeconfig.cache
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\EjerciciosRepasoM1_alumn\Ejercicio2_SOLID_OCP_TarifasEnvio\obj\Debug\net8.0\ref\Ejercicio2_SOLID_OCP_TarifasEnvio.dll

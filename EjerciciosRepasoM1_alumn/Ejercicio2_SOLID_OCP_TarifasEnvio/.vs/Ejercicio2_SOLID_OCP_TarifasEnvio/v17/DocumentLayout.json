@@ -1,0 +1,126 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Migue\\Downloads\\Ejercicios_Parecidos_No_Iguales_POO_SOLID_Refact\\Ejercicios_Parecidos_No_Iguales_POO_SOLID_Refact\\Ejercicio2_SOLID_OCP_TarifasEnvio\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0B63152E-A534-B993-26D9-9316F4270031}|Ejercicio2_SOLID_OCP_TarifasEnvio.csproj|c:\\users\\migue\\downloads\\ejercicios_parecidos_no_iguales_poo_solid_refact\\ejercicios_parecidos_no_iguales_poo_solid_refact\\ejercicio2_solid_ocp_tarifasenvio\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{0B63152E-A534-B993-26D9-9316F4270031}|Ejercicio2_SOLID_OCP_TarifasEnvio.csproj|solutionrelative:readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B63152E-A534-B993-26D9-9316F4270031}|Ejercicio2_SOLID_OCP_TarifasEnvio.csproj|c:\\users\\migue\\downloads\\ejercicios_parecidos_no_iguales_poo_solid_refact\\ejercicios_parecidos_no_iguales_poo_solid_refact\\ejercicio2_solid_ocp_tarifasenvio\\modelos\\envioestandar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B63152E-A534-B993-26D9-9316F4270031}|Ejercicio2_SOLID_OCP_TarifasEnvio.csproj|solutionrelative:modelos\\envioestandar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B63152E-A534-B993-26D9-9316F4270031}|Ejercicio2_SOLID_OCP_TarifasEnvio.csproj|c:\\users\\migue\\downloads\\ejercicios_parecidos_no_iguales_poo_solid_refact\\ejercicios_parecidos_no_iguales_poo_solid_refact\\ejercicio2_solid_ocp_tarifasenvio\\modelos\\enviointernacional.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B63152E-A534-B993-26D9-9316F4270031}|Ejercicio2_SOLID_OCP_TarifasEnvio.csproj|solutionrelative:modelos\\enviointernacional.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B63152E-A534-B993-26D9-9316F4270031}|Ejercicio2_SOLID_OCP_TarifasEnvio.csproj|c:\\users\\migue\\downloads\\ejercicios_parecidos_no_iguales_poo_solid_refact\\ejercicios_parecidos_no_iguales_poo_solid_refact\\ejercicio2_solid_ocp_tarifasenvio\\modelos\\enviourgente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B63152E-A534-B993-26D9-9316F4270031}|Ejercicio2_SOLID_OCP_TarifasEnvio.csproj|solutionrelative:modelos\\enviourgente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B63152E-A534-B993-26D9-9316F4270031}|Ejercicio2_SOLID_OCP_TarifasEnvio.csproj|c:\\users\\migue\\downloads\\ejercicios_parecidos_no_iguales_poo_solid_refact\\ejercicios_parecidos_no_iguales_poo_solid_refact\\ejercicio2_solid_ocp_tarifasenvio\\modelos\\tarifaenvio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B63152E-A534-B993-26D9-9316F4270031}|Ejercicio2_SOLID_OCP_TarifasEnvio.csproj|solutionrelative:modelos\\tarifaenvio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B63152E-A534-B993-26D9-9316F4270031}|Ejercicio2_SOLID_OCP_TarifasEnvio.csproj|c:\\users\\migue\\downloads\\ejercicios_parecidos_no_iguales_poo_solid_refact\\ejercicios_parecidos_no_iguales_poo_solid_refact\\ejercicio2_solid_ocp_tarifasenvio\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B63152E-A534-B993-26D9-9316F4270031}|Ejercicio2_SOLID_OCP_TarifasEnvio.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EnvioEstandar.cs",
+              "DocumentMoniker": "C:\\Users\\Migue\\Downloads\\Ejercicios_Parecidos_No_Iguales_POO_SOLID_Refact\\Ejercicios_Parecidos_No_Iguales_POO_SOLID_Refact\\Ejercicio2_SOLID_OCP_TarifasEnvio\\Modelos\\EnvioEstandar.cs",
+              "RelativeDocumentMoniker": "Modelos\\EnvioEstandar.cs",
+              "ToolTip": "C:\\Users\\Migue\\Downloads\\Ejercicios_Parecidos_No_Iguales_POO_SOLID_Refact\\Ejercicios_Parecidos_No_Iguales_POO_SOLID_Refact\\Ejercicio2_SOLID_OCP_TarifasEnvio\\Modelos\\EnvioEstandar.cs",
+              "RelativeToolTip": "Modelos\\EnvioEstandar.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T15:21:35.045Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EnvioInternacional.cs",
+              "DocumentMoniker": "C:\\Users\\Migue\\Downloads\\Ejercicios_Parecidos_No_Iguales_POO_SOLID_Refact\\Ejercicios_Parecidos_No_Iguales_POO_SOLID_Refact\\Ejercicio2_SOLID_OCP_TarifasEnvio\\Modelos\\EnvioInternacional.cs",
+              "RelativeDocumentMoniker": "Modelos\\EnvioInternacional.cs",
+              "ToolTip": "C:\\Users\\Migue\\Downloads\\Ejercicios_Parecidos_No_Iguales_POO_SOLID_Refact\\Ejercicios_Parecidos_No_Iguales_POO_SOLID_Refact\\Ejercicio2_SOLID_OCP_TarifasEnvio\\Modelos\\EnvioInternacional.cs",
+              "RelativeToolTip": "Modelos\\EnvioInternacional.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T15:21:32.745Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EnvioUrgente.cs",
+              "DocumentMoniker": "C:\\Users\\Migue\\Downloads\\Ejercicios_Parecidos_No_Iguales_POO_SOLID_Refact\\Ejercicios_Parecidos_No_Iguales_POO_SOLID_Refact\\Ejercicio2_SOLID_OCP_TarifasEnvio\\Modelos\\EnvioUrgente.cs",
+              "RelativeDocumentMoniker": "Modelos\\EnvioUrgente.cs",
+              "ToolTip": "C:\\Users\\Migue\\Downloads\\Ejercicios_Parecidos_No_Iguales_POO_SOLID_Refact\\Ejercicios_Parecidos_No_Iguales_POO_SOLID_Refact\\Ejercicio2_SOLID_OCP_TarifasEnvio\\Modelos\\EnvioUrgente.cs",
+              "RelativeToolTip": "Modelos\\EnvioUrgente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T15:21:30.184Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TarifaEnvio.cs",
+              "DocumentMoniker": "C:\\Users\\Migue\\Downloads\\Ejercicios_Parecidos_No_Iguales_POO_SOLID_Refact\\Ejercicios_Parecidos_No_Iguales_POO_SOLID_Refact\\Ejercicio2_SOLID_OCP_TarifasEnvio\\Modelos\\TarifaEnvio.cs",
+              "RelativeDocumentMoniker": "Modelos\\TarifaEnvio.cs",
+              "ToolTip": "C:\\Users\\Migue\\Downloads\\Ejercicios_Parecidos_No_Iguales_POO_SOLID_Refact\\Ejercicios_Parecidos_No_Iguales_POO_SOLID_Refact\\Ejercicio2_SOLID_OCP_TarifasEnvio\\Modelos\\TarifaEnvio.cs",
+              "RelativeToolTip": "Modelos\\TarifaEnvio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T15:21:23.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Migue\\Downloads\\Ejercicios_Parecidos_No_Iguales_POO_SOLID_Refact\\Ejercicios_Parecidos_No_Iguales_POO_SOLID_Refact\\Ejercicio2_SOLID_OCP_TarifasEnvio\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Migue\\Downloads\\Ejercicios_Parecidos_No_Iguales_POO_SOLID_Refact\\Ejercicios_Parecidos_No_Iguales_POO_SOLID_Refact\\Ejercicio2_SOLID_OCP_TarifasEnvio\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T15:21:13.81Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\Users\\Migue\\Downloads\\Ejercicios_Parecidos_No_Iguales_POO_SOLID_Refact\\Ejercicios_Parecidos_No_Iguales_POO_SOLID_Refact\\Ejercicio2_SOLID_OCP_TarifasEnvio\\README.md",
+              "RelativeDocumentMoniker": "README.md",
+              "ToolTip": "C:\\Users\\Migue\\Downloads\\Ejercicios_Parecidos_No_Iguales_POO_SOLID_Refact\\Ejercicios_Parecidos_No_Iguales_POO_SOLID_Refact\\Ejercicio2_SOLID_OCP_TarifasEnvio\\README.md",
+              "RelativeToolTip": "README.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-03-09T15:20:31.42Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

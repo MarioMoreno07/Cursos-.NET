@@ -17,7 +17,7 @@ namespace Sesion3_MiniProyecto_Pedidos
             pedido.AgregarLinea(new LineaPedido("Ratón", 2, 12.50));
             pedido.AgregarLinea(new LineaPedido("Teclado", 1, 25.00));
 
-            var printer = new PedidoPrinter();
+           var printer = new PedidoPrinter();
             printer.Imprimir(pedido);
 
             Console.WriteLine("Pulsa ENTER para salir...");

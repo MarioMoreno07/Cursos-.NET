@@ -1,0 +1,15 @@
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\Practicas_Sesion1_Sesion2_Sesion3_Examen_VisualStudio2022_alumn\Sesion3_MiniProyecto_Pedidos\bin\Debug\net6.0\Sesion3_MiniProyecto_Pedidos.exe
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\Practicas_Sesion1_Sesion2_Sesion3_Examen_VisualStudio2022_alumn\Sesion3_MiniProyecto_Pedidos\bin\Debug\net6.0\Sesion3_MiniProyecto_Pedidos.deps.json
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\Practicas_Sesion1_Sesion2_Sesion3_Examen_VisualStudio2022_alumn\Sesion3_MiniProyecto_Pedidos\bin\Debug\net6.0\Sesion3_MiniProyecto_Pedidos.runtimeconfig.json
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\Practicas_Sesion1_Sesion2_Sesion3_Examen_VisualStudio2022_alumn\Sesion3_MiniProyecto_Pedidos\bin\Debug\net6.0\Sesion3_MiniProyecto_Pedidos.dll
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\Practicas_Sesion1_Sesion2_Sesion3_Examen_VisualStudio2022_alumn\Sesion3_MiniProyecto_Pedidos\bin\Debug\net6.0\Sesion3_MiniProyecto_Pedidos.pdb
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\Practicas_Sesion1_Sesion2_Sesion3_Examen_VisualStudio2022_alumn\Sesion3_MiniProyecto_Pedidos\obj\Debug\net6.0\Sesion3_MiniProyecto_Pedidos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\Practicas_Sesion1_Sesion2_Sesion3_Examen_VisualStudio2022_alumn\Sesion3_MiniProyecto_Pedidos\obj\Debug\net6.0\Sesion3_MiniProyecto_Pedidos.AssemblyInfoInputs.cache
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\Practicas_Sesion1_Sesion2_Sesion3_Examen_VisualStudio2022_alumn\Sesion3_MiniProyecto_Pedidos\obj\Debug\net6.0\Sesion3_MiniProyecto_Pedidos.AssemblyInfo.cs
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\Practicas_Sesion1_Sesion2_Sesion3_Examen_VisualStudio2022_alumn\Sesion3_MiniProyecto_Pedidos\obj\Debug\net6.0\Sesion3_MiniProyecto_Pedidos.csproj.CoreCompileInputs.cache
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\Practicas_Sesion1_Sesion2_Sesion3_Examen_VisualStudio2022_alumn\Sesion3_MiniProyecto_Pedidos\obj\Debug\net6.0\Sesion3_MiniProyecto_Pedidos.sourcelink.json
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\Practicas_Sesion1_Sesion2_Sesion3_Examen_VisualStudio2022_alumn\Sesion3_MiniProyecto_Pedidos\obj\Debug\net6.0\Sesion3_MiniProyecto_Pedidos.dll
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\Practicas_Sesion1_Sesion2_Sesion3_Examen_VisualStudio2022_alumn\Sesion3_MiniProyecto_Pedidos\obj\Debug\net6.0\refint\Sesion3_MiniProyecto_Pedidos.dll
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\Practicas_Sesion1_Sesion2_Sesion3_Examen_VisualStudio2022_alumn\Sesion3_MiniProyecto_Pedidos\obj\Debug\net6.0\Sesion3_MiniProyecto_Pedidos.pdb
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\Practicas_Sesion1_Sesion2_Sesion3_Examen_VisualStudio2022_alumn\Sesion3_MiniProyecto_Pedidos\obj\Debug\net6.0\Sesion3_MiniProyecto_Pedidos.genruntimeconfig.cache
+C:\Users\Usuario Mañana\source\repos\Cursos .NET\Practicas_Sesion1_Sesion2_Sesion3_Examen_VisualStudio2022_alumn\Sesion3_MiniProyecto_Pedidos\obj\Debug\net6.0\ref\Sesion3_MiniProyecto_Pedidos.dll

@@ -14,7 +14,7 @@ namespace Sesion3_MiniProyecto_Pedidos
     {
         private readonly List<LineaPedido> _lineas = new();
 
-        Cliente Cliente { get; }
+        public Cliente Cliente { get; }
 
         public Pedido(Cliente cliente)
         {

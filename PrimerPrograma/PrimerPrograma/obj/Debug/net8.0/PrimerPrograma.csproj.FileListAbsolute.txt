@@ -1,0 +1,14 @@
+C:\Users\Usuario Mañana\source\repos\PrimerPrograma\PrimerPrograma\bin\Debug\net8.0\PrimerPrograma.exe
+C:\Users\Usuario Mañana\source\repos\PrimerPrograma\PrimerPrograma\bin\Debug\net8.0\PrimerPrograma.deps.json
+C:\Users\Usuario Mañana\source\repos\PrimerPrograma\PrimerPrograma\bin\Debug\net8.0\PrimerPrograma.runtimeconfig.json
+C:\Users\Usuario Mañana\source\repos\PrimerPrograma\PrimerPrograma\bin\Debug\net8.0\PrimerPrograma.dll
+C:\Users\Usuario Mañana\source\repos\PrimerPrograma\PrimerPrograma\bin\Debug\net8.0\PrimerPrograma.pdb
+C:\Users\Usuario Mañana\source\repos\PrimerPrograma\PrimerPrograma\obj\Debug\net8.0\PrimerPrograma.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario Mañana\source\repos\PrimerPrograma\PrimerPrograma\obj\Debug\net8.0\PrimerPrograma.AssemblyInfoInputs.cache
+C:\Users\Usuario Mañana\source\repos\PrimerPrograma\PrimerPrograma\obj\Debug\net8.0\PrimerPrograma.AssemblyInfo.cs
+C:\Users\Usuario Mañana\source\repos\PrimerPrograma\PrimerPrograma\obj\Debug\net8.0\PrimerPrograma.csproj.CoreCompileInputs.cache
+C:\Users\Usuario Mañana\source\repos\PrimerPrograma\PrimerPrograma\obj\Debug\net8.0\PrimerPrograma.dll
+C:\Users\Usuario Mañana\source\repos\PrimerPrograma\PrimerPrograma\obj\Debug\net8.0\refint\PrimerPrograma.dll
+C:\Users\Usuario Mañana\source\repos\PrimerPrograma\PrimerPrograma\obj\Debug\net8.0\PrimerPrograma.pdb
+C:\Users\Usuario Mañana\source\repos\PrimerPrograma\PrimerPrograma\obj\Debug\net8.0\PrimerPrograma.genruntimeconfig.cache
+C:\Users\Usuario Mañana\source\repos\PrimerPrograma\PrimerPrograma\obj\Debug\net8.0\ref\PrimerPrograma.dll

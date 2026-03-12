@@ -126,58 +126,129 @@ namespace EjeciciosModulo2 {
         
         }
         static internal void EJ2() {
-            Console.WriteLine("Mario");
-            Console.WriteLine("Curso de C#");
-            Console.WriteLine("Bienvenidos a C#");
-            Console.WriteLine(DateTime.Now);
+            Console.WriteLine("Dime dos numeros enteros");
+            int num1 = int.Parse(PedirType(typeof(int)));
+            int  num2 = int.Parse(PedirType(typeof(int)));
+         
+            Console.WriteLine("La suma de estos numeros es: " + (num1+num2));
+            Console.WriteLine("La resta de estos numeros es: " + (num1 - num2));
+            Console.WriteLine("La multiplicacion de estos numeros es: " + (num1 * num2));
+            if (num2 != 0) {
+                Console.WriteLine("La division de estos numeros es: " + (num1 / num2));
+                Console.WriteLine("El resto de estos numeros es: " + (num1 % num2));
+            } else { Console.WriteLine("No se puede hacer la division ni el resto"); }
+            Console.WriteLine("Pulse cualquier tecla para salir");
+            Console.ReadLine();
         }
         static internal void EJ3() {
-            Console.WriteLine("Mario");
-            Console.WriteLine("Curso de C#");
-            Console.WriteLine("Bienvenidos a C#");
-            Console.WriteLine(DateTime.Now);
+            Console.WriteLine("Vamos a pasar un numero entero a decimal, introduzca el entero");
+            int entero = int.Parse(PedirType(typeof(int)));
+            Console.WriteLine("Vamos a pasar un numero decimal a entero, introduzca el decimal, tienes que hacerlos con ','");
+            double deciimal= double.Parse(PedirType(typeof(double))); ;
+            Console.WriteLine("El valor del entero es: " + entero + " convertido a decimal seria: "+Convert.ToDecimal(entero).ToString("F2"));
+            Console.WriteLine("El valor del entero es: " + deciimal + " convertido a decimal seria: "+Convert.ToInt32(deciimal));
+            Console.WriteLine("Pulse cualquier tecla para salir");
+            Console.ReadLine();
         }
         static internal void EJ4() {
-            Console.WriteLine("Mario");
-            Console.WriteLine("Curso de C#");
-            Console.WriteLine("Bienvenidos a C#");
-            Console.WriteLine(DateTime.Now);
+            Console.WriteLine("Dime un nuevo entero");
+            int numero= int.Parse(PedirType(typeof(int)));
+            Console.WriteLine("Es mayor que 0: " + Comparar(numero, "mayor", 0));
+            Console.WriteLine("Es menor que 100: " + Comparar(numero, "menor", 100));
+            Console.WriteLine("Es igual a 50: " + Comparar(numero, "igual", 50));
+            Console.WriteLine("Es distinto de 10: "+Comparar(numero, "!=", 10));
+            Console.WriteLine("Es mayor 60 , menor que 200 , diferente a 77 e igual a 80: "+(Comparar(numero,"mayor",60) && Comparar(numero, "menor", 200) && Comparar(numero, "diferente", 77) && Comparar(numero, "igual", 80) ));
+            Console.WriteLine("Pulse cualquier tecla para salir");
+            Console.ReadLine();
+
+
+
         }
         static internal void EJ5() {
-            Console.WriteLine("Mario");
-            Console.WriteLine("Curso de C#");
-            Console.WriteLine("Bienvenidos a C#");
-            Console.WriteLine(DateTime.Now);
+            Console.WriteLine("Dime tu año de nacimiento y te dire tu edad:");
+            int ano = Convert.ToInt32(Console.ReadLine());
+            int edad = DateTime.Today.Year - ano;
+            Console.WriteLine("Su edad es: " + edad);
+            int meses = edad * 12;
+            Console.WriteLine("Sus edad en meses es: " + meses);
+            Console.WriteLine("Pulse cualquier tecla para salir");
+            Console.ReadLine();
+
         }
         static internal void EJ6() {
-            Console.WriteLine("Mario");
-            Console.WriteLine("Curso de C#");
-            Console.WriteLine("Bienvenidos a C#");
-            Console.WriteLine(DateTime.Now);
+            double nota1, nota2, nota3,notaFinal;
+            Console.WriteLine("Dime la nota de tus examenes, recuerda que si hay decimales lo tienes que poner con ','");
+            nota1 = double.Parse(PedirType(typeof(double)));
+            nota2 = double.Parse(PedirType(typeof(double)));
+            nota3 = double.Parse(PedirType(typeof(double)));
+            notaFinal = (nota1 + nota2 + nota3) / 3;
+
+            Console.WriteLine("La nota final es de : " + notaFinal.ToString("F3"));
+            if (Comparar((int)(notaFinal), ">=", 5)){
+                Console.WriteLine("Has aprobado");
+            } else { Console.WriteLine("Suspensoo"); }
+                Console.WriteLine("Pulse cualquier tecla para salir");
+            Console.ReadLine();
         }
         static internal void EJ7() {
-            Console.WriteLine("Mario");
-            Console.WriteLine("Curso de C#");
-            Console.WriteLine("Bienvenidos a C#");
-            Console.WriteLine(DateTime.Now);
+            Console.WriteLine("Vamos a pasar de euros a dolares, recuerda que si hay decimales lo tienes que poner con ','");
+            double euros = double.Parse(PedirType(typeof(double)));
+            double taxa =1.16;
+            double dolares = euros * taxa;
+            Console.WriteLine("Has seleccionado :" + euros.ToString("F2")+" euros");
+            Console.WriteLine("En dolares serian: "+dolares.ToString("F2")+" dolares");
+           
+            Console.WriteLine("Pulse cualquier tecla para salir");
+            Console.ReadLine();
         }
         static internal void EJ8() {
-            Console.WriteLine("Mario");
-            Console.WriteLine("Curso de C#");
-            Console.WriteLine("Bienvenidos a C#");
-            Console.WriteLine(DateTime.Now);
+            Console.WriteLine("Dime un numero y te dire si es par o impar");
+            double numero = double.Parse(PedirType(typeof(double)));
+            if(Comparar((int)numero, "mayor o igual", 0)) {
+                Console.WriteLine("El numero es positivo");
+            } else { Console.WriteLine("El numero es negativo"); }
+            if (esPar(numero)) {
+                Console.WriteLine("El numero es par");
+            } else { Console.WriteLine("El numero es impar"); }
+
+            Console.WriteLine("Pulse cualquier tecla para salir");
+            Console.ReadLine();
         }
         static internal void EJ9() {
-            Console.WriteLine("Mario");
-            Console.WriteLine("Curso de C#");
-            Console.WriteLine("Bienvenidos a C#");
-            Console.WriteLine(DateTime.Now);
+            EJ2();
+            
+            Console.WriteLine("Pulse cualquier tecla para salir");
+            Console.ReadLine();
         }
         static internal void EJ10() {
-            Console.WriteLine("Mario");
-            Console.WriteLine("Curso de C#");
-            Console.WriteLine("Bienvenidos a C#");
-            Console.WriteLine(DateTime.Now);
+            Console.WriteLine("Dime tu nombre");
+            string nombre = Console.ReadLine();
+            Console.WriteLine("Dime tu edad");
+            int edad = int.Parse(PedirType(typeof(int)));
+            while(Comparar(edad,"menor",0) || Comparar(edad, "mayor", 100)) {
+                Console.WriteLine("La edad tiene que ser mayor que 0 y menor que 100");
+                edad = int.Parse(PedirType(typeof(int)));
+            }
+            Console.WriteLine("Dime tu ciudad");
+            string ciudad = Console.ReadLine();
+            Console.WriteLine("Dime tu salario mensual");
+            double salarioMensual = double.Parse(PedirType(typeof(double)));
+            while (Comparar((int)salarioMensual, "<=", 0)) {
+                Console.WriteLine("El salario no puede ser menor a 0");
+                salarioMensual = double.Parse(PedirType(typeof(double)));
+            }
+            
+            Console.WriteLine("Dime tu año de nacimiento");
+            int añDeNacimiento = int.Parse(PedirType(typeof(int)));
+            while (Comparar(edad, "!=", DateTime.Today.Year-añDeNacimiento)) {
+                Console.WriteLine("Tu edad y tu año de nacimiento no concuerdan,si este año aun no has cumplido años , sumate un año");
+                edad = int.Parse(PedirType(typeof(int)));
+            }
+                Console.WriteLine("El usuario "+nombre+" el cual tiene "+edad+" años y vive en "+ciudad+
+                " cobra "+salarioMensual+" euros y nacio en el año "+añDeNacimiento);
+
+            Console.WriteLine("Pulse cualquier tecla para salir");
+            Console.ReadLine();
         }
 
         public static bool ComprobarEstudiante() {
@@ -196,6 +267,86 @@ namespace EjeciciosModulo2 {
                 return r;
         }
 
+        private static string PedirType(Type type) {
+
+            var r = 0;
+
+            if(type == typeof(int)) {
+                bool parseNum1 = int.TryParse(Console.ReadLine(), out r);
+                if (!parseNum1) {
+                    Console.WriteLine("Porfavor introduzca un numero");
+                    PedirType(type);
+                }
+                return r.ToString();
+            }
+
+            var d = 0.0;
+            if (type == typeof(double)) {
+                bool parseNum1 = double.TryParse(Console.ReadLine(), out d);
+                if (!parseNum1) {
+                    Console.WriteLine("Porfavor introduzca un numero");
+                    PedirType(type);
+                }
+                return d.ToString();
+            }
+
+            return r.ToString();
+
+        }
+
+        public static bool Comparar(int num , string comparador , int comparacion) {
+            bool resultado = false;
+            switch (comparador) {
+
+                case (">" or "mayor"):
+                    if (num > comparacion) {
+                        resultado = true;
+                    }
+                    break;
+                case ("<" or "menor"):
+                     if (num < comparacion) {
+                        resultado = true;
+                    }
+                    break;
+                case ("=" or "==" or "igual"):
+                    if(num == comparacion) {
+                        resultado = true;
+                    }
+                    break;
+                case ("!" or "!=" or "distinto" or "diferente"):
+                    if (num != comparacion) {
+                        resultado = true;
+                    }
+                    break;
+                case (">=" or "mayor o igual"):
+                    if (num >= comparacion) {
+                        resultado = true;
+                    }
+                    break;
+                case ("<=" or "menor o igual"):
+                    if (num <= comparacion) {
+                        resultado = true;
+                    }
+                    break;
+
+            }
+            return resultado;
+
+        }
+
+        public static bool esPar(double num) {
+            bool r = false;
+            if(num % 2 == 0) {
+                r=true;
+            }
+
+            return r;
+        }
+
+
+
+         
+        }
+
         
     }
-}

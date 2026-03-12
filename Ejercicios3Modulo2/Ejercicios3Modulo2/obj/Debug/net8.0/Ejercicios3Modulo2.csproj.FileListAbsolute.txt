@@ -1,0 +1,14 @@
+C:\Users\Usuario Mañana\source\repos\Ejercicios3Modulo2\Ejercicios3Modulo2\bin\Debug\net8.0\Ejercicios3Modulo2.exe
+C:\Users\Usuario Mañana\source\repos\Ejercicios3Modulo2\Ejercicios3Modulo2\bin\Debug\net8.0\Ejercicios3Modulo2.deps.json
+C:\Users\Usuario Mañana\source\repos\Ejercicios3Modulo2\Ejercicios3Modulo2\bin\Debug\net8.0\Ejercicios3Modulo2.runtimeconfig.json
+C:\Users\Usuario Mañana\source\repos\Ejercicios3Modulo2\Ejercicios3Modulo2\bin\Debug\net8.0\Ejercicios3Modulo2.dll
+C:\Users\Usuario Mañana\source\repos\Ejercicios3Modulo2\Ejercicios3Modulo2\bin\Debug\net8.0\Ejercicios3Modulo2.pdb
+C:\Users\Usuario Mañana\source\repos\Ejercicios3Modulo2\Ejercicios3Modulo2\obj\Debug\net8.0\Ejercicios3Modulo2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario Mañana\source\repos\Ejercicios3Modulo2\Ejercicios3Modulo2\obj\Debug\net8.0\Ejercicios3Modulo2.AssemblyInfoInputs.cache
+C:\Users\Usuario Mañana\source\repos\Ejercicios3Modulo2\Ejercicios3Modulo2\obj\Debug\net8.0\Ejercicios3Modulo2.AssemblyInfo.cs
+C:\Users\Usuario Mañana\source\repos\Ejercicios3Modulo2\Ejercicios3Modulo2\obj\Debug\net8.0\Ejercicios3Modulo2.csproj.CoreCompileInputs.cache
+C:\Users\Usuario Mañana\source\repos\Ejercicios3Modulo2\Ejercicios3Modulo2\obj\Debug\net8.0\Ejercicios3Modulo2.dll
+C:\Users\Usuario Mañana\source\repos\Ejercicios3Modulo2\Ejercicios3Modulo2\obj\Debug\net8.0\refint\Ejercicios3Modulo2.dll
+C:\Users\Usuario Mañana\source\repos\Ejercicios3Modulo2\Ejercicios3Modulo2\obj\Debug\net8.0\Ejercicios3Modulo2.pdb
+C:\Users\Usuario Mañana\source\repos\Ejercicios3Modulo2\Ejercicios3Modulo2\obj\Debug\net8.0\Ejercicios3Modulo2.genruntimeconfig.cache
+C:\Users\Usuario Mañana\source\repos\Ejercicios3Modulo2\Ejercicios3Modulo2\obj\Debug\net8.0\ref\Ejercicios3Modulo2.dll

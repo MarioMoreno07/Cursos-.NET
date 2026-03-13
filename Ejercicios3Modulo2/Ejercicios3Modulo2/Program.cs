@@ -4,10 +4,11 @@ using System.Globalization;
 namespace Ejercicio2Modulo2 {
     class Program {
         static void Main(string[] args) {
-            menu();
             Console.OutputEncoding = System.Text.Encoding.UTF8;
             CultureInfo.DefaultThreadCurrentCulture = new CultureInfo("es-ES");
             CultureInfo.DefaultThreadCurrentUICulture = new CultureInfo("es-ES");
+            menu();
+           
 
         }
         static internal void menu() {
@@ -165,6 +166,8 @@ namespace Ejercicio2Modulo2 {
             Console.WriteLine($"{producto3,10:F2} {precio3,10:F2} {"4",10:F2} {(precio3 * 4),15:F2}");
             Console.WriteLine($"Precio total:{(precio1*5)+(precio2*8)+(precio3*4),15:F2}");
 
+            
+
 
             Console.WriteLine("Pulse cualquier tecla para salir");
             Console.ReadLine();
@@ -185,14 +188,82 @@ namespace Ejercicio2Modulo2 {
             Console.ReadLine();
         }
         static internal void EJ8() {
+            Console.Write("Dime el nombre el producto que deseas comprar: ");
+            string producto = Console.ReadLine();
+            Console.Write("Cuantas unidades deseas comprar: ");
+            int cantidad = int.Parse(PedirType(typeof(int)));
+            while (cantidad < 0) {
+                Console.WriteLine("No puedes comprar menos de 0 unidades");
+                cantidad = int.Parse(PedirType(typeof(int)));
+            }
+            Console.Write("Dime el precio del producto: ");
+            double precio = double.Parse(PedirType(typeof(double)));
+            while (precio < 0) {
+                Console.Write("El precio minimo es 0");
+                precio = double.Parse(PedirType(typeof(double)));
+            }
+
+            Console.WriteLine($"{"Cantidad",10} {"Producto",10} {"Precio",10} {"TotalProducto",10}");
+            Console.WriteLine($"{cantidad,10} {producto,10} {(precio).ToString("C"),10:F2} {(precio*cantidad).ToString("C"),10:F2} ");
+            double subtotal = precio * cantidad;
+            Console.WriteLine($"{"Subtotal",10} {"IVA",10} {"Total",10}");
+            Console.WriteLine($"{subtotal.ToString("C"),10:F2}{"21%",10}{(subtotal+(subtotal*0.21)).ToString("C"),10:F2}");
+       
             Console.WriteLine("Pulse cualquier tecla para salir");
             Console.ReadLine();
         }
         static internal void EJ9() {
+
+            Console.Write("Dime como te llamas, empleado: ");
+            string nombre = Console.ReadLine();
+            Console.Write("Cuanto cobras, emplado: ");
+            double salarioBase= double.Parse(PedirType(typeof(double)));
+            while (salarioBase < 0) {
+                Console.Write("No me debes dinero, emplado: ");
+                salarioBase = double.Parse(PedirType(typeof(double)));
+            }
+            Console.Write("Cuanto te retengo, empleado: ");
+            double retencion = double.Parse(PedirType(typeof(double)));
+            while (retencion < 0 || retencion > 1) {
+                Console.Write("No te hagas el listo, empleado. Como maximo es 1 y como minimo 0: ");
+                retencion = double.Parse(PedirType(typeof(double)));
+            }
+
+            Console.WriteLine($"NombreEmpleado: {nombre,10} \n Salario base: {salarioBase.ToString("C"),10:F2} \n Retencion:{(retencion).ToString("P"),10:F2} \n SalarioNeto:{(salarioBase - (salarioBase * retencion)).ToString("C"),10:F2} \n Dia: {DateTime.Now.ToString("dd/MM/yyyy"),10}");
+
             Console.WriteLine("Pulse cualquier tecla para salir");
             Console.ReadLine();
         }
         static internal void EJ10() {
+            Console.Write("Dime como te llamas: ");
+            string nombre = Console.ReadLine();
+            Console.Write("Cual es tu edad: ");
+            int edad= int.Parse(PedirType(typeof(int)));
+            while (edad < 0 || edad > 100) {
+                Console.Write("La edad tiene q ser entre 0 y 100: ");
+                edad = int.Parse(PedirType(typeof(int)));
+            }
+            Console.Write("Dime tu salario: ");
+            double salario= double.Parse(PedirType(typeof(double)));
+            while (salario < 0) {
+                Console.Write("El salario no puede ser negativo: ");
+                 salario = double.Parse(PedirType(typeof(double)));
+            }
+            Console.Write("Dime tu pocentaje de ahorro entre 0 y 1: ");
+            double ahorro = double.Parse(PedirType(typeof(double)));
+            while (ahorro < 0 || ahorro > 1) {
+                Console.Write("El ahorro tiene que ser entre 0 y 1: ");
+                ahorro = double.Parse(PedirType(typeof(double)));
+            }
+            Console.Write("Dime tu fecha de nacimiento: ");
+            bool fechaNaC = DateTime.TryParse(Console.ReadLine(),out DateTime fecha);
+            while(Comparar(edad,"<",(DateTime.Now.Year - fecha.Year))) {
+                Console.Write("Tu fecha de nacimiento y tu edad no coinciden, por favor dime tu edad correcta, si todavia no ha sido tu cumpleaños suma un año a tu edad: ");
+                edad = int.Parse(PedirType(typeof(int)));
+            }
+
+            Console.WriteLine($"El usuario con nombre: {nombre} que tiene:"+" {0} con fecha de nacimiento: "+ fecha.ToString("dd/MM/yyyy")+"  cobra: "+salario.ToString("C")+" ahorra un total de: "+ahorro.ToString("P"),edad);
+            Console.WriteLine($"El usuario con nombre {nombre} que tiene {edad}, nacio el {fecha.ToString("dd/MM/yyyy")}  cobra {salario.ToString("C")} y ahorra un total de {ahorro.ToString("P")}");
             Console.WriteLine("Pulse cualquier tecla para salir");
             Console.ReadLine();
         }

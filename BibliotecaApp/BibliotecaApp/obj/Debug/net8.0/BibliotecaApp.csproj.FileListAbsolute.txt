@@ -1,0 +1,14 @@
+C:\Users\Usuario Mañana\source\repos\BibliotecaApp\BibliotecaApp\bin\Debug\net8.0\BibliotecaApp.exe
+C:\Users\Usuario Mañana\source\repos\BibliotecaApp\BibliotecaApp\bin\Debug\net8.0\BibliotecaApp.deps.json
+C:\Users\Usuario Mañana\source\repos\BibliotecaApp\BibliotecaApp\bin\Debug\net8.0\BibliotecaApp.runtimeconfig.json
+C:\Users\Usuario Mañana\source\repos\BibliotecaApp\BibliotecaApp\bin\Debug\net8.0\BibliotecaApp.dll
+C:\Users\Usuario Mañana\source\repos\BibliotecaApp\BibliotecaApp\bin\Debug\net8.0\BibliotecaApp.pdb
+C:\Users\Usuario Mañana\source\repos\BibliotecaApp\BibliotecaApp\obj\Debug\net8.0\BibliotecaApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario Mañana\source\repos\BibliotecaApp\BibliotecaApp\obj\Debug\net8.0\BibliotecaApp.AssemblyInfoInputs.cache
+C:\Users\Usuario Mañana\source\repos\BibliotecaApp\BibliotecaApp\obj\Debug\net8.0\BibliotecaApp.AssemblyInfo.cs
+C:\Users\Usuario Mañana\source\repos\BibliotecaApp\BibliotecaApp\obj\Debug\net8.0\BibliotecaApp.csproj.CoreCompileInputs.cache
+C:\Users\Usuario Mañana\source\repos\BibliotecaApp\BibliotecaApp\obj\Debug\net8.0\BibliotecaApp.dll
+C:\Users\Usuario Mañana\source\repos\BibliotecaApp\BibliotecaApp\obj\Debug\net8.0\refint\BibliotecaApp.dll
+C:\Users\Usuario Mañana\source\repos\BibliotecaApp\BibliotecaApp\obj\Debug\net8.0\BibliotecaApp.pdb
+C:\Users\Usuario Mañana\source\repos\BibliotecaApp\BibliotecaApp\obj\Debug\net8.0\BibliotecaApp.genruntimeconfig.cache
+C:\Users\Usuario Mañana\source\repos\BibliotecaApp\BibliotecaApp\obj\Debug\net8.0\ref\BibliotecaApp.dll

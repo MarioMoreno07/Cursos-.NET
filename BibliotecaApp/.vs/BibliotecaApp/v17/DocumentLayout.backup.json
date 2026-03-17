@@ -34,8 +34,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 4,
@@ -46,8 +50,7 @@
               "RelativeToolTip": "BibliotecaApp\\Servicios\\BibliotecaService.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAxwBQAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-16T12:35:15.328Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-16T12:35:15.328Z"
             },
             {
               "$type": "Document",
@@ -59,8 +62,7 @@
               "RelativeToolTip": "BibliotecaApp\\Servicios\\UsuarioService.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAAkAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-16T12:09:58.631Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-16T12:09:58.631Z"
             },
             {
               "$type": "Document",
@@ -72,8 +74,7 @@
               "RelativeToolTip": "BibliotecaApp\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-16T12:07:42.209Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-16T12:07:42.209Z"
             },
             {
               "$type": "Document",
@@ -83,7 +84,7 @@
               "RelativeDocumentMoniker": "BibliotecaApp\\Utilidades\\Menu.cs",
               "ToolTip": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\BibliotecaApp\\BibliotecaApp\\Utilidades\\Menu.cs",
               "RelativeToolTip": "BibliotecaApp\\Utilidades\\Menu.cs",
-              "ViewState": "AgIAAEYAAAAAAAAAAAAAAFoAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAgwGUAAABUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-16T11:35:03.518Z",
               "EditorCaption": ""
@@ -98,8 +99,7 @@
               "RelativeToolTip": "BibliotecaApp\\Modelos\\Prestamo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-16T11:42:04.919Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-16T11:42:04.919Z"
             },
             {
               "$type": "Document",
@@ -111,12 +111,7 @@
               "RelativeToolTip": "BibliotecaApp\\Servicios\\PrestamoService.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAgwBoAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-16T11:32:49.623Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+              "WhenOpened": "2026-03-16T11:32:49.623Z"
             }
           ]
         }

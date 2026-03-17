@@ -17,8 +17,12 @@ namespace BibliotecaApp.Utilidades {
                 Console.WriteLine(" 3.Registrar usuario ");
                 Console.WriteLine(" 4.Realizar préstamo");
                 Console.WriteLine(" 0.Salir ");
-                bool esNum = int.TryParse(Console.ReadLine(), out opcion); 
-           
+                bool esNum = int.TryParse(Console.ReadLine(), out opcion);
+
+                while (!esNum) {
+                    Console.WriteLine("Debes e introucir un numero");
+                    esNum = int.TryParse(Console.ReadLine(), out opcion);
+                }
 
             switch (opcion) {
 
@@ -87,7 +91,12 @@ namespace BibliotecaApp.Utilidades {
                             prestamoService.MostrarPrestamos();
                         Console.WriteLine("Pulse cualquier tecla para salir");
                         Console.ReadLine();
-
+                        break;
+                    case 0:
+                        Console.WriteLine("Gracias por usar nuestra bibliteca.");
+                        break;
+                    default:
+                        Console.WriteLine("Numero incorrecto");
                         break;
             }
             } while (opcion != 0 || opcion > 5);

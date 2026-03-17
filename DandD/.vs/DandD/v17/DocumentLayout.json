@@ -1,0 +1,177 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\DandD\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2521A797-9EB0-448F-AA00-E245223CBC8B}|DandD\\DandD.csproj|c:\\users\\usuario ma\u00F1ana\\source\\repos\\dandd\\dandd\\modelos\\bosses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2521A797-9EB0-448F-AA00-E245223CBC8B}|DandD\\DandD.csproj|solutionrelative:dandd\\modelos\\bosses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2521A797-9EB0-448F-AA00-E245223CBC8B}|DandD\\DandD.csproj|c:\\users\\usuario ma\u00F1ana\\source\\repos\\dandd\\dandd\\modelos\\heroe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2521A797-9EB0-448F-AA00-E245223CBC8B}|DandD\\DandD.csproj|solutionrelative:dandd\\modelos\\heroe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2521A797-9EB0-448F-AA00-E245223CBC8B}|DandD\\DandD.csproj|c:\\users\\usuario ma\u00F1ana\\source\\repos\\dandd\\dandd\\modelos\\npc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2521A797-9EB0-448F-AA00-E245223CBC8B}|DandD\\DandD.csproj|solutionrelative:dandd\\modelos\\npc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2521A797-9EB0-448F-AA00-E245223CBC8B}|DandD\\DandD.csproj|c:\\users\\usuario ma\u00F1ana\\source\\repos\\dandd\\dandd\\modelos\\clase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2521A797-9EB0-448F-AA00-E245223CBC8B}|DandD\\DandD.csproj|solutionrelative:dandd\\modelos\\clase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2521A797-9EB0-448F-AA00-E245223CBC8B}|DandD\\DandD.csproj|c:\\users\\usuario ma\u00F1ana\\source\\repos\\dandd\\dandd\\utilidades\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2521A797-9EB0-448F-AA00-E245223CBC8B}|DandD\\DandD.csproj|solutionrelative:dandd\\utilidades\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2521A797-9EB0-448F-AA00-E245223CBC8B}|DandD\\DandD.csproj|c:\\users\\usuario ma\u00F1ana\\source\\repos\\dandd\\dandd\\modelos\\zombies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2521A797-9EB0-448F-AA00-E245223CBC8B}|DandD\\DandD.csproj|solutionrelative:dandd\\modelos\\zombies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2521A797-9EB0-448F-AA00-E245223CBC8B}|DandD\\DandD.csproj|c:\\users\\usuario ma\u00F1ana\\source\\repos\\dandd\\dandd\\modelos\\esqueletos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2521A797-9EB0-448F-AA00-E245223CBC8B}|DandD\\DandD.csproj|solutionrelative:dandd\\modelos\\esqueletos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2521A797-9EB0-448F-AA00-E245223CBC8B}|DandD\\DandD.csproj|c:\\users\\usuario ma\u00F1ana\\source\\repos\\dandd\\dandd\\modelos\\magos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2521A797-9EB0-448F-AA00-E245223CBC8B}|DandD\\DandD.csproj|solutionrelative:dandd\\modelos\\magos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2521A797-9EB0-448F-AA00-E245223CBC8B}|DandD\\DandD.csproj|c:\\users\\usuario ma\u00F1ana\\source\\repos\\dandd\\dandd\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2521A797-9EB0-448F-AA00-E245223CBC8B}|DandD\\DandD.csproj|solutionrelative:dandd\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Clase.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\DandD\\DandD\\Modelos\\Clase.cs",
+              "RelativeDocumentMoniker": "DandD\\Modelos\\Clase.cs",
+              "ToolTip": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\DandD\\DandD\\Modelos\\Clase.cs",
+              "RelativeToolTip": "DandD\\Modelos\\Clase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T12:19:01.318Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NPC.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\DandD\\DandD\\Modelos\\NPC.cs",
+              "RelativeDocumentMoniker": "DandD\\Modelos\\NPC.cs",
+              "ToolTip": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\DandD\\DandD\\Modelos\\NPC.cs",
+              "RelativeToolTip": "DandD\\Modelos\\NPC.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T12:11:29.116Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Heroe.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\DandD\\DandD\\Modelos\\Heroe.cs",
+              "RelativeDocumentMoniker": "DandD\\Modelos\\Heroe.cs",
+              "ToolTip": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\DandD\\DandD\\Modelos\\Heroe.cs",
+              "RelativeToolTip": "DandD\\Modelos\\Heroe.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T12:05:44.415Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Bosses.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\DandD\\DandD\\Modelos\\Bosses.cs",
+              "RelativeDocumentMoniker": "DandD\\Modelos\\Bosses.cs",
+              "ToolTip": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\DandD\\DandD\\Modelos\\Bosses.cs",
+              "RelativeToolTip": "DandD\\Modelos\\Bosses.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T12:05:30.533Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Esqueletos.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\DandD\\DandD\\Modelos\\Esqueletos.cs",
+              "RelativeDocumentMoniker": "DandD\\Modelos\\Esqueletos.cs",
+              "ToolTip": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\DandD\\DandD\\Modelos\\Esqueletos.cs",
+              "RelativeToolTip": "DandD\\Modelos\\Esqueletos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T12:05:12.433Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Magos.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\DandD\\DandD\\Modelos\\Magos.cs",
+              "RelativeDocumentMoniker": "DandD\\Modelos\\Magos.cs",
+              "ToolTip": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\DandD\\DandD\\Modelos\\Magos.cs",
+              "RelativeToolTip": "DandD\\Modelos\\Magos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T12:04:57.087Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Zombies.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\DandD\\DandD\\Modelos\\Zombies.cs",
+              "RelativeDocumentMoniker": "DandD\\Modelos\\Zombies.cs",
+              "ToolTip": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\DandD\\DandD\\Modelos\\Zombies.cs",
+              "RelativeToolTip": "DandD\\Modelos\\Zombies.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T12:04:43.663Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Menu.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\DandD\\DandD\\Utilidades\\Menu.cs",
+              "RelativeDocumentMoniker": "DandD\\Utilidades\\Menu.cs",
+              "ToolTip": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\DandD\\DandD\\Utilidades\\Menu.cs",
+              "RelativeToolTip": "DandD\\Utilidades\\Menu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T12:03:26.749Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\DandD\\DandD\\Program.cs",
+              "RelativeDocumentMoniker": "DandD\\Program.cs",
+              "ToolTip": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\DandD\\DandD\\Program.cs",
+              "RelativeToolTip": "DandD\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T12:00:43.772Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

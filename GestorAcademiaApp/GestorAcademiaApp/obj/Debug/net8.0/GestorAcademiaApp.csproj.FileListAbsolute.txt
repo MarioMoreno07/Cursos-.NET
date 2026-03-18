@@ -1,0 +1,14 @@
+C:\Users\Usuario Mañana\source\repos\GestorAcademiaApp\GestorAcademiaApp\obj\Debug\net8.0\GestorAcademiaApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario Mañana\source\repos\GestorAcademiaApp\GestorAcademiaApp\obj\Debug\net8.0\GestorAcademiaApp.AssemblyInfoInputs.cache
+C:\Users\Usuario Mañana\source\repos\GestorAcademiaApp\GestorAcademiaApp\obj\Debug\net8.0\GestorAcademiaApp.AssemblyInfo.cs
+C:\Users\Usuario Mañana\source\repos\GestorAcademiaApp\GestorAcademiaApp\obj\Debug\net8.0\GestorAcademiaApp.csproj.CoreCompileInputs.cache
+C:\Users\Usuario Mañana\source\repos\GestorAcademiaApp\GestorAcademiaApp\bin\Debug\net8.0\GestorAcademiaApp.exe
+C:\Users\Usuario Mañana\source\repos\GestorAcademiaApp\GestorAcademiaApp\bin\Debug\net8.0\GestorAcademiaApp.deps.json
+C:\Users\Usuario Mañana\source\repos\GestorAcademiaApp\GestorAcademiaApp\bin\Debug\net8.0\GestorAcademiaApp.runtimeconfig.json
+C:\Users\Usuario Mañana\source\repos\GestorAcademiaApp\GestorAcademiaApp\bin\Debug\net8.0\GestorAcademiaApp.dll
+C:\Users\Usuario Mañana\source\repos\GestorAcademiaApp\GestorAcademiaApp\bin\Debug\net8.0\GestorAcademiaApp.pdb
+C:\Users\Usuario Mañana\source\repos\GestorAcademiaApp\GestorAcademiaApp\obj\Debug\net8.0\GestorAcademiaApp.dll
+C:\Users\Usuario Mañana\source\repos\GestorAcademiaApp\GestorAcademiaApp\obj\Debug\net8.0\refint\GestorAcademiaApp.dll
+C:\Users\Usuario Mañana\source\repos\GestorAcademiaApp\GestorAcademiaApp\obj\Debug\net8.0\GestorAcademiaApp.pdb
+C:\Users\Usuario Mañana\source\repos\GestorAcademiaApp\GestorAcademiaApp\obj\Debug\net8.0\GestorAcademiaApp.genruntimeconfig.cache
+C:\Users\Usuario Mañana\source\repos\GestorAcademiaApp\GestorAcademiaApp\obj\Debug\net8.0\ref\GestorAcademiaApp.dll

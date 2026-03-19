@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace GestorAcademiaApp.Servicio {
     internal class CursoService1 {
 
-        internal List<Curso> cursos = new List<Curso>();
+        public List<Curso> cursos { get; set; } = new List<Curso>();
         public void MostrarCursos() {
 
             foreach (Curso curso in cursos) {

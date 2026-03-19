@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace GestorAcademiaApp.Modelos {
     internal class Alumno {
-        internal string Nombre { get; set; }
-        internal string Email { get; set; }
+        public string Nombre { get; set; }
+        public string Email { get; set; }
 
-        internal int[] Notas = new int[5];
+        public int[] Notas { get; set; } = new int[5];
 
         public Alumno(string nombre, string email,int[] notas) {
         

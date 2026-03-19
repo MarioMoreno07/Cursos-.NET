@@ -36,6 +36,19 @@ namespace GestorAcademiaApp.Servicio {
 
         }
 
-        public void InscripcionesVencidas(InscripcionService inscripcionService) { }
+        public void InscripcionesVencidas(InscripcionService inscripcionService) {
+
+            
+            List<Inscripcion> inscripcionesVencidas = inscripcionService.inscripcions.Where(inscripcion => inscripcion.FechaLimiteEntrega < DateTime.Now ).ToList();
+            if (inscripcionesVencidas.Count > 0) {
+                Console.WriteLine("Las inscripciones vencidas son: ");
+                foreach (Inscripcion ins in inscripcionesVencidas) {
+                    Console.WriteLine($"El curso {ins.NombreCurso} ha expirado con {(DateTime.Now - ins.FechaLimiteEntrega).ToString("dd")} dias de retraso");
+                }
+
+            } else {
+                Console.WriteLine("No hay inscripciones vencidas");
+            }
+        }
     }
 }

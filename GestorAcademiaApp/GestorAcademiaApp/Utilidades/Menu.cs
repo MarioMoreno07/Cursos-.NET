@@ -12,11 +12,12 @@ namespace GestorAcademiaApp.Utilidades {
         CursoService1 cursoService = new CursoService1();
         InscripcionService inscripcionService = new InscripcionService();
         ReporteService reporteService = new ReporteService();
+        PersistenciaService persistenciaService = new PersistenciaService();
 
         public void MostrarMenu() {
 
             int opcion = -1;
-
+            persistenciaService.LeerPersistencia(cursoService,alumnoService,inscripcionService);
             do {
                 Console.Clear();
                 Console.WriteLine("\n === GESTOR ACADÉMICO === ");
@@ -41,28 +42,33 @@ namespace GestorAcademiaApp.Utilidades {
 
                     case 1:
                         int[] notas = new int[5];
-                        Console.WriteLine("Cual es tu nombre");
-                        string nombre = Console.ReadLine();
                         Console.WriteLine("Cual es tu email");
                         string email = Console.ReadLine();
-                        while (!alumnoService.ValidarEmail(email)) {
+                        while (!alumnoService.ValidarEmail(email.ToLower())) {
                             Console.WriteLine("El email debe contener @  y .");
                             email = Console.ReadLine();
                         }
-                        for(int i = 0; i < notas.Length; i++) {
-                                Console.WriteLine($"Dime tu nota del examen{i}");
+                        if (alumnoService.alumnoList.Where(alumno => alumno.Email.Equals(email.ToLower())).FirstOrDefault() is not null) {
+                            for (int i = 0; i < notas.Length; i++) {
+                                Console.WriteLine($"Dime tu nota del examen {i}");
                                 bool parse = int.TryParse(Console.ReadLine(), out int nota);
                                 notas[i] = nota;
-                            while(nota <0 || nota > 10) {
-                                Console.WriteLine("La nota no puede ser menor a 0 y mayor a 10");
-                                 parse = int.TryParse(Console.ReadLine(), out  nota);
-                                notas[i] = nota;
+                                while (nota < 0 || nota > 10) {
+                                    Console.WriteLine("La nota no puede ser menor a 0 y mayor a 10");
+                                    parse = int.TryParse(Console.ReadLine(), out nota);
+                                    notas[i] = nota;
+                                }
                             }
-                            
+                           Alumno alm= alumnoService.alumnoList.Where(alumno => alumno.Email.Equals(email.ToLower())).First();
+                            alm.Notas = notas;
+                        
+                        } else {
+                            Console.WriteLine("No estas inscrito a ningun curso. Debes apuntarte en uno para que podamos actualizar tus notas, aqui estan los cursos " +
+                                "que tenemos actualmente");
+                            cursoService.MostrarCursos();
+
                         }
-                        Alumno alumnoNuevo = new Alumno(nombre,email,notas);
-                        alumnoService.RegistrarAlumnos(alumnoNuevo);
-                        Console.WriteLine("Pulse cualquier tecla para salir");
+                            Console.WriteLine("Pulse cualquier tecla para salir");
                         Console.ReadLine();
                         break;
                     case 2:
@@ -75,7 +81,7 @@ namespace GestorAcademiaApp.Utilidades {
                         string nombreCuso = Console.ReadLine() ;
                         Console.WriteLine("Cuantas horaas dura el curso");
                         bool parseHoras = int.TryParse(Console.ReadLine(),out int hora);
-                        Curso curso = new Curso(nombreCuso,hora);
+                        Curso curso = new Curso(nombreCuso.ToLower(),hora);
                         cursoService.AnadirCurso(curso);
                         Console.WriteLine("Pulse cualquier tecla para salir");
                         Console.ReadLine();
@@ -86,17 +92,23 @@ namespace GestorAcademiaApp.Utilidades {
                         Console.ReadLine();
                         break;
                     case 5:
-
+                        
+                        Console.WriteLine("Dime tu nombre");
+                        string nombreAL = Console.ReadLine() ;
                         Console.WriteLine("Dime tu email");
                         string emailAL = Console.ReadLine() ;
-                        while (!alumnoService.ValidarEmail(emailAL)) {
+                        while (!alumnoService.ValidarEmail(emailAL.ToLower())) {
                             Console.WriteLine("El email debe contener @  y .");
                             emailAL = Console.ReadLine();
                         }
                         Console.WriteLine("Cual es el nombre del curso");
                         string nombreCu = Console.ReadLine() ;
 
-                        Inscripcion ins = new Inscripcion(emailAL, nombreCu);
+                        int[] notasVacias = new int[5];
+                        Alumno alumnoAL = new Alumno(nombreAL.Trim(), emailAL.ToLower(), notasVacias);
+                        alumnoService.RegistrarAlumnos(alumnoAL);
+
+                        Inscripcion ins = new Inscripcion(emailAL.ToLower(), nombreCu.ToLower());
                         inscripcionService.InscribirAlumno(ins,alumnoService,cursoService);
                         Console.WriteLine("Pulse cualquier tecla para salir");
                         Console.ReadLine();
@@ -108,7 +120,7 @@ namespace GestorAcademiaApp.Utilidades {
                         break;
                     case 7:
                         Console.WriteLine("Dime tu email");
-                        string usuarioAComprobar = Console.ReadLine();
+                        string usuarioAComprobar = Console.ReadLine().ToLower();
                         bool encontrado = false;
                         Alumno al = null;
 
@@ -136,9 +148,21 @@ namespace GestorAcademiaApp.Utilidades {
                         Console.WriteLine("Pulse cualquier tecla para salir");
                         Console.ReadLine();
                         break;
+                    case 10:
+                        persistenciaService.LanzarPersistencia(cursoService,alumnoService, inscripcionService);
+                        Console.WriteLine("Gracias por usar nuestra academia");
+                        Console.WriteLine("Pulse cualquier tecla para salir");
+                        Console.ReadLine();
+                        break;
+                    default:
+                        
+                        Console.WriteLine("Numero no valido");
+                        Console.WriteLine("Pulse cualquier tecla para salir");
+                        Console.ReadLine();
+                        break;
                 
                 }
-            } while (opcion != 0 || opcion > 9);
+            } while (opcion != 10 || opcion > 11);
         }
 
 

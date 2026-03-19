@@ -9,7 +9,7 @@ namespace GestorAcademiaApp.Servicio {
     internal class InscripcionService {
        
 
-        public List<Inscripcion> inscripcions = [];
+        public List<Inscripcion> inscripcions { get; set; } = new List<Inscripcion>();
         public void InscribirAlumno(Inscripcion inscripcion, AlumnoService alumService , CursoService1 cursoService) {
 
             if (ValidarAlumno(inscripcion,alumService) && ValidarCurso(inscripcion,cursoService)) {

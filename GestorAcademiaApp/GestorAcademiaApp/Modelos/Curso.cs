@@ -7,8 +7,8 @@ using System.Threading.Tasks;
 namespace GestorAcademiaApp.Modelos {
     internal class Curso {
 
-        internal string Nombre { get; set; }
-        internal int NumHoras { get; set; }
+        public string Nombre { get; set; }
+        public int NumHoras { get; set; }
 
         public Curso(string nombre , int numHoras) {
             Nombre = nombre;

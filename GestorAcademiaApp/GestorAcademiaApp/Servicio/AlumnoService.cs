@@ -8,14 +8,15 @@ using System.Timers;
 
 namespace GestorAcademiaApp.Servicio {
     internal class AlumnoService {
-        internal List<Alumno> alumnoList = new List<Alumno>();
+
+        public List<Alumno> alumnoList { get; set; } = new List<Alumno>();
 
         public void RegistrarAlumnos(Alumno alumno) {
             if (!ExisteAlumno(alumno)) {
                 alumnoList.Add(alumno);
                 Console.WriteLine("Alumno registrado");
-            } else {
-                Console.WriteLine("El alumno ya existe");
+            } else{
+                Console.WriteLine("El alumno ya esta creado");
             }
         }
         public bool ValidarEmail(string email) {
@@ -30,8 +31,12 @@ namespace GestorAcademiaApp.Servicio {
 
         public void MostrarALumnos() {
             foreach (Alumno alumno in alumnoList) {
+                if(alumno is not null) {
+                    Console.WriteLine($"El alumno {alumno.Nombre} con email {alumno.Email} , ha sacado estas notas {alumno.Notas[0]},{alumno.Notas[1]},{alumno.Notas[2]},{alumno.Notas[3]},{alumno.Notas[4]}");
 
-                Console.WriteLine($"El alumno {alumno.Nombre} con email {alumno.Email} , ha sacado estas notas {alumno.Notas[0]},{alumno.Notas[1]},{alumno.Notas[2]},{alumno.Notas[3]},{alumno.Notas[4]}");
+                } else {
+                    Console.WriteLine("No existen alumnos");
+                }
             }
         }
 

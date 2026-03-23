@@ -1,0 +1,75 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\Calculadora\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{581E7E09-4EE2-41A6-877F-6C3E87FD77E4}|Calculadora\\Calculadora.csproj|c:\\users\\usuario ma\u00F1ana\\source\\repos\\calculadora\\calculadora\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{581E7E09-4EE2-41A6-877F-6C3E87FD77E4}|Calculadora\\Calculadora.csproj|solutionrelative:calculadora\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{581E7E09-4EE2-41A6-877F-6C3E87FD77E4}|Calculadora\\Calculadora.csproj|c:\\users\\usuario ma\u00F1ana\\source\\repos\\calculadora\\calculadora\\calculadoraapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{581E7E09-4EE2-41A6-877F-6C3E87FD77E4}|Calculadora\\Calculadora.csproj|solutionrelative:calculadora\\calculadoraapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2260C3E0-36CA-48D8-AADD-6DA0ACFFC8FA}|CalculadoraTest\\CalculadoraTest.csproj|c:\\users\\usuario ma\u00F1ana\\source\\repos\\calculadora\\calculadoratest\\calculadoraclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2260C3E0-36CA-48D8-AADD-6DA0ACFFC8FA}|CalculadoraTest\\CalculadoraTest.csproj|solutionrelative:calculadoratest\\calculadoraclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CalculadoraClass.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\Calculadora\\CalculadoraTest\\CalculadoraClass.cs",
+              "RelativeDocumentMoniker": "CalculadoraTest\\CalculadoraClass.cs",
+              "ToolTip": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\Calculadora\\CalculadoraTest\\CalculadoraClass.cs",
+              "RelativeToolTip": "CalculadoraTest\\CalculadoraClass.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAIwFUAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T11:32:48.837Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\Calculadora\\Calculadora\\Program.cs",
+              "RelativeDocumentMoniker": "Calculadora\\Program.cs",
+              "ToolTip": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\Calculadora\\Calculadora\\Program.cs",
+              "RelativeToolTip": "Calculadora\\Program.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAgwFwAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T08:42:08.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CalculadoraApp.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\Calculadora\\Calculadora\\CalculadoraApp.cs",
+              "RelativeDocumentMoniker": "Calculadora\\CalculadoraApp.cs",
+              "ToolTip": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\Calculadora\\Calculadora\\CalculadoraApp.cs",
+              "RelativeToolTip": "Calculadora\\CalculadoraApp.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAowDYAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T08:43:11.15Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

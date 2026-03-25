@@ -44,7 +44,7 @@ namespace Inventario.Servicios {
                 throw new ArgumentNullException("No hay productos que mostrar");
             } else {
                 foreach (Proucto prod in productos) {
-                    Console.WriteLine($"El producto {prod.Nombre}, tiene el codigo {prod.Codigo}, tiene un valor de {prod.Precio.ToString("C")} y hay un stock de {prod.Stock} unidades");
+                    Console.WriteLine($"El producto {prod.Nombre}, tiene el codigo {prod.Codigo},y la categoria {prod.Categoria}, tiene un valor de {prod.Precio.ToString("C")} y hay un stock de {prod.Stock} unidades");
                 }
             }
                
@@ -144,6 +144,7 @@ namespace Inventario.Servicios {
 
                 } else {
                     p.Stock = p.Stock - cantidad;
+                    Console.WriteLine($"El total es de: {(p.Precio * cantidad).ToString("C")}");
                     r = true;
                 }
 

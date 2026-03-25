@@ -3,18 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\Inventario\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{74740569-95D8-43F7-B403-407A1640779D}|InventarioApp.Test\\InventarioApp.Test.csproj|c:\\users\\usuario ma\u00F1ana\\source\\repos\\inventario\\inventarioapp.test\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{74740569-95D8-43F7-B403-407A1640779D}|InventarioApp.Test\\InventarioApp.Test.csproj|solutionrelative:inventarioapp.test\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87D19BFE-1F51-4E23-8F24-6994A1E04441}|Inventario\\Inventario.csproj|c:\\users\\usuario ma\u00F1ana\\source\\repos\\inventario\\inventario\\modelos\\proucto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87D19BFE-1F51-4E23-8F24-6994A1E04441}|Inventario\\Inventario.csproj|solutionrelative:inventario\\modelos\\proucto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87D19BFE-1F51-4E23-8F24-6994A1E04441}|Inventario\\Inventario.csproj|c:\\users\\usuario ma\u00F1ana\\source\\repos\\inventario\\inventario\\servicios\\inventarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87D19BFE-1F51-4E23-8F24-6994A1E04441}|Inventario\\Inventario.csproj|solutionrelative:inventario\\servicios\\inventarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{87D19BFE-1F51-4E23-8F24-6994A1E04441}|Inventario\\Inventario.csproj|c:\\users\\usuario ma\u00F1ana\\source\\repos\\inventario\\inventario\\utiles\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{87D19BFE-1F51-4E23-8F24-6994A1E04441}|Inventario\\Inventario.csproj|solutionrelative:inventario\\utiles\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -23,8 +11,20 @@
       "RelativeMoniker": "D:0:0:{87D19BFE-1F51-4E23-8F24-6994A1E04441}|Inventario\\Inventario.csproj|solutionrelative:inventario\\servicios\\persistenciaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{87D19BFE-1F51-4E23-8F24-6994A1E04441}|Inventario\\Inventario.csproj|c:\\users\\usuario ma\u00F1ana\\source\\repos\\inventario\\inventario\\servicios\\inventarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87D19BFE-1F51-4E23-8F24-6994A1E04441}|Inventario\\Inventario.csproj|solutionrelative:inventario\\servicios\\inventarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74740569-95D8-43F7-B403-407A1640779D}|InventarioApp.Test\\InventarioApp.Test.csproj|c:\\users\\usuario ma\u00F1ana\\source\\repos\\inventario\\inventarioapp.test\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74740569-95D8-43F7-B403-407A1640779D}|InventarioApp.Test\\InventarioApp.Test.csproj|solutionrelative:inventarioapp.test\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{87D19BFE-1F51-4E23-8F24-6994A1E04441}|Inventario\\Inventario.csproj|c:\\users\\usuario ma\u00F1ana\\source\\repos\\inventario\\inventario\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{87D19BFE-1F51-4E23-8F24-6994A1E04441}|Inventario\\Inventario.csproj|solutionrelative:inventario\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87D19BFE-1F51-4E23-8F24-6994A1E04441}|Inventario\\Inventario.csproj|c:\\users\\usuario ma\u00F1ana\\source\\repos\\inventario\\inventario\\modelos\\proucto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87D19BFE-1F51-4E23-8F24-6994A1E04441}|Inventario\\Inventario.csproj|solutionrelative:inventario\\modelos\\proucto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,27 +42,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "PersistenciaService.cs",
               "DocumentMoniker": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\Inventario\\Inventario\\Servicios\\PersistenciaService.cs",
               "RelativeDocumentMoniker": "Inventario\\Servicios\\PersistenciaService.cs",
               "ToolTip": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\Inventario\\Inventario\\Servicios\\PersistenciaService.cs",
               "RelativeToolTip": "Inventario\\Servicios\\PersistenciaService.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAAABcAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAABcAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-25T09:16:43.045Z"
+              "WhenOpened": "2026-03-25T09:16:43.045Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "menu.cs",
               "DocumentMoniker": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\Inventario\\Inventario\\Utiles\\menu.cs",
               "RelativeDocumentMoniker": "Inventario\\Utiles\\menu.cs",
               "ToolTip": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\Inventario\\Inventario\\Utiles\\menu.cs",
               "RelativeToolTip": "Inventario\\Utiles\\menu.cs",
-              "ViewState": "AgIAAKAAAAAAAAAAAAAgwK8AAABSAAAAAAAAAA==",
+              "ViewState": "AgIAAHkAAAAAAAAAAAAgwIIAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-24T11:58:28.277Z"
+              "WhenOpened": "2026-03-24T11:58:28.277Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -72,13 +74,14 @@
               "RelativeDocumentMoniker": "Inventario\\Servicios\\InventarioService.cs",
               "ToolTip": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\Inventario\\Inventario\\Servicios\\InventarioService.cs",
               "RelativeToolTip": "Inventario\\Servicios\\InventarioService.cs",
-              "ViewState": "AgIAAFsAAAAAAAAAAAAQwK8AAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwMIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-24T09:52:27.731Z"
+              "WhenOpened": "2026-03-24T09:52:27.731Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Proucto.cs",
               "DocumentMoniker": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\Inventario\\Inventario\\Modelos\\Proucto.cs",
               "RelativeDocumentMoniker": "Inventario\\Modelos\\Proucto.cs",
@@ -86,24 +89,25 @@
               "RelativeToolTip": "Inventario\\Modelos\\Proucto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-24T09:52:05.808Z"
+              "WhenOpened": "2026-03-24T09:52:05.808Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "UnitTest1.cs",
               "DocumentMoniker": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\Inventario\\InventarioApp.Test\\UnitTest1.cs",
               "RelativeDocumentMoniker": "InventarioApp.Test\\UnitTest1.cs",
               "ToolTip": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\Inventario\\InventarioApp.Test\\UnitTest1.cs",
               "RelativeToolTip": "InventarioApp.Test\\UnitTest1.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAAmwEEAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAgwAoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-24T09:50:02.553Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\Inventario\\Inventario\\Program.cs",
               "RelativeDocumentMoniker": "Inventario\\Program.cs",
@@ -111,7 +115,8 @@
               "RelativeToolTip": "Inventario\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-24T09:48:51.652Z"
+              "WhenOpened": "2026-03-24T09:48:51.652Z",
+              "EditorCaption": ""
             }
           ]
         }

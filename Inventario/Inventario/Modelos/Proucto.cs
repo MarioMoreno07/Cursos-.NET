@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Inventario.Modelos {
-    internal class Proucto {
+    public class Proucto {
 
         public  string Codigo {  get; set; }
         public string Nombre { get; set; }

@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Inventario.Servicios {
-    internal class InventarioService {
+    public class InventarioService {
 
         public List<Proucto> productos = new List<Proucto>();
 
@@ -29,9 +29,6 @@ namespace Inventario.Servicios {
                         throw new ArgumentException("El stock del producto debe de ser mayor a 1");
                     }else {
                         productos.Add(prod);
-                        foreach (Proucto prods in productos) {
-                            Console.WriteLine($"El producto {prods.Nombre}, tiene el codigo {prods.Codigo}, tiene un valor de {prods.Precio.ToString("C")} y hay un stock de {prods.Stock}");
-                        }
                             r = true;
                     }
 
@@ -47,7 +44,7 @@ namespace Inventario.Servicios {
                 throw new ArgumentNullException("No hay productos que mostrar");
             } else {
                 foreach (Proucto prod in productos) {
-                    Console.WriteLine($"El producto {prod.Nombre}, tiene el codigo {prod.Codigo}, tiene un valor de {prod.Precio.ToString("C")} y hay un stock de {prod.Stock}");
+                    Console.WriteLine($"El producto {prod.Nombre}, tiene el codigo {prod.Codigo}, tiene un valor de {prod.Precio.ToString("C")} y hay un stock de {prod.Stock} unidades");
                 }
             }
                
@@ -61,15 +58,11 @@ namespace Inventario.Servicios {
                 throw new ArgumentNullException("El codigo del producto esta vacio");
             } else {
 
-                foreach (Proucto prod in productos) {
-
-                    p = productos.Where(producto => producto.Codigo == prod.Codigo).FirstOrDefault();
+                    p = productos.Where(producto => producto.Codigo.Equals(codigo)).FirstOrDefault();
                     if (p == null) {
 
                         throw new ArgumentNullException("El producto con ese codigo no exite");
                     }
-
-                }
             }
 
 
@@ -85,16 +78,11 @@ namespace Inventario.Servicios {
                 throw new ArgumentNullException("La categoria no puede estar vacia");
             } else {
 
-                foreach (Proucto prod in productos) {
-
-                    prodPorCategoria = productos.Where(producto => producto.Categoria == prod.Categoria).ToList();
+                    prodPorCategoria = productos.Where(producto => producto.Categoria.Equals(categoria)).ToList();
                     if (prodPorCategoria.Count == null) {
 
                         throw new ArgumentNullException("No existen productos con esa categoria");
                     }
-
-                }
-
             }
 
             return prodPorCategoria;
@@ -111,19 +99,18 @@ namespace Inventario.Servicios {
                 throw new ArgumentNullException("El codigo del producto esta vacio");
             } else {
 
-                foreach (Proucto prod in productos) {
-
-                    p = productos.Where(producto => producto.Codigo == prod.Codigo).FirstOrDefault();
+                
+                    p = productos.Where(producto => producto.Codigo.Equals(codigo)).FirstOrDefault();
                     if (p == null) {
 
                         throw new ArgumentNullException("El producto con ese codigo no exite");
                     }
 
-                }
+                
                 if (cantidad <= 0) {
                     throw new ArgumentException("La cantidad no puede ser ni 0 ni menor a 0");
                 } else {
-                    p.Stock = cantidad;
+                    p.Stock = p.Stock+cantidad;
                     r = true;
                 }
 
@@ -141,15 +128,13 @@ namespace Inventario.Servicios {
                 throw new ArgumentNullException("El codigo del producto esta vacio");
             } else {
 
-                foreach (Proucto prod in productos) {
-
-                    p = productos.Where(producto => producto.Codigo == prod.Codigo).FirstOrDefault();
+     
+                    p = productos.Where(producto => producto.Codigo.Equals(codigo)).FirstOrDefault();
                     if (p == null) {
 
                         throw new ArgumentNullException("El producto con ese codigo no exite");
                     }
-
-                }
+                
                 if (cantidad <= 0) {
                     throw new ArgumentException("La cantidad no puede ser ni 0 ni menor a 0");
 
@@ -175,7 +160,7 @@ namespace Inventario.Servicios {
             Double total = 0;
 
             if (productos.Count == 0) {
-                throw new ArgumentNullException("El inventaio esta vacio");
+                throw new NullReferenceException("El inventaio esta vacio");
             } else {
                 foreach (Proucto prod in productos) {
 

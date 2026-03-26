@@ -5,17 +5,18 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace BibliotecaApp.Modelos {
-    internal class Libro {
+    public class Libro {
 
-        public Autor Autor;
+        public Autor Autor { get; set; }
         public string Nombre {  get; set; }
         public Categoria Categoria { get; set; }
-        public bool Disponible = true;
+        public bool Disponible {  get; set; }
 
         public Libro(Autor autor, string nombre , Categoria categoria) {
             this.Autor = autor;
             this.Nombre = nombre;
             this.Categoria = categoria;
+            this.Disponible = true;
         
         }
     }

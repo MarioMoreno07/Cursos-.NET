@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace BibliotecaApp.Modelos {
-    internal class Categoria {
+    public class Categoria {
         public string Nombre {  get; set; }
 
         public Categoria(string nombre) {

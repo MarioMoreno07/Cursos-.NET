@@ -5,15 +5,18 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace BibliotecaApp.Modelos {
-    internal class Prestamo {
+    public class Prestamo {
 
-        public Libro Libro;
-        public Usuario Usuario;
-        public DateTime fechaPrestamo = DateTime.Now;
+        public Libro Libro { get; set; }
+        public Usuario Usuario { get; set; }
+        public DateTime fechaPrestamo {  get; set; }
+        public DateTime fechaFinPrestamo { get; set; }
 
         public Prestamo(Libro libro , Usuario usuario) {
                Libro = libro;
                Usuario = usuario;
+            fechaPrestamo = DateTime.Now;
+            fechaFinPrestamo = DateTime.Now.AddDays(20);
         }
     }
 }

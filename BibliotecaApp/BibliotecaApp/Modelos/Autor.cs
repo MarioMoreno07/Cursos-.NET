@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace BibliotecaApp.Modelos {
-    internal class Autor {
+    public class Autor {
 
         public string Nombre { get; set; }
 

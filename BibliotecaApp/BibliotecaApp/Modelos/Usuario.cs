@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace BibliotecaApp.Modelos {
-    internal class Usuario {
+    public class Usuario {
         public string Nombre {  get; set; }
         public string Dni {  get; set; }
 

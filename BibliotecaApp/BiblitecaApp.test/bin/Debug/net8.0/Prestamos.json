@@ -1,0 +1,1 @@
+[{"Libro":{"Autor":{"Nombre":"Paco"},"Nombre":"Principito","Categoria":{"Nombre":"Fantasia"},"Disponible":false},"Usuario":{"Nombre":"Paco","Dni":"123"},"fechaPrestamo":"2026-03-27T11:45:20.9382404+01:00","fechaFinPrestamo":"2026-04-16T11:45:20.9382473+02:00"}]

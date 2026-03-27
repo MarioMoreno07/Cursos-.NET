@@ -37,6 +37,19 @@ namespace BibliotecaApp.Servicios {
                 }
             }
         }
+
+        public bool MarcarComoNoDisponible(Libro libro) {
+            bool r = false;
+            if(libro == null) {
+                throw new ArgumentNullException("El libro esta vacio");
+            } else {
+                libro.Disponible = !libro.Disponible;
+                r = true;
+            }
+
+                return r;
+        }
+
         public List<Prestamo> MostrarPrestamosVencidos() {
             List<Prestamo> prestamosAcabados = new List<Prestamo> ();
 
@@ -69,5 +82,18 @@ namespace BibliotecaApp.Servicios {
 
                 return r;
         }
+
+
+        public List<Prestamo> prestamosVencidos() {
+            List<Prestamo> prestamosVencidos = new List<Prestamo>();
+            prestamosVencidos = prestamos.Where(prestamos => prestamos.fechaFinPrestamo < DateTime.Now).ToList();
+
+            if (prestamosVencidos.Count < 0) {
+                throw new ArgumentNullException("La lista esta vacia");
+            }
+
+            return prestamosVencidos;
+        }
+
     }
 }

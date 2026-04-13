@@ -1,0 +1,4 @@
+Server=localhost\SQLEXPRESS;Database=master;Trusted_Connection=True;
+
+
+Carpeta de logs = C:\Program Files\Microsoft SQL Server\170\Setup Bootstrap\Log

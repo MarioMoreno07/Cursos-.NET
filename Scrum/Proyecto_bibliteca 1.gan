@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Biblioteca" company="" webLink="http://" view-date="2026-04-01" view-index="0" gantt-divider-location="493" resource-divider-location="300" version="3.3.3322" locale="es_ES">
+    <description/>
+    <view zooming-state="default:9" id="gantt-chart">
+        <field id="tpd15" name="Notas" width="20" order="0"/>
+        <field id="tpd3" name="Nombre" width="222" order="0"/>
+        <field id="tpd4" name="Fecha de inicio" width="83" order="1"/>
+        <field id="tpd5" name="Fecha de fin" width="84" order="2"/>
+        <field id="tpd6" name="Duración" width="51" order="3"/>
+        <field id="tpd7" name="Progreso" width="52" order="4"/>
+        <option id="filter.completedTasks" value="false"/>
+        <option id="filter.dueTodayTasks" value="false"/>
+        <option id="filter.overdueTasks" value="false"/>
+        <option id="filter.inProgressTodayTasks" value="false"/>
+        <option id="color.recent"><![CDATA[#99ffff #3333ff #000000]]></option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nombre" width="210" order="0"/>
+        <field id="1" name="Función" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" uid="00ee196efb59459599695e8759ec6924" name="Biblioteca_tradicional" meeting="false" start="2026-04-07" duration="109" complete="0" expand="false">
+            <task id="2" uid="93c08ab19c7f4bd0a33e08d84abde077" name="1.Inicio del proyecto y del acta" meeting="false" start="2026-04-07" duration="4" complete="0" expand="true"/>
+            <task id="3" uid="36ee10f2d2ba4c13ac12cd810f988b78" name="2.Levantamiento y requisitos" meeting="false" start="2026-04-13" duration="12" complete="0" expand="true"/>
+            <task id="4" uid="3658a796b11241cbb71af78102d05e96" name="3.Analisis del pryecto" meeting="false" start="2026-04-30" duration="9" complete="0" expand="true"/>
+            <task id="5" uid="b2634d07025c4d4cbd891c1f546aace5" name="4. Diseño UML y diseño de la base de datos" meeting="false" start="2026-05-14" duration="15" complete="0" expand="true"/>
+            <task id="6" uid="745c05c50be44d939a860b373bf30b98" name="5. Backend .NET + EFC: entidades y DbContext" meeting="false" start="2026-06-05" duration="9" complete="0" expand="true"/>
+            <task id="7" uid="c16221a629d743e692242ef379683fa4" name="6.Linq y consultas" meeting="false" start="2026-06-18" duration="6" complete="0" expand="true"/>
+            <task id="8" uid="1d03b19dc1604acbb6e60d35061edb40" name="7. Servicios de negocios" meeting="false" start="2026-06-26" duration="5" complete="0" expand="true"/>
+            <task id="9" uid="13253c8154aa4aad8368ebdf7b47fc5c" name="8. Api Rest" meeting="false" start="2026-07-03" duration="7" complete="0" expand="true"/>
+            <task id="10" uid="6996aa9bed494bcfb7561e78be5a78ba" name="9. Frontend Angular" meeting="false" start="2026-07-14" duration="21" complete="0" expand="true"/>
+            <task id="11" uid="8b1ce561315f4bd0a355d052eb97ee73" name="10. Intengracion back + front" meeting="false" start="2026-08-13" duration="6" complete="0" expand="true"/>
+            <task id="12" uid="da21afac4f30439cad61be826cab802b" name="11. Pruebas funcionales y correcciones" meeting="false" start="2026-08-24" duration="8" complete="0" expand="true"/>
+            <task id="13" uid="9bfbfa9a41ee4f34b2684caafea08845" name="12. Despliege y cierre" meeting="false" start="2026-09-04" duration="1" complete="0" expand="true"/>
+        </task>
+        <task id="14" uid="0fb7d18a3829478c85aa9e0ec3f67bb6" name="Biblioteca_agile" color="#000000" meeting="false" start="2026-04-01" duration="71" complete="0" expand="false">
+            <task id="15" uid="22ef9f235fb6490ab9286c8478e1fef7" name="1.Vision del poducto y backlog inicial" color="#8cb6ce" meeting="false" start="2026-04-01" duration="5" complete="0" expand="false">
+                <task id="16" uid="0f9114fb8a0a4be9915ffc568fd8b3ea" name="1.1 Reunion con el cliente" meeting="false" start="2026-04-01" duration="2" complete="0" expand="true"/>
+                <task id="17" uid="764eaa60ce96427090ea8f1f6da2836a" name="1.2 Creacion del backlo" meeting="false" start="2026-04-06" duration="2" complete="0" expand="true"/>
+            </task>
+            <task id="18" uid="cb9bc750cf3b416d90fb5108bd0f9258" name="Sprint 1: Arquitectura y entorno" color="#8cb6ce" meeting="false" start="2026-04-08" duration="8" complete="0" expand="false">
+                <task id="27" uid="e733680dbb3b44e38c09da7ddf581421" name="Sprint 1.1: Creacion del aarquitectura" meeting="false" start="2026-04-08" duration="7" complete="0" expand="true"/>
+                <task id="28" uid="69ef342a5cbb4bbeb59db39fae303110" name="Sprint 1.2 : Reunion con l cliente" meeting="false" start="2026-04-17" duration="1" complete="0" expand="true"/>
+            </task>
+            <task id="43" uid="da2039d6d2c4433884467f7f66d1ab74" name="Sprint 2: Dominio , UML y BD" color="#8cb6ce" meeting="false" start="2026-04-20" duration="10" complete="0" expand="false">
+                <task id="44" uid="44eafbe7e54c43948ef8afa619613e1c" name="Creacion del dominio" meeting="false" start="2026-04-20" duration="3" complete="0" expand="true"/>
+                <task id="45" uid="f8ec655fa307435195381b7be9aed102" name="Creacion del diseño UML" meeting="false" start="2026-04-23" duration="4" complete="0" expand="true"/>
+                <task id="46" uid="24f87ccf74124e2793456b9000263fcd" name="Creacion de la base de datos" meeting="false" start="2026-04-29" duration="3" complete="0" expand="true"/>
+                <task id="47" uid="dadc90e54fcc4a368e6398db4907dbd6" name="Reunion con el cliente" meeting="false" start="2026-05-01" duration="1" complete="0" expand="true"/>
+            </task>
+            <task id="19" uid="3fd4219b31e7423dbfe72cfd489e8d8b" name="Sprint 3 : Libro" color="#8cb6ce" meeting="false" start="2026-05-04" duration="6" complete="0" expand="false">
+                <task id="20" uid="79cfde2e53ca476ca04169e8ac8dbe93" name="Crear CRUD  y Añadir Libro" meeting="false" start="2026-05-04" duration="3" complete="0" expand="true"/>
+                <task id="22" uid="a4e515ee197f477dbd547dd5eee58f4f" name="Buscar por id" meeting="false" start="2026-05-07" duration="1" complete="0" expand="true"/>
+                <task id="21" uid="6066336c0dbd40c183b0cea494a07cd0" name="Buscar Libro" meeting="false" start="2026-05-08" duration="1" complete="0" expand="true"/>
+                <task id="52" uid="cb4b1553208f4189b381ecc04d2cfc1f" name="Reunion con el cliente" meeting="false" start="2026-05-11" duration="1" complete="0" expand="true"/>
+            </task>
+            <task id="23" uid="743428b3f739458c94e65be6d28c9174" name="Sprint 4: Usuarios" color="#8cb6ce" meeting="false" start="2026-05-12" duration="6" complete="0" expand="false">
+                <task id="24" uid="931b4e48d1e9498c8c94566e82090bf4" name="Crear CRUD  y Añadir Usuario" meeting="false" start="2026-05-12" duration="3" complete="0" expand="true"/>
+                <task id="25" uid="09bee56ab8374eefb62dfda47b8cb37b" name="Buscar usuario" meeting="false" start="2026-05-15" duration="1" complete="0" expand="true"/>
+                <task id="26" uid="fc8c06e12be745749144827e3270bf18" name="Buscar usuario por id" meeting="false" start="2026-05-18" duration="1" complete="0" expand="true"/>
+                <task id="51" uid="fabc445c5eea4f88a1ac01b847dbd2a3" name="Reunion con el cliente" meeting="false" start="2026-05-19" duration="1" complete="0" expand="true"/>
+            </task>
+            <task id="29" uid="37880b0a6029427fa0a159e06c83eb3b" name="Sprint 5: Prestamos" color="#8cb6ce" meeting="false" start="2026-05-20" duration="9" complete="0" expand="false">
+                <task id="30" uid="0c28bb8cfd354fd6ab02b22d93375606" name="Crear CRUD y añadir prestamos" color="#8cb6ce" meeting="false" start="2026-05-20" duration="3" complete="0" expand="true"/>
+                <task id="31" uid="761f109014154686b7355d49136fe086" name="Buscar Prestamos" color="#8cb6ce" meeting="false" start="2026-05-25" duration="1" complete="0" expand="true"/>
+                <task id="32" uid="7d725ee8e8b5467da5f71d66919789e7" name="Buscar prestamos por id" color="#8cb6ce" meeting="false" start="2026-05-26" duration="1" complete="0" expand="true"/>
+                <task id="33" uid="acc94aaa12ab47c2b4fcbb9890588261" name="Devolver prestamos" meeting="false" start="2026-05-27" duration="2" complete="0" expand="true"/>
+                <task id="34" uid="2258f8f86a4d4a5eb224e17da044b847" name="Buscar libros con prestamos vencidos" meeting="false" start="2026-05-28" duration="2" complete="0" expand="true"/>
+                <task id="50" uid="783b70dcba424d43996fc22ab215bdce" name="Reunion con el cliente" meeting="false" start="2026-06-01" duration="1" complete="0" expand="true"/>
+            </task>
+            <task id="35" uid="da54cb162a9547d88efead1fb9d9a99e" name="Sprint 6: API + Angular" color="#8cb6ce" meeting="false" start="2026-06-02" duration="17" complete="0" expand="false">
+                <task id="36" uid="956de0391c644fc198bc3021cdc0ec6b" name="API" meeting="false" start="2026-06-02" duration="5" complete="0" expand="true"/>
+                <task id="37" uid="d449b35fa40c45ce9a36970555a6fcc0" name="Angular" meeting="false" start="2026-06-09" duration="12" complete="0" expand="true"/>
+                <task id="49" uid="2a439feb08064cb48326d10b2e55d635" name="Reunion con el cliente" meeting="false" start="2026-06-15" duration="1" complete="0" expand="true"/>
+            </task>
+            <task id="48" uid="6ed504b8c71548d5ab48b8c178164d8d" name="Estadisticas LInq y mejoras" meeting="false" start="2026-06-24" duration="8" complete="0" expand="true"/>
+            <task id="53" uid="50b2bad1146343fdb57b323b5dc05e47" name="Reunon final con el cliente" meeting="false" start="2026-07-06" duration="2" complete="0" expand="true"/>
+            <task id="42" uid="443c31aef36443afb65fff3d050d6b3f" name="Release final" meeting="false" start="2026-07-08" duration="1" complete="0" expand="true"/>
+        </task>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>

@@ -190,6 +190,14 @@ namespace BiblitecaApp.test {
             persistenciaService.LanzarPersistenciaPrestamos(prestamoService);
             Assert.That(persistenciaService.LeerPersistenciaPrestamos(prestamoService), Is.EqualTo(resultado));
         }
+        [TearDown]
 
+        public void Dispose() {
+
+            File.Delete("Prestamos.JSON");
+            File.Delete("Usuarios.JSON");
+            File.Delete("Libros.JSON");
+
+        }
     } 
 }

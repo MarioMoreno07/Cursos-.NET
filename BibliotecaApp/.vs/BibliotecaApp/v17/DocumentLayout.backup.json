@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{23A3003A-8025-400F-A3D9-1F487F3A9BF1}|BiblitecaApp.test\\BiblitecaApp.test.csproj|solutionrelative:biblitecaapp.test\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{9A5C96B5-9C58-45AE-9EDB-58B2109547DE}|BibliotecaApp\\BibliotecaApp.csproj|c:\\users\\usuario ma\u00F1ana\\source\\repos\\bibliotecaapp\\bibliotecaapp\\servicios\\persistenciaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A5C96B5-9C58-45AE-9EDB-58B2109547DE}|BibliotecaApp\\BibliotecaApp.csproj|solutionrelative:bibliotecaapp\\servicios\\persistenciaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9A5C96B5-9C58-45AE-9EDB-58B2109547DE}|BibliotecaApp\\BibliotecaApp.csproj|c:\\users\\usuario ma\u00F1ana\\source\\repos\\bibliotecaapp\\bibliotecaapp\\modelos\\prestamo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9A5C96B5-9C58-45AE-9EDB-58B2109547DE}|BibliotecaApp\\BibliotecaApp.csproj|solutionrelative:bibliotecaapp\\modelos\\prestamo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -29,10 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{9A5C96B5-9C58-45AE-9EDB-58B2109547DE}|BibliotecaApp\\BibliotecaApp.csproj|c:\\users\\usuario ma\u00F1ana\\source\\repos\\bibliotecaapp\\bibliotecaapp\\servicios\\bibliotecaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9A5C96B5-9C58-45AE-9EDB-58B2109547DE}|BibliotecaApp\\BibliotecaApp.csproj|solutionrelative:bibliotecaapp\\servicios\\bibliotecaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9A5C96B5-9C58-45AE-9EDB-58B2109547DE}|BibliotecaApp\\BibliotecaApp.csproj|c:\\users\\usuario ma\u00F1ana\\source\\repos\\bibliotecaapp\\bibliotecaapp\\servicios\\persistenciaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A5C96B5-9C58-45AE-9EDB-58B2109547DE}|BibliotecaApp\\BibliotecaApp.csproj|solutionrelative:bibliotecaapp\\servicios\\persistenciaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9A5C96B5-9C58-45AE-9EDB-58B2109547DE}|BibliotecaApp\\BibliotecaApp.csproj|c:\\users\\usuario ma\u00F1ana\\source\\repos\\bibliotecaapp\\bibliotecaapp\\modelos\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -60,26 +60,27 @@
               "RelativeDocumentMoniker": "BiblitecaApp.test\\UnitTest1.cs",
               "ToolTip": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\BibliotecaApp\\BiblitecaApp.test\\UnitTest1.cs",
               "RelativeToolTip": "BiblitecaApp.test\\UnitTest1.cs",
-              "ViewState": "AgIAAF4AAAAAAAAAAAAmwJ4AAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAALkAAAAAAAAAAAAAAMYAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-26T12:46:52.218Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
               "Title": "PersistenciaService.cs",
               "DocumentMoniker": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\BibliotecaApp\\BibliotecaApp\\Servicios\\PersistenciaService.cs",
               "RelativeDocumentMoniker": "BibliotecaApp\\Servicios\\PersistenciaService.cs",
               "ToolTip": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\BibliotecaApp\\BibliotecaApp\\Servicios\\PersistenciaService.cs",
               "RelativeToolTip": "BibliotecaApp\\Servicios\\PersistenciaService.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAMwEYAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-26T11:08:09.865Z"
+              "WhenOpened": "2026-03-26T11:08:09.865Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Libro.cs",
               "DocumentMoniker": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\BibliotecaApp\\BibliotecaApp\\Modelos\\Libro.cs",
               "RelativeDocumentMoniker": "BibliotecaApp\\Modelos\\Libro.cs",
@@ -87,8 +88,7 @@
               "RelativeToolTip": "BibliotecaApp\\Modelos\\Libro.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAqwAwAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-26T09:05:07.905Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-26T09:05:07.905Z"
             },
             {
               "$type": "Document",
@@ -104,7 +104,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "BibliotecaService.cs",
               "DocumentMoniker": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\BibliotecaApp\\BibliotecaApp\\Servicios\\BibliotecaService.cs",
               "RelativeDocumentMoniker": "BibliotecaApp\\Servicios\\BibliotecaService.cs",
@@ -112,12 +112,11 @@
               "RelativeToolTip": "BibliotecaApp\\Servicios\\BibliotecaService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-16T12:35:15.328Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-16T12:35:15.328Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Menu.cs",
               "DocumentMoniker": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\BibliotecaApp\\BibliotecaApp\\Utilidades\\Menu.cs",
               "RelativeDocumentMoniker": "BibliotecaApp\\Utilidades\\Menu.cs",
@@ -125,12 +124,11 @@
               "RelativeToolTip": "BibliotecaApp\\Utilidades\\Menu.cs",
               "ViewState": "AgIAABYAAAAAAAAAAAAgwFEAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-16T11:35:03.518Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-16T11:35:03.518Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Prestamo.cs",
               "DocumentMoniker": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\BibliotecaApp\\BibliotecaApp\\Modelos\\Prestamo.cs",
               "RelativeDocumentMoniker": "BibliotecaApp\\Modelos\\Prestamo.cs",
@@ -138,12 +136,11 @@
               "RelativeToolTip": "BibliotecaApp\\Modelos\\Prestamo.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-16T11:42:04.919Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-16T11:42:04.919Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "PrestamoService.cs",
               "DocumentMoniker": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\BibliotecaApp\\BibliotecaApp\\Servicios\\PrestamoService.cs",
               "RelativeDocumentMoniker": "BibliotecaApp\\Servicios\\PrestamoService.cs",
@@ -151,12 +148,11 @@
               "RelativeToolTip": "BibliotecaApp\\Servicios\\PrestamoService.cs",
               "ViewState": "AgIAADgAAAAAAAAAAAAqwEAAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-16T11:32:49.623Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-16T11:32:49.623Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\BibliotecaApp\\BibliotecaApp\\Program.cs",
               "RelativeDocumentMoniker": "BibliotecaApp\\Program.cs",
@@ -164,8 +160,7 @@
               "RelativeToolTip": "BibliotecaApp\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-16T12:07:42.209Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-16T12:07:42.209Z"
             }
           ]
         }

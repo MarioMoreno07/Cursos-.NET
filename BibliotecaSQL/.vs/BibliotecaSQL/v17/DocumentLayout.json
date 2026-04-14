@@ -7,16 +7,20 @@
       "RelativeMoniker": "D:0:0:{6435501C-8EA4-4B78-80AF-46603C28A427}|BibliotecaSQL\\BibliotecaSQL.csproj|solutionrelative:bibliotecasql\\servicios\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6435501C-8EA4-4B78-80AF-46603C28A427}|BibliotecaSQL\\BibliotecaSQL.csproj|c:\\users\\usuario ma\u00F1ana\\source\\repos\\bibliotecasql\\bibliotecasql\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6435501C-8EA4-4B78-80AF-46603C28A427}|BibliotecaSQL\\BibliotecaSQL.csproj|solutionrelative:bibliotecasql\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6435501C-8EA4-4B78-80AF-46603C28A427}|BibliotecaSQL\\BibliotecaSQL.csproj|c:\\users\\usuario ma\u00F1ana\\source\\repos\\bibliotecasql\\bibliotecasql\\modelo\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6435501C-8EA4-4B78-80AF-46603C28A427}|BibliotecaSQL\\BibliotecaSQL.csproj|solutionrelative:bibliotecasql\\modelo\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6435501C-8EA4-4B78-80AF-46603C28A427}|BibliotecaSQL\\BibliotecaSQL.csproj|c:\\users\\usuario ma\u00F1ana\\source\\repos\\bibliotecasql\\bibliotecasql\\modelo\\prestamos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6435501C-8EA4-4B78-80AF-46603C28A427}|BibliotecaSQL\\BibliotecaSQL.csproj|solutionrelative:bibliotecasql\\modelo\\prestamos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6435501C-8EA4-4B78-80AF-46603C28A427}|BibliotecaSQL\\BibliotecaSQL.csproj|c:\\users\\usuario ma\u00F1ana\\source\\repos\\bibliotecasql\\bibliotecasql\\modelo\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6435501C-8EA4-4B78-80AF-46603C28A427}|BibliotecaSQL\\BibliotecaSQL.csproj|solutionrelative:bibliotecasql\\modelo\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6435501C-8EA4-4B78-80AF-46603C28A427}|BibliotecaSQL\\BibliotecaSQL.csproj|c:\\users\\usuario ma\u00F1ana\\source\\repos\\bibliotecasql\\bibliotecasql\\modelo\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6435501C-8EA4-4B78-80AF-46603C28A427}|BibliotecaSQL\\BibliotecaSQL.csproj|solutionrelative:bibliotecasql\\modelo\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6435501C-8EA4-4B78-80AF-46603C28A427}|BibliotecaSQL\\BibliotecaSQL.csproj|c:\\users\\usuario ma\u00F1ana\\source\\repos\\bibliotecasql\\bibliotecasql\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6435501C-8EA4-4B78-80AF-46603C28A427}|BibliotecaSQL\\BibliotecaSQL.csproj|solutionrelative:bibliotecasql\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -35,19 +39,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Prestamos.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\BibliotecaSQL\\BibliotecaSQL\\Modelo\\Prestamos.cs",
+              "RelativeDocumentMoniker": "BibliotecaSQL\\Modelo\\Prestamos.cs",
+              "ToolTip": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\BibliotecaSQL\\BibliotecaSQL\\Modelo\\Prestamos.cs",
+              "RelativeToolTip": "BibliotecaSQL\\Modelo\\Prestamos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T08:01:46.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Usuario.cs",
               "DocumentMoniker": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\BibliotecaSQL\\BibliotecaSQL\\Modelo\\Usuario.cs",
               "RelativeDocumentMoniker": "BibliotecaSQL\\Modelo\\Usuario.cs",
               "ToolTip": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\BibliotecaSQL\\BibliotecaSQL\\Modelo\\Usuario.cs",
               "RelativeToolTip": "BibliotecaSQL\\Modelo\\Usuario.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-13T11:09:11.472Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Libro.cs",
               "DocumentMoniker": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\BibliotecaSQL\\BibliotecaSQL\\Modelo\\Libro.cs",
               "RelativeDocumentMoniker": "BibliotecaSQL\\Modelo\\Libro.cs",
@@ -66,14 +83,14 @@
               "RelativeDocumentMoniker": "BibliotecaSQL\\Servicios\\Menu.cs",
               "ToolTip": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\BibliotecaSQL\\BibliotecaSQL\\Servicios\\Menu.cs",
               "RelativeToolTip": "BibliotecaSQL\\Servicios\\Menu.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwHEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAwBAAAAAAAAAAAYwKAAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-13T08:33:01.605Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\BibliotecaSQL\\BibliotecaSQL\\Program.cs",
               "RelativeDocumentMoniker": "BibliotecaSQL\\Program.cs",

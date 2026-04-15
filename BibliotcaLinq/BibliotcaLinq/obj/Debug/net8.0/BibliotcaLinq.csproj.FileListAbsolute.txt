@@ -1,0 +1,14 @@
+C:\Users\Usuario Mañana\source\repos\BibliotcaLinq\BibliotcaLinq\bin\Debug\net8.0\BibliotcaLinq.exe
+C:\Users\Usuario Mañana\source\repos\BibliotcaLinq\BibliotcaLinq\bin\Debug\net8.0\BibliotcaLinq.deps.json
+C:\Users\Usuario Mañana\source\repos\BibliotcaLinq\BibliotcaLinq\bin\Debug\net8.0\BibliotcaLinq.runtimeconfig.json
+C:\Users\Usuario Mañana\source\repos\BibliotcaLinq\BibliotcaLinq\bin\Debug\net8.0\BibliotcaLinq.dll
+C:\Users\Usuario Mañana\source\repos\BibliotcaLinq\BibliotcaLinq\bin\Debug\net8.0\BibliotcaLinq.pdb
+C:\Users\Usuario Mañana\source\repos\BibliotcaLinq\BibliotcaLinq\obj\Debug\net8.0\BibliotcaLinq.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario Mañana\source\repos\BibliotcaLinq\BibliotcaLinq\obj\Debug\net8.0\BibliotcaLinq.AssemblyInfoInputs.cache
+C:\Users\Usuario Mañana\source\repos\BibliotcaLinq\BibliotcaLinq\obj\Debug\net8.0\BibliotcaLinq.AssemblyInfo.cs
+C:\Users\Usuario Mañana\source\repos\BibliotcaLinq\BibliotcaLinq\obj\Debug\net8.0\BibliotcaLinq.csproj.CoreCompileInputs.cache
+C:\Users\Usuario Mañana\source\repos\BibliotcaLinq\BibliotcaLinq\obj\Debug\net8.0\BibliotcaLinq.dll
+C:\Users\Usuario Mañana\source\repos\BibliotcaLinq\BibliotcaLinq\obj\Debug\net8.0\refint\BibliotcaLinq.dll
+C:\Users\Usuario Mañana\source\repos\BibliotcaLinq\BibliotcaLinq\obj\Debug\net8.0\BibliotcaLinq.pdb
+C:\Users\Usuario Mañana\source\repos\BibliotcaLinq\BibliotcaLinq\obj\Debug\net8.0\BibliotcaLinq.genruntimeconfig.cache
+C:\Users\Usuario Mañana\source\repos\BibliotcaLinq\BibliotcaLinq\obj\Debug\net8.0\ref\BibliotcaLinq.dll

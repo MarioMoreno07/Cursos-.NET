@@ -286,7 +286,7 @@ namespace BibliotecaSQL.Servicios {
                     IdLibro = (int)reader["LibroId"],
                     FechaPrestamo = (DateTime)reader["FechaPrestamo"],
                     FechaDevolucion = (DateTime)reader["FechaDevolucion"],
-                    FechaDevolucionReal = (DateTime)reader["FechaDevolucionReal"]
+                    FechaDevolucionReal = reader["FechaDevolucionReal"].ToString()! ?? null
                 });
             }
 

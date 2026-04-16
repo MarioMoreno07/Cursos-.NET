@@ -11,27 +11,28 @@ internal class Program {
                 "Programación", Anio = 2023, Disponible = true }
         };
 
-        /*WHERE*/
+        
+        Console.WriteLine("----------------WHERE---------------------");
         var disponibles = libros.Where(l => l.Disponible).ToList();
         Console.WriteLine("Los libros disponibles son: ");
         foreach (var d in disponibles) { 
             Console.WriteLine(d.Titulo);
         }
 
-        /*Order BY*/
+        Console.WriteLine("----------------ORDER BY ---------------------");
         var ordenadosAño = libros.OrderBy(l => l.Anio).ToList();
         var ordenadosTitulo = libros.OrderBy(l => l.Titulo);
         Console.WriteLine("Libros ordenados por año: ");
         foreach(var d in ordenadosAño) {
-            Console.Write(d.Titulo+" ");
+            Console.WriteLine(d.Titulo+" ");
         }
 
         Console.WriteLine("Libros ordenados por titulo: ");
         foreach (var d in ordenadosTitulo) {
-            Console.Write(d.Titulo + " ");
+            Console.WriteLine(d.Titulo + " ");
         }
 
-        /*SELECT*/
+        Console.WriteLine("----------------SELECT---------------------");
 
         var titulos = libros.Select(l => l.Titulo);
         var autores = libros.Select(l =>l.Autor);
@@ -56,14 +57,13 @@ internal class Program {
         }
         
         var porAutor = libros.GroupBy(l => l.Autor).Select(g => new {
-
             Autor = g.Key,
             Total = g.Count()
         }).ToList();
         foreach (var d in porAutor) {
             Console.WriteLine(d);
         }
-        /*Count*/
+        Console.WriteLine("----------------COUNT ---------------------");
         var countPorCategoria = libros.GroupBy(l => l.Categoria).Select(g => new {});
         Console.WriteLine("Total de categorias: " + countPorCategoria.Count());
 
@@ -73,18 +73,47 @@ internal class Program {
         var totalLibros = libros.Count();
         Console.WriteLine("Total libros: "+totalLibros);
 
-        /*Búsqueda (FIRST / FIRSTORDEFAULT)*/
+        Console.WriteLine("----------------FIRSTORDEFAULT/FIRST ---------------------");
 
         var libroPorId = libros.Select(l => l.Id).FirstOrDefault();
         var libroPorTitulo = libros.Select(l=>l.Titulo).FirstOrDefault();
         Console.WriteLine("El primer libro por id es: "+libroPorId);
         Console.WriteLine("El primer libro por tituloes: "+libroPorTitulo);
 
-        /*ANY*/
+        Console.WriteLine("----------------ANY---------------------");
 
         bool disponibilidad = libros.Any(l=>l.Disponible);
         bool libroConcreto = libros.Any(l => l.Titulo == "Principito");
-        Console.WriteLine(disponibilidad);
-        Console.WriteLine(libroConcreto);
+        Console.WriteLine("Algun libro disponible: "+disponibilidad);
+        Console.WriteLine("Esta el libro del Principito: "+libroConcreto);
+
+
+        Console.WriteLine("----------------SKIP/TAKE---------------------");
+
+        var paginas = libros.OrderBy(l => l.Id).Skip(0).Take(2);
+        foreach (var pagin in paginas) {
+            Console.WriteLine(pagin.Titulo);
+        }
+        Console.WriteLine("----------------UPDATE---------------------");
+
+        var libro = libros.FirstOrDefault(l => l.Id == 1);
+        if (libro != null) {
+            libro.Disponible = !libro.Disponible;
+        }
+        Console.WriteLine("El libro con id 1 esta disponible: "+libro.Disponible);
+        
+        var datos = libros.FirstOrDefault(l => l.Id == 1);
+        if (datos != null) {
+            datos.Autor = "Desconocido";
+            datos.Anio = 5670;
+        }
+        Console.WriteLine("Autor: "+datos.Autor + " Anio: " +datos.Anio);
+
+        Console.WriteLine("----------------DELETE---------------------");
+
+        libros.RemoveAll(l => l.Id != 1);
+        foreach (Libro l in libros) {
+            Console.WriteLine($"El libro con id {l.Id} , fue escrito por {l.Autor}");
+         }
     }
 }

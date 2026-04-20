@@ -14,6 +14,13 @@ namespace BibliotecaEFCore.Modelos {
 
         public ICollection<Prestamo> Prestamos { get; set; } = new List<Prestamo>();
 
+        public Usuario(string nombre , string dni) {
+        
+            Nombre = nombre;
+            Dni = dni;
+            FechaAlta = DateTime.Now;
+        }
+
         public override string ToString() {
             return $"El usuario con id {Id}, se llama {Nombre} y tiene el dni {Dni}. Fue dado de alta {FechaAlta.ToString("dd-MM-yyyy")}";
         }

@@ -15,9 +15,16 @@ namespace BibliotecaEFCore.Modelos {
         public Usuario Usuario { get; set; }
         public DateTime FechaPrestamo { get; set; }
         public  DateTime FechaDevolucion { get; set; }
-        public  string FechaDevolucionReal { get; set; } 
+        public  DateTime? FechaDevolucionReal { get; set; } 
 
-      
+       public Prestamo(int libroId, int usuarioId) {
+        
+            LibroId = libroId;
+            UsuarioId = usuarioId;
+            FechaPrestamo = DateTime.Now;
+            FechaDevolucion = DateTime.Now.AddDays(15);
+            
+        }
 
         public override string ToString() {
             return $"El prestamo con id {Id}, con titulo de libro {Libro.Titulo}, ha sido sacado por el usuario {Usuario.Nombre} , la fecha prevista de devolucion es" +
@@ -28,16 +35,15 @@ namespace BibliotecaEFCore.Modelos {
             if(FechaDevolucionReal is null) {
                 return true;
             }
+            
             return false;
         }
 
-        public  string EstaVencido() {
-            string s;
+        public  bool EstaVencido() {
+            bool s =false;
             if(EstaActivo() && DateTime.Now > FechaDevolucion) {
-                s = "El prestamo esta vencido ";
-            } else{
-                s = "El prestamos esta activo";
-            }
+                s = true;
+            } 
 
                 return s;
         }

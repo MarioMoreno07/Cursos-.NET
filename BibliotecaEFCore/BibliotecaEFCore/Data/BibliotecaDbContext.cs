@@ -1,5 +1,6 @@
 ﻿using BibliotecaEFCore.Modelos;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,6 +9,9 @@ using System.Threading.Tasks;
 
 namespace BibliotecaEFCore.Data {
     public class BibliotecaDbContext : DbContext {
+        public BibliotecaDbContext(DbContextOptions options) : base(options) {
+        }
+
         public DbSet<Libro> Libros => Set<Libro>();
         public DbSet<Usuario> Usuarios => Set<Usuario>();
         public DbSet<Prestamo> Prestamos => Set<Prestamo>();
@@ -16,7 +20,7 @@ namespace BibliotecaEFCore.Data {
         protected override void OnModelCreating(ModelBuilder modelBuilder) {
             // Tabla Libros
             modelBuilder.Entity<Libro>(e => {
-                e.ToTable(" Libros ");
+                e.ToTable("Libros");
                 e.HasKey(x => x.Id);
 
                 e.Property(x => x.Titulo).HasMaxLength(200).IsRequired();
@@ -28,7 +32,7 @@ namespace BibliotecaEFCore.Data {
                  );
             // Tabla Usuarios
             modelBuilder.Entity<Usuario>(e => {
-                e.ToTable(" Usuarios ");
+                e.ToTable("Usuarios");
                 e.HasKey(x => x.Id);
 
                 e.Property(x => x.Nombre).HasMaxLength(150).IsRequired();
@@ -39,7 +43,7 @@ namespace BibliotecaEFCore.Data {
             );
             // Tabla Prestamos
             modelBuilder.Entity<Prestamo>(e => {
-                e.ToTable(" Prestamos ");
+                e.ToTable("Prestamos");
                 e.HasKey(x => x.Id);
 
                 e.Property(x => x.FechaPrestamo).IsRequired();
@@ -62,5 +66,7 @@ namespace BibliotecaEFCore.Data {
                 //igualmente.
             });
         }
+        
+        
     }
 }

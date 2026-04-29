@@ -1,11 +1,10 @@
 ﻿{
   "profiles": {
     "BibliotecaSwagger": {
-      "CommandName": "Proyect",
+      "commandName": "Project",
       "launchBrowser": true,
       "environmentVariables": { "ASPNETCORE_ENVIRONMENT": "Development" },
-      "&quot;applicationUrl&quot;": null,
-      "https": "https//localhost:52025;http://localhost:52026"
+      "applicationUrl": "https://localhost:52025;http://localhost:52026"
     }
   }
 }

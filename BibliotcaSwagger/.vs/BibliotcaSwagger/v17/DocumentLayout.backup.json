@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\BibliotcaSwagger\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{95309C11-9A7F-4944-9B42-A30CE83A3B3A}|BibliotcaSwagger\\BibliotcaSwagger.csproj|c:\\users\\usuario ma\u00F1ana\\source\\repos\\bibliotcaswagger\\bibliotcaswagger\\servicios\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{95309C11-9A7F-4944-9B42-A30CE83A3B3A}|BibliotcaSwagger\\BibliotcaSwagger.csproj|solutionrelative:bibliotcaswagger\\servicios\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{95309C11-9A7F-4944-9B42-A30CE83A3B3A}|BibliotcaSwagger\\BibliotcaSwagger.csproj|c:\\users\\usuario ma\u00F1ana\\source\\repos\\bibliotcaswagger\\bibliotcaswagger\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95309C11-9A7F-4944-9B42-A30CE83A3B3A}|BibliotcaSwagger\\BibliotcaSwagger.csproj|solutionrelative:bibliotcaswagger\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{95309C11-9A7F-4944-9B42-A30CE83A3B3A}|BibliotcaSwagger\\BibliotcaSwagger.csproj|c:\\users\\usuario ma\u00F1ana\\source\\repos\\bibliotcaswagger\\bibliotcaswagger\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{95309C11-9A7F-4944-9B42-A30CE83A3B3A}|BibliotcaSwagger\\BibliotcaSwagger.csproj|solutionrelative:bibliotcaswagger\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{95309C11-9A7F-4944-9B42-A30CE83A3B3A}|BibliotcaSwagger\\BibliotcaSwagger.csproj|c:\\users\\usuario ma\u00F1ana\\source\\repos\\bibliotcaswagger\\bibliotcaswagger\\controllers\\prestamoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95309C11-9A7F-4944-9B42-A30CE83A3B3A}|BibliotcaSwagger\\BibliotcaSwagger.csproj|solutionrelative:bibliotcaswagger\\controllers\\prestamoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95309C11-9A7F-4944-9B42-A30CE83A3B3A}|BibliotcaSwagger\\BibliotcaSwagger.csproj|c:\\users\\usuario ma\u00F1ana\\source\\repos\\bibliotcaswagger\\bibliotcaswagger\\controllers\\librocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95309C11-9A7F-4944-9B42-A30CE83A3B3A}|BibliotcaSwagger\\BibliotcaSwagger.csproj|solutionrelative:bibliotcaswagger\\controllers\\librocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{95309C11-9A7F-4944-9B42-A30CE83A3B3A}|BibliotcaSwagger\\BibliotcaSwagger.csproj|c:\\users\\usuario ma\u00F1ana\\source\\repos\\bibliotcaswagger\\bibliotcaswagger\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{95309C11-9A7F-4944-9B42-A30CE83A3B3A}|BibliotcaSwagger\\BibliotcaSwagger.csproj|solutionrelative:bibliotcaswagger\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95309C11-9A7F-4944-9B42-A30CE83A3B3A}|BibliotcaSwagger\\BibliotcaSwagger.csproj|c:\\users\\usuario ma\u00F1ana\\source\\repos\\bibliotcaswagger\\bibliotcaswagger\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{95309C11-9A7F-4944-9B42-A30CE83A3B3A}|BibliotcaSwagger\\BibliotcaSwagger.csproj|solutionrelative:bibliotcaswagger\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,40 +39,66 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "TokenService.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\BibliotcaSwagger\\BibliotcaSwagger\\Servicios\\TokenService.cs",
-              "RelativeDocumentMoniker": "BibliotcaSwagger\\Servicios\\TokenService.cs",
-              "ToolTip": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\BibliotcaSwagger\\BibliotcaSwagger\\Servicios\\TokenService.cs",
-              "RelativeToolTip": "BibliotcaSwagger\\Servicios\\TokenService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAHAAAAAAAAAA==",
+              "Title": "UsuariosController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\BibliotcaSwagger\\BibliotcaSwagger\\Controllers\\UsuariosController.cs",
+              "RelativeDocumentMoniker": "BibliotcaSwagger\\Controllers\\UsuariosController.cs",
+              "ToolTip": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\BibliotcaSwagger\\BibliotcaSwagger\\Controllers\\UsuariosController.cs",
+              "RelativeToolTip": "BibliotcaSwagger\\Controllers\\UsuariosController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-28T11:01:21.962Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\BibliotcaSwagger\\BibliotcaSwagger\\Program.cs",
-              "RelativeDocumentMoniker": "BibliotcaSwagger\\Program.cs",
-              "ToolTip": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\BibliotcaSwagger\\BibliotcaSwagger\\Program.cs",
-              "RelativeToolTip": "BibliotcaSwagger\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-28T09:56:58.5Z",
+              "WhenOpened": "2026-04-29T08:19:56.193Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\BibliotcaSwagger\\BibliotcaSwagger\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "BibliotcaSwagger\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\BibliotcaSwagger\\BibliotcaSwagger\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "BibliotcaSwagger\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABZAAAAAAAAAA==",
+              "Title": "PrestamosController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\BibliotcaSwagger\\BibliotcaSwagger\\Controllers\\PrestamosController.cs",
+              "RelativeDocumentMoniker": "BibliotcaSwagger\\Controllers\\PrestamosController.cs",
+              "ToolTip": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\BibliotcaSwagger\\BibliotcaSwagger\\Controllers\\PrestamosController.cs",
+              "RelativeToolTip": "BibliotcaSwagger\\Controllers\\PrestamosController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-28T08:50:12.369Z",
+              "WhenOpened": "2026-04-29T08:19:40.96Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LibroController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\BibliotcaSwagger\\BibliotcaSwagger\\Controllers\\LibroController.cs",
+              "RelativeDocumentMoniker": "BibliotcaSwagger\\Controllers\\LibroController.cs",
+              "ToolTip": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\BibliotcaSwagger\\BibliotcaSwagger\\Controllers\\LibroController.cs",
+              "RelativeToolTip": "BibliotcaSwagger\\Controllers\\LibroController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T08:18:49.426Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\BibliotcaSwagger\\BibliotcaSwagger\\Program.cs",
+              "RelativeDocumentMoniker": "BibliotcaSwagger\\Program.cs",
+              "ToolTip": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\BibliotcaSwagger\\BibliotcaSwagger\\Program.cs",
+              "RelativeToolTip": "BibliotcaSwagger\\Program.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAADUAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T08:17:16.742Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LaunchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\BibliotcaSwagger\\BibliotcaSwagger\\Properties\\LaunchSettings.json",
+              "RelativeDocumentMoniker": "BibliotcaSwagger\\Properties\\LaunchSettings.json",
+              "ToolTip": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\BibliotcaSwagger\\BibliotcaSwagger\\Properties\\LaunchSettings.json",
+              "RelativeToolTip": "BibliotcaSwagger\\Properties\\LaunchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-29T07:37:09.943Z",
               "EditorCaption": ""
             }
           ]

@@ -18,7 +18,7 @@ using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace BibliotcaSwagger.Controllers {
     [ApiController]
-    [Route("api/v1/libros")]
+    [Route("api/v1/usuarios")]
     [Produces("application/json","application/xml")]
     [Authorize]
     public class UsuariosController : ControllerBase {
@@ -37,7 +37,7 @@ namespace BibliotcaSwagger.Controllers {
             return Ok(items.Select(x => x.ToReadUsuarioDto()).ToList());
         }
 
-        [HttpGet("{id: int}")]
+        [HttpGet("{id:int}")]
         [Authorize(Roles = "Admin,Staff")]
         public async Task<ActionResult<UsuarioReadDto>> GetById(int id, CancellationToken ct) {
             var user = await _db.Usuarios.AsNoTracking().FirstOrDefaultAsync(u => u.Id == id, ct);
@@ -59,7 +59,7 @@ namespace BibliotcaSwagger.Controllers {
             return CreatedAtAction(nameof(GetById), new { id = entity.Id }, entity.ToReadUsuarioDto());
         }
 
-        [HttpPut("{id: int}")]
+        [HttpPut("{id:int}")]
         [Authorize(Roles = "Admin,  Staff")]
         public async Task<ActionResult<UsuarioReadDto>>Update(int id, [FromBody]UsuarioUpdateDto dto, CancellationToken ct) {
             var entity = await _db.Usuarios.FirstOrDefaultAsync(u => u.Id == id,ct);
@@ -68,7 +68,7 @@ namespace BibliotcaSwagger.Controllers {
             await _db.SaveChangesAsync(ct);
             return Ok(entity.ToReadUsuarioDto());
         }
-        [HttpDelete("{id: int}")]
+        [HttpDelete("{id:int}")]
         [Authorize(Roles = "Admin")]
         public async Task<IActionResult>Delete(int id, CancellationToken ct) {
             var entity = await _db.Usuarios.FirstOrDefaultAsync(u => u.Id == id,ct);

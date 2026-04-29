@@ -7,8 +7,7 @@ using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using System.Text;
 
-public class Program {
-    private static void Main(string[] args) {
+
         var builder = WebApplication.CreateBuilder(args);
         builder.Services.AddControllers(options => {
             options.RespectBrowserAcceptHeader = true;
@@ -25,11 +24,12 @@ public class Program {
         });
 
         var jwt = builder.Configuration.GetSection("Jwt");
+        if (!jwt.Exists()) 
+            throw new Exception("La sección Jwt NO existe en la configuración");
         string issuer = jwt["Issuer"] ?? "";
         string audience = jwt["Audience"] ?? "";
         string key = jwt["Key"] ?? "";
-        if (string.IsNullOrWhiteSpace(issuer) || string.IsNullOrWhiteSpace(audience) ||
-        string.IsNullOrWhiteSpace(key))
+        if (string.IsNullOrWhiteSpace(issuer) || string.IsNullOrWhiteSpace(audience) || string.IsNullOrWhiteSpace(key))
             throw new InvalidOperationException(" Config JWT incompleta en appsettings.json(Jwt: Issuer/Audience/Key).");
 
         builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(options => {
@@ -49,9 +49,9 @@ public class Program {
         builder.Services.AddEndpointsApiExplorer();
         builder.Services.AddSwaggerGen(c => {
             c.SwaggerDoc("v1", new OpenApiInfo {
-                Title = " Biblioteca Web API ",
+                Title = "Biblioteca Web API",
                 Version = "v1",
-                Description = " API REST con EF Core + JSON / XML + JWT(Bearer) "
+                Description = "API REST con EF Core + JSON / XML + JWT(Bearer) "
             });
             c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme {
                 Name = "Authorization",
@@ -105,10 +105,6 @@ public class Program {
         app.UseAuthorization();
         app.MapControllers();
         app.Run();
-
-
-    }
-}
 
 
 

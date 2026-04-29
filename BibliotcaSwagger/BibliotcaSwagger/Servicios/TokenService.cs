@@ -1,33 +1,51 @@
 ﻿using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using Microsoft.IdentityModel.Tokens;
-using System;
+using Newtonsoft.Json.Linq;
 using System.Collections.Generic;
 using System.IdentityModel.Tokens.Jwt;
-using System.Linq;
 using System.Security.Claims;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace BibliotcaSwagger.Servicios {
     public class TokenService {
+        private readonly IConfiguration _config;
+        public TokenService(IConfiguration config) { _config = config; }
         public (string token, int expiresIn) CreateToken(string username, string role) {
-            new Claim(ClaimTypes.Name, username);
-            new Claim(ClaimTypes.Role, role);
-            new Claim("scope","api");
+            var jwt = _config.GetSection("Jwt");
+            string issuer = jwt["Issuer"]!;
+            string audience = jwt["Audience"]!;
+            string key = jwt["Key"]!;
+            int mins = int.TryParse(jwt["ExpiresMinutes"],out var m)?m: 120;
+            var claims = new List<Claim>{
+                new(ClaimTypes.Name, username),
+                new(ClaimTypes.Role, role),
+                new("scope","api")
+                };
             var signingKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(key));
-            var creds = new SigningCredentials(signingKey,SecurityAlgorithms.HmacSha256);
+            var creds = new SigningCredentials(signingKey, SecurityAlgorithms.HmacSha256);
+
             var token = new JwtSecurityToken(
-                issuer: issuer,
-                audience: audience,
-                claims: claims,
-                expires: DateTime.UtcNow.AddMinutes(expiresMinutes),
+                issuer,
+                audience,
+                claims,
+                expires: DateTime.UtcNow.AddMinutes(mins),
                 signingCredentials: creds
             );
-            new JwtSecurityTokenHandler().WriteToken(token);
+            return (new JwtSecurityTokenHandler().WriteToken(token), mins * 60);
         }
 
         public bool ValidateUser(string username, string password, out string role) {
-            throw new NotImplementedException();
+            role = "";
+            foreach (var u in _config.GetSection("Auth:Users").GetChildren()){
+                var un = u["username"];
+                var pw = u["password"];
+                var rl = u["role"]??"User";
+                if (string.Equals(un, username, StringComparison.OrdinalIgnoreCase) && pw == password) {
+                    role = rl;
+                    return true;
+                }
+            }
+            return false;
         }
     }
 }

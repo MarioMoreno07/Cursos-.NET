@@ -16,8 +16,8 @@ using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
 
 namespace BibliotcaSwagger.Controllers {
     [ApiController]
-    [Route("api/v1/libros")]
-    [Produces("application/json", "application/xml")]
+    [Route("api/v1/prestamos")]
+    [Produces("application/json","application/xml")]
     [Authorize]
     public class PrestamosController : ControllerBase {
         private readonly BibliotecaDbContext _db;
@@ -36,7 +36,7 @@ namespace BibliotcaSwagger.Controllers {
             return Ok(items.Select(p => p.ToReadPrestamoDto()).ToList());
         }
 
-        [HttpGet("{id: int}")]
+        [HttpGet("{id:int}")]
         [Authorize(Roles = "Admin,Staff")]
         public async Task<ActionResult<PrestamoReadDto>> GetById(int id, CancellationToken ct) {
             var p = await _db.Prestamos.Include(x => x.Libro).Include(x => x.Usuario).AsNoTracking().FirstOrDefaultAsync(x => x.Id == id, ct);
@@ -81,7 +81,7 @@ namespace BibliotcaSwagger.Controllers {
         }
 
 
-        [HttpPatch("{id: int}/devolver")]
+        [HttpPatch("{id:int}/devolver")]
         [Authorize(Roles = "Admin, Staff")]
         public async Task<ActionResult<PrestamoReadDto>> Devolver(int id, [FromBody] PrestamoDevolverDto dto, CancellationToken ct) {
             var prestamo = await _db.Prestamos.Include(p => p.Libro).Include(p => p.Usuario).FirstOrDefaultAsync(p => p.Id == id,ct);

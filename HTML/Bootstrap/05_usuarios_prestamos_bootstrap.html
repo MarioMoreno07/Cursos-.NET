@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Formulario usuarios</h1>
+    <form action="#" method="get">
+        <div class="row">
+            <div class="col-md-3">
+                <label for="nombre" class="form-label">Nombre</label>
+                <input type="text" name="nombre" id="nombre" class="form-control" required>
+
+            </div>
+            <div class="col-md-3">
+                <label for="dni" class="form-label">Dni</label>
+                <input type="text" class="form-control" id="dni" name="dni" required>
+            </div>
+            <div class="col-md-3">
+                <button type="submit" class="btn btn-success">Enviar</button>
+            </div>
+        </div>
+    </form>
+
+    <h1>Formulario prestamos</h1>
+    <form action="#" method="get">
+        <div class="row">
+            <div class="col-md-3">
+                <label for="libro" class="form-label">Libro</label>
+                <select class="form-select" aria-label="Default select example" id="libro">
+                    <option selected>Selecciona un libro</option>
+                    <option value="Dune">Dune</option>
+                    <option value="PiratasCaribe">Piratas del Caribe</option>
+                </select>
+            </div>
+            <div class="col-md-3">
+                <label for="usuario" class="form-label">Usuario</label>
+                <select class="form-select" aria-label="Default select example" id="usuario">
+                    <option selected>Selecciona un usuario</option>
+                    <option value="Carlos">Carlos</option>
+                    <option value="Ana">Ana</option>
+                </select>
+            </div>
+            <div class="col-md-3">
+                <label for="dias" class="form-label">Dias</label>
+                <input type="number" class="form-control" id="dias" name="dias" aria-describedby="diasHelp" required
+                    min="5" max="15">
+                <div id="diasHelp" class="form-text">
+                    El libro se puede alquilar un minimo de 5 dias y un maximo de 15
+                </div>
+            </div>
+            <div class="col-md-3">
+                <button type="submit" class="btn btn-warning">Enviar</button>
+            </div>
+        </div>
+    </form>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+</html>

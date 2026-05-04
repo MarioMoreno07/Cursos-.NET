@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Gestión de Biblioteca</title>
+</head>
+<body>
+    <h1>Tabla de libros</h1>
+    <table border="1px">
+        <thead>
+            <tr>
+                <th>Id</th> 
+                <th>Titulo</th>
+                <th>Autor</th>
+                <th>Categoria</th>
+                <th>Año</th>
+                <th>Disponible</th>
+
+            </tr>
+        </thead>
+       <tbody>
+            <tr>
+                <td>1</td>
+                <td>El principito</td>
+                <td>Desconocido</td>
+                <td>Aventura</td>
+                <td>1999</td>
+                <td>True</td>
+            </tr>
+              <tr>
+                <td>2</td>
+                <td>Piratas del caribe</td>
+                <td>Desconocido</td>
+                <td>Aventura</td>
+                <td>1990</td>
+                <td>True</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Dune</td>
+                <td>Desconocido</td>
+                <td>Aventura</td>
+                <td>2000</td>
+                <td>True</td>
+            </tr>
+
+        </tbody>
+    </table>
+
+    <h1>Formulario de libros</h1>
+    <form name="FormLibro" action="#" method="get">
+        <input type="text" name="Titulo" id="1" placeholder="Titulo" required>
+        <input type="text" name="Autor" id="2" placeholder="Autor" required>
+        <input type="text" name="Categoria" id="3" placeholder="Categoria" required>
+        <input type="number" name="Año" id="4" placeholder="Año libro" required>
+        <button>Pulse para enviar</button>
+    </form>
+     <h1>Formulario de usuarios</h1>
+    <form name="FormUsuario" action="#" method="get">
+        <input type="text" name="Nombe" id="1" placeholder="Nombre usuario" required>
+        <input type="text" name="Dni" id="2" placeholder="Dni usuario" required>
+        <button>Pulse para enviar</button>
+    </form>
+     <h1>Formulario de Prestamos</h1>
+     <form name="FormPrestamo" action="#" method="get">
+        <label for="Libros">Seleccione el libro</label>
+        <select name="Libros" id="1" required>
+            <option value="Dune">Dune</option>
+            <option value="Piratas_del_Caribe">Piratas del Caribe</option>
+            <option value="El_Principito">El principito</option>
+        </select>
+        </br>
+        <label for="Usuarios">Seleccione el usuario</label>
+        <select name="Usuarios" id="1" required>
+            <option value="Juan">Juan</option>
+            <option value="Carmen">Carmen</option>
+            <option value="Paco">Paco</option>
+        </select>
+        <input type="number" name="dias" id="1" placeholder="Dias que quieres el libro" required>
+        <button>Pulse para enviar</button>
+    </form>
+    
+</body> 
+</html>

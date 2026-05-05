@@ -1,0 +1,50 @@
+<!--EJERCICIO 1 - EVENTOS Y MANIPULACIÓN DEL DOM
+
+Objetivo:
+Aprender a capturar eventos de usuario y modificar el contenido de la página.
+
+Tareas:
+1. Crear una página HTML con Bootstrap.
+2. Añadir un botón "Mostrar mensaje".
+3. Añadir un párrafo vacío.
+4. Al pulsar el botón, mostrar el texto:
+   "Bienvenido a la gestión de Biblioteca".
+5. Añadir un segundo botón "Ocultar mensaje".
+
+Conceptos:
+- document.getElementById
+- addEventListener
+- textContent
+- eventos click-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <button id="Mostarmensaje">Mostar mensaje</button>
+    <p id="texto"></p>
+    <button disabled id="OcultarMensaje">Ocultar mensaje</button>
+   
+   
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+        <script>
+          document.getElementById("Mostarmensaje").addEventListener("click",function(){
+            document.getElementById("texto").textContent ="Bienvenido a la gestión de Biblioteca"
+            document.getElementById("OcultarMensaje").disabled = false;
+          });
+
+          document.getElementById("OcultarMensaje").addEventListener("click",function(){
+            document.getElementById("texto").textContent = ""
+            document.getElementById("OcultarMensaje").disabled = true;
+          });
+        </script>
+</body>
+</html>

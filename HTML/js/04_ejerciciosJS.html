@@ -1,0 +1,319 @@
+<!--EJERCICIO 4 - BÚSQUEDA Y FILTROS EN CLIENTE
+
+Objetivo:
+Filtrar libros en memoria usando JavaScript.
+
+Tareas:
+1. Añadir un input de búsqueda.
+2. Buscar por título o autor.
+3. Añadir un select para filtrar por disponibilidad.
+4. Repintar la tabla al cambiar filtros.
+5. Mostrar mensaje si no hay resultados.
+
+Relación con la API:
+Equivale conceptualmente a usar:
+GET /api/v1/libros?q=...&disponible=true-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+
+<body id="main">
+    <label for="busqueda">Busqueda de libro por titulo</label>
+    <input type="text" name="busqueda" id="busquedaTitulo" oninput="buscar()">
+
+    <label for="busqueda">Busqueda de libro por autor</label>
+    <input type="text" name="busqueda" id="busquedaAutor" oninput="buscar()">
+    <label for="disponibilidad">Elige la disponibilidad</label>
+    <select name="disponibilidad" id="disponibilidad" onchange="buscar()">
+        <option value="ambos">Ambos</option>
+        <option value="disponibles">Disponibles</option>
+        <option value="no_disponibles">No disponibles</option>
+    </select>
+
+    <form action="#" method="post" id="formLibro">
+        <div class="col-md-3">
+            <label for="titulo" class="form-label">Titulo</label>
+            <input type="text" name="titulo" id="titulo" class="form-control" required>
+
+        </div>
+        <div class="col-md-3">
+            <label for="autor" class="form-label">Autor</label>
+            <input type="text" class="form-control" id="autor" name="autor" required>
+        </div>
+        <div class="col-md-3">
+            <label for="categoria" class="form-label">Categoria</label>
+            <input type="text" class="form-control" id="categoria" name="categoria" required>
+        </div>
+        <div class="col-md-3">
+            <label for="anio" class="form-label">Año</label>
+            <input type="number" class="form-control" id="anio" name="anio" required min="1400" max="2026">
+        </div>
+        <div class="col-md-3">
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </div>
+    </form>
+    <table class="table">
+        <thead class="table-dark">
+            <tr>
+                <th>ID</th>
+                <th>Título</th>
+                <th>Autor</th>
+                <th>Categoría</th>
+                <th>Año</th>
+                <th>Disponible</th>
+            </tr>
+        </thead>
+        <tbody id="tablaLibros">
+
+        </tbody>
+    </table>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+
+    <script>
+        let libros = [
+
+            {
+                id: 1,
+                titulo: "Cien años de soledad",
+                autor: "Gabriel García Márquez",
+                categoria: "Novela",
+                anio: 1967,
+                disponible: "Sí"
+            },
+            {
+                id: 2,
+                titulo: "Don Quijote de la Mancha",
+                autor: "Miguel de Cervantes",
+                categoria: "Clásico",
+                anio: 1605,
+                disponible: "No"
+            },
+            {
+                id: 3,
+                titulo: "La sombra del viento",
+                autor: "Carlos Ruiz Zafón",
+                categoria: "Misterio",
+                anio: 2001,
+                disponible: "Sí"
+            },
+            {
+                id: 4,
+                titulo: "1984",
+                autor: "George Orwell",
+                categoria: "Ciencia ficción",
+                anio: 1949,
+                disponible: "Sí"
+            },
+            {
+                id: 5,
+                titulo: "El principito",
+                autor: "Antoine de Saint-Exupéry",
+                categoria: "Infantil",
+                anio: 1943,
+                disponible: "No"
+            }
+
+        ];
+        pintarTabla();
+        const formulario = document.getElementById("formLibro");
+        formulario.addEventListener("submit", function (e) {
+            e.preventDefault();
+
+            const titulo = document.getElementById("titulo").value.trim();
+            const autor = document.getElementById("autor").value.trim();
+            const categoria = document.getElementById("categoria").value.trim();
+            const anio = document.getElementById("anio").value.trim();
+
+            if (!titulo || !autor || !categoria || !anio) {
+                alert("Todos los campos son obligatorios");
+                return;
+            }
+
+            var dis = Math.random();
+            const libro = {
+                id: libros.length + 1,
+                titulo,
+                autor,
+                categoria,
+                anio,
+                disponible: dis > 0.5 ? "Sí" : "No"
+
+            };
+            libros.push(libro);
+            pintarTabla();
+            formulario.reset();
+        });
+
+
+        // function buscaLibro(e) {
+        //     var busqueda = e.target.value;
+        //     LibroBuscado = libros.filter(l => l.titulo.match(busqueda));
+        //     if (LibroBuscado.length == 0) {
+        //         const main = document.getElementById("main");
+        //         if (!document.getElementById("mensajeError")) {
+        //             const p = document.createElement("p");
+        //             p.id = "mensajeError";
+        //             p.innerText = "No existe un libro con ese título";
+        //             main.appendChild(p);
+        //         }
+        //     } else {
+        //         cargarLibrosBusqueda(LibroBuscado);
+        //     }
+        // }
+        // function buscaLibroAutor(e) {
+        //     var busquedaAutor = e.target.value;
+        //     LibroBuscado = libros.filter(l => l.autor.match(busquedaAutor));
+        //     if (LibroBuscado.length == 0) {
+        //         const main = document.getElementById("main");
+        //         if (!document.getElementById("mensajeError")) {
+        //             const p = document.createElement("p");
+        //             p.id = "mensajeError";
+        //             p.innerText = "No existe un libro con ese autor";
+        //             main.appendChild(p);
+        //         }
+        //     } else {
+        //         cargarLibrosBusqueda(LibroBuscado);
+        //     }
+        // }
+        // function cargarDisponibilidad(e) {
+        //     const tbody = document.getElementById("tablaLibros");
+        //     tbody.innerHTML = "";
+
+        //     console.log(e.target.value)
+        //     if (e.target.value === "disponibles") {
+        //         var dis = "Sí";
+        //         var libroBusca = libros.filter(l => l.disponible.match(dis));
+        //         if (libroBusca.length == 0) {
+        //             const main = document.getElementById("main");
+        //             if (!document.getElementById("mensajeError")) {
+        //                 const p = document.createElement("p");
+        //                 p.id = "mensajeError";
+        //                 p.innerText = "No existe un libro con esa disponibilidad";
+        //                 main.appendChild(p);
+        //             }
+        //         } else {
+        //             cargarLibrosBusqueda(libroBusca);
+        //         }
+
+        //     } else if (e.target.value === "no_disponibles") {
+        //         var dis = "No";
+        //         var libroBusca = libros.filter(l => l.disponible.match(dis));
+        //         if (libroBusca.length == 0) {
+        //             const main = document.getElementById("main");
+        //             if (!document.getElementById("mensajeError")) {
+        //                 const p = document.createElement("p");
+        //                 p.id = "mensajeError";
+        //                 p.innerText = "No existe un libro con esa disponibilidad    ";
+        //                 main.appendChild(p);
+        //             }
+        //         } else {
+        //             cargarLibrosBusqueda(libroBusca);
+        //         }
+        //     } else if (e.target.value === "ambos") {
+        //         var libroBusca = libros.filter(l => l.disponible);
+        //         if (libroBusca.length == 0) {
+        //             const main = document.getElementById("main");
+        //             if (!document.getElementById("mensajeError")) {
+        //                 const p = document.createElement("p");
+        //                 p.id = "mensajeError";
+        //                 p.innerText = "No existe un libro con ese título o ese autor";
+        //                 main.appendChild(p);
+        //             }
+        //         } else {
+        //             cargarLibrosBusqueda(libroBusca);
+        //         }
+        //     } else {
+        //         const p = document.createElement("p");
+        //         p.id = "mensajeError";
+        //         p.innerText = "Debes elegir una";
+        //         main.appendChild(p);
+        //     }
+        // }
+
+
+        function buscar() {
+            const titulo = document.getElementById("busquedaTitulo").value.toLowerCase().trim();
+            const autor = document.getElementById("busquedaAutor").value.toLowerCase().trim();
+            const disponibilidad = document.getElementById("disponibilidad").value;
+
+            let resultado = libros;            
+            if (titulo !== "") {
+                resultado = resultado.filter(l =>l.titulo.toLowerCase().includes(titulo));
+            }
+
+            if (autor !== "") {
+                resultado = resultado.filter(l =>l.autor.toLowerCase().includes(autor));
+            }
+            if (disponibilidad === "disponibles") {
+                resultado = resultado.filter(l => l.disponible === "Sí");
+            }
+
+            if (disponibilidad === "no_disponibles") {
+                resultado = resultado.filter(l => l.disponible === "No");
+            }
+
+            if (resultado.length === 0) {
+                document.getElementById("tablaLibros").innerHTML =
+                    `<tr><td>No hay resultados</td></tr>`;
+            } else {
+                cargarLibrosBusqueda(resultado);
+            }
+        }
+
+
+
+        function cargarLibrosBusqueda(libroBuscado) {
+            const tbody = document.getElementById("tablaLibros");
+            tbody.innerHTML = ""
+            libroBuscado.forEach(libro => {
+                const fila = `      
+            <tr>
+                <td>${libro.id}</td>
+                <td>${libro.titulo}</td>
+                <td>${libro.autor}</td>
+                <td>${libro.categoria}</td>
+                <td>${libro.anio}</td>
+                <td>${libro.disponible}</td>
+            </tr>
+            `;
+                tbody.innerHTML += fila;
+            });
+
+        }
+
+        function pintarTabla() {
+            const tbody = document.getElementById("tablaLibros");
+            tbody.innerHTML = "";
+
+            libros.forEach(libro => {
+                const fila = `
+            <tr>
+                <td>${libro.id}</td>
+                <td>${libro.titulo}</td>
+                <td>${libro.autor}</td>
+                <td>${libro.categoria}</td>
+                <td>${libro.anio}</td>
+                <td>${libro.disponible}</td>
+            </tr>
+            `;
+                tbody.innerHTML += fila;
+            });
+        }
+
+
+    </script>
+</body>
+
+</html>

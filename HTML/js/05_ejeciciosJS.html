@@ -1,0 +1,128 @@
+<!--EJERCICIO 4 - BÚSQUEDA Y FILTROS EN CLIENTE
+
+Objetivo:
+Filtrar libros en memoria usando JavaScript.
+
+Tareas:
+1. Añadir un input de búsqueda.
+2. Buscar por título o autor.
+3. Añadir un select para filtrar por disponibilidad.
+4. Repintar la tabla al cambiar filtros.
+5. Mostrar mensaje si no hay resultados.
+
+Relación con la API:
+Equivale conceptualmente a usar:
+GET /api/v1/libros?q=...&disponible=true-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+
+<body id="main">
+    <h1>Libros desde la API</h1>
+
+    <button onclick="pintarTabla()">Recoger datos de la API</button>
+
+        <label for="busqueda">Busqueda de libro por titulo</label>
+    <input type="text" name="busqueda" id="busquedaTitulo" oninput="buscar()">
+
+    <label for="busqueda">Busqueda de libro por autor</label>
+    <input type="text" name="busqueda" id="busquedaAutor" oninput="buscar()">
+    <label for="disponibilidad">Elige la disponibilidad</label>
+    <select name="disponibilidad" id="disponibilidad" onchange="buscar()">
+        <option value="ambos">Ambos</option>
+        <option value="disponibles">Disponibles</option>
+        <option value="no_disponibles">No disponibles</option>
+    </select>
+    <table class="table">
+        <thead class="table-dark">
+            <tr>
+                <th>ID</th>
+                <th>Título</th>
+                <th>Autor</th>
+                <th>Categoría</th>
+                <th>Año</th>
+                <th>Disponible</th>
+            </tr>
+        </thead>
+        <tbody id="tablaLibros">
+
+        </tbody>
+    </table>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+
+    <script>
+        let libros =[]
+         function buscar() {
+            const titulo = document.getElementById("busquedaTitulo").value.toLowerCase().trim();
+            const autor = document.getElementById("busquedaAutor").value.toLowerCase().trim();
+            const disponibilidad = document.getElementById("disponibilidad").value;
+
+            let resultado = libros;            
+            if (titulo !== "") {
+                resultado = resultado.filter(l =>l.titulo.toLowerCase().includes(titulo));
+            }
+
+            if (autor !== "") {
+                resultado = resultado.filter(l =>l.autor.toLowerCase().includes(autor));
+            }
+            if (disponibilidad === "disponibles") {
+                resultado = resultado.filter(l => l.disponible === "Sí");
+            }
+
+            if (disponibilidad === "no_disponibles") {
+                resultado = resultado.filter(l => l.disponible === "No");
+            }
+
+            if (resultado.length === 0) {
+                document.getElementById("tablaLibros").innerHTML =
+                    `<tr><td>No hay resultados</td></tr>`;
+            } else {
+                cargarLibrosBusqueda(resultado);
+            }
+        }
+
+        function cargarLibrosBusqueda(libroBuscado) {
+            const tbody = document.getElementById("tablaLibros");
+            tbody.innerHTML = ""
+            libroBuscado.forEach(libro => {
+                const fila = `      
+            <tr>
+                <td>${libro.id}</td>
+                <td>${libro.titulo}</td>
+                <td>${libro.autor}</td>
+                <td>${libro.categoria}</td>
+                <td>${libro.anio}</td>
+                <td>${libro.disponible}</td>
+            </tr>
+            `;
+                tbody.innerHTML += fila;
+            });
+
+        }
+
+    async function pintarTabla() {
+    const tbody = document.getElementById("tablaLibros");
+    tbody.innerHTML = "";
+
+    const response = await fetch("https://localhost:52025/api/v1/libros");
+    libros = await response.json();
+
+    cargarLibrosBusqueda(libros);
+}
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,203 @@
+<!--EJERCICIO 7 - CREAR LIBRO CON FETCH Y JWT
+
+Objetivo:
+Enviar un POST protegido a la API usando el token JWT guardado.
+
+Tareas:
+1. Reutilizar formulario de libros.
+2. Leer token desde localStorage.
+3. Enviar POST a https://localhost:52025/api/v1/libros.
+4. Incluir header Authorization: Bearer TOKEN.
+5. Manejar errores 401, 403 y 400.
+6. Si se crea correctamente, recargar libros desde API.-->
+
+<!DOCTYPE html>
+<html lang="esté">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Login de usuarios</h1>
+    <form action="#" id="loginForm">
+        <div class="col-md-3">
+            <label for="username" class="form-label">Usuario</label>
+            <input type="text" name="username" id="username" class="form-control" required>
+
+        </div>
+        <div class="col-md-3">
+            <label for="password" class="form-label">Contraseña</label>
+            <input type="password" class="form-control" id="password" name="password" required>
+        </div>
+        <div class="col-md-3">
+            <button type="button" onclick="login()" class="btn btn-primary">Enviar</button>
+        </div>
+    </form>
+    <button type="button" onclick="eliminarToken()">Borrar token</button>
+    <h1>Formulario libros</h1>
+    <form action="#" method="post" id="formLibro">
+        <div class="col-md-3">
+            <label for="Titulo" class="form-label">Titulo</label>
+            <input type="text" name="Titulo" id="Titulo" class="form-control" required>
+
+        </div>
+        <div class="col-md-3">
+            <label for="Autor" class="form-label">Autor</label>
+            <input type="text" class="form-control" id="Autor" name="Autor" required>
+        </div>
+        <div class="col-md-3">
+            <label for="Categoria" class="form-label">Categoria</label>
+            <input type="text" class="form-control" id="Categoria" name="Categoria" required>
+        </div>
+        <div class="col-md-3">
+            <label for="Anio" class="form-label">Año</label>
+            <input type="number" class="form-control" id="Anio" name="Anio" required min="1400" max="2026">
+        </div>
+        <div class="col-md-3">
+            <button onclick="subirDatos()" type="button" class="btn btn-primary">Enviar</button>
+        </div>
+    </form>
+
+    <table class="table">
+        <thead class="table-dark">
+            <tr>
+                <th>ID</th>
+                <th>Título</th>
+                <th>Autor</th>
+                <th>Categoría</th>
+                <th>Año</th>
+                <th>Disponible</th>
+            </tr>
+        </thead>
+        <tbody id="tablaLibros">
+
+        </tbody>
+    </table>
+    <button onclick="pintarTabla()">Recoger datos de la API</button>
+    <script>
+
+        // Creado de libros e imprimirlo
+        let libros = []
+        var tokenGuardado;
+        async function pintarTabla() {
+            const tbody = document.getElementById("tablaLibros");
+            tbody.innerHTML = "";
+
+            const response = await fetch("https://localhost:52025/api/v1/libros");
+            libros = await response.json();
+
+            cargarLibrosBusqueda(libros);
+        }
+        function cargarLibrosBusqueda(libroBuscado) {
+            const tbody = document.getElementById("tablaLibros");
+            tbody.innerHTML = ""
+            libroBuscado.forEach(libro => {
+                const fila = `      
+            <tr>
+                <td>${libro.id}</td>
+                <td>${libro.titulo}</td>
+                <td>${libro.autor}</td>
+                <td>${libro.categoria}</td>
+                <td>${libro.anio}</td>
+                <td>${libro.disponible}</td>
+            </tr>
+            `;
+                tbody.innerHTML += fila;
+            });
+
+        }
+
+
+        async function subirDatos() {
+            var titulo = document.getElementById('Titulo').value;
+            var autor = document.getElementById('Autor').value;
+            var categoria = document.getElementById('Categoria').value;
+            var anio = document.getElementById('Anio').value;
+            try {
+                const response = await fetch('https://localhost:52025/api/v1/libros', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'Authorization': `Bearer ${tokenGuardado}`
+
+                    },
+                    body: JSON.stringify({
+                        Titulo: titulo,
+                        Autor: autor,
+                        Categoria: categoria,
+                        Anio: anio,
+                        Disponible: true
+
+                    })
+                });
+                if (response.ok) {
+                    console.log("Libro añadido");
+                    document.getElementById("formLibro").reset();
+                    return true;
+                } else {
+                    console.error('Error en la subida:', response.statusText);
+                    console.log(await response.text());
+                    return false;
+                }
+            } catch (error) {
+                console.error('Error de red:', error);
+                return false;
+            }
+        }
+
+
+        //Login de admin y eliminado de token
+
+        async function login() {
+            var username = document.getElementById('username').value;
+            var password = document.getElementById('password').value;
+            try {
+                const response = await fetch('https://localhost:52025/api/v1/auth/login', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        Username: username,
+                        Password: password
+                    })
+                });
+
+                if (response.ok) {
+                    const data = await response.json();
+                    localStorage.setItem("jwtToken", data.accessToken);
+                    console.log(localStorage);
+                    console.log("Token guardado con exito");
+                    tokenGuardado = data.accessToken;
+                    document.getElementById("loginForm").reset();
+                    return true;
+                } else {
+                    console.error('Error en el login:', response.statusText);
+                    return false;
+                }
+            } catch (error) {
+                console.error('Error de red:', error);
+                return false;
+            }
+
+        }
+
+        function eliminarToken() {
+            localStorage.removeItem("jwtToken", tokenGuardado);
+            console.log(localStorage);
+        }
+
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

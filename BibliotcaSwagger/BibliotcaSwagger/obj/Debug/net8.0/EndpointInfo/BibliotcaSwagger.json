@@ -1088,10 +1088,6 @@
       "LibroUpdateDto": {
         "type": "object",
         "properties": {
-          "id": {
-            "type": "integer",
-            "format": "int32"
-          },
           "titulo": {
             "type": "string",
             "nullable": true

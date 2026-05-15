@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Usuario Mañana\\source\\repos\\BibliotcaSwagger\\BibliotcaSwagger\\BibliotcaSwagger.csproj": {}
+    "C:\\Users\\Usuario Mañana\\source\\repos\\Cursos .NET\\BibliotcaSwagger\\BibliotcaSwagger\\BibliotcaSwagger.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Usuario Mañana\\source\\repos\\BibliotcaSwagger\\BibliotcaSwagger\\BibliotcaSwagger.csproj": {
+    "C:\\Users\\Usuario Mañana\\source\\repos\\Cursos .NET\\BibliotcaSwagger\\BibliotcaSwagger\\BibliotcaSwagger.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario Mañana\\source\\repos\\BibliotcaSwagger\\BibliotcaSwagger\\BibliotcaSwagger.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario Mañana\\source\\repos\\Cursos .NET\\BibliotcaSwagger\\BibliotcaSwagger\\BibliotcaSwagger.csproj",
         "projectName": "BibliotcaSwagger",
-        "projectPath": "C:\\Users\\Usuario Mañana\\source\\repos\\BibliotcaSwagger\\BibliotcaSwagger\\BibliotcaSwagger.csproj",
+        "projectPath": "C:\\Users\\Usuario Mañana\\source\\repos\\Cursos .NET\\BibliotcaSwagger\\BibliotcaSwagger\\BibliotcaSwagger.csproj",
         "packagesPath": "C:\\Users\\Usuario Mañana\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario Mañana\\source\\repos\\BibliotcaSwagger\\BibliotcaSwagger\\obj\\",
+        "outputPath": "C:\\Users\\Usuario Mañana\\source\\repos\\Cursos .NET\\BibliotcaSwagger\\BibliotcaSwagger\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

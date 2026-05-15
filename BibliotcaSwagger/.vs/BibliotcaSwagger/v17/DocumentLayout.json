@@ -1,26 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\BibliotcaSwagger\\",
+  "WorkspaceRootPath": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\Cursos .NET\\BibliotcaSwagger\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{95309C11-9A7F-4944-9B42-A30CE83A3B3A}|BibliotcaSwagger\\BibliotcaSwagger.csproj|c:\\users\\usuario ma\u00F1ana\\source\\repos\\bibliotcaswagger\\bibliotcaswagger\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{95309C11-9A7F-4944-9B42-A30CE83A3B3A}|BibliotcaSwagger\\BibliotcaSwagger.csproj|solutionrelative:bibliotcaswagger\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{95309C11-9A7F-4944-9B42-A30CE83A3B3A}|BibliotcaSwagger\\BibliotcaSwagger.csproj|c:\\users\\usuario ma\u00F1ana\\source\\repos\\cursos .net\\bibliotcaswagger\\bibliotcaswagger\\clientapp\\biblioteca-app\\src\\app\\service\\prestamo.service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{95309C11-9A7F-4944-9B42-A30CE83A3B3A}|BibliotcaSwagger\\BibliotcaSwagger.csproj|solutionrelative:bibliotcaswagger\\clientapp\\biblioteca-app\\src\\app\\service\\prestamo.service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{95309C11-9A7F-4944-9B42-A30CE83A3B3A}|BibliotcaSwagger\\BibliotcaSwagger.csproj|c:\\users\\usuario ma\u00F1ana\\source\\repos\\bibliotcaswagger\\bibliotcaswagger\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{95309C11-9A7F-4944-9B42-A30CE83A3B3A}|BibliotcaSwagger\\BibliotcaSwagger.csproj|solutionrelative:bibliotcaswagger\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{95309C11-9A7F-4944-9B42-A30CE83A3B3A}|BibliotcaSwagger\\BibliotcaSwagger.csproj|c:\\users\\usuario ma\u00F1ana\\source\\repos\\bibliotcaswagger\\bibliotcaswagger\\controllers\\prestamoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{95309C11-9A7F-4944-9B42-A30CE83A3B3A}|BibliotcaSwagger\\BibliotcaSwagger.csproj|solutionrelative:bibliotcaswagger\\controllers\\prestamoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{95309C11-9A7F-4944-9B42-A30CE83A3B3A}|BibliotcaSwagger\\BibliotcaSwagger.csproj|c:\\users\\usuario ma\u00F1ana\\source\\repos\\bibliotcaswagger\\bibliotcaswagger\\controllers\\librocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{95309C11-9A7F-4944-9B42-A30CE83A3B3A}|BibliotcaSwagger\\BibliotcaSwagger.csproj|solutionrelative:bibliotcaswagger\\controllers\\librocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{95309C11-9A7F-4944-9B42-A30CE83A3B3A}|BibliotcaSwagger\\BibliotcaSwagger.csproj|c:\\users\\usuario ma\u00F1ana\\source\\repos\\bibliotcaswagger\\bibliotcaswagger\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{95309C11-9A7F-4944-9B42-A30CE83A3B3A}|BibliotcaSwagger\\BibliotcaSwagger.csproj|solutionrelative:bibliotcaswagger\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{95309C11-9A7F-4944-9B42-A30CE83A3B3A}|BibliotcaSwagger\\BibliotcaSwagger.csproj|c:\\users\\usuario ma\u00F1ana\\source\\repos\\cursos .net\\bibliotcaswagger\\bibliotcaswagger\\clientapp\\biblioteca-app\\src\\app\\pages\\prestamos\\prestamos.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{95309C11-9A7F-4944-9B42-A30CE83A3B3A}|BibliotcaSwagger\\BibliotcaSwagger.csproj|solutionrelative:bibliotcaswagger\\clientapp\\biblioteca-app\\src\\app\\pages\\prestamos\\prestamos.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,67 +26,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UsuariosController.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\BibliotcaSwagger\\BibliotcaSwagger\\Controllers\\UsuariosController.cs",
-              "RelativeDocumentMoniker": "BibliotcaSwagger\\Controllers\\UsuariosController.cs",
-              "ToolTip": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\BibliotcaSwagger\\BibliotcaSwagger\\Controllers\\UsuariosController.cs",
-              "RelativeToolTip": "BibliotcaSwagger\\Controllers\\UsuariosController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-29T08:19:56.193Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PrestamosController.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\BibliotcaSwagger\\BibliotcaSwagger\\Controllers\\PrestamosController.cs",
-              "RelativeDocumentMoniker": "BibliotcaSwagger\\Controllers\\PrestamosController.cs",
-              "ToolTip": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\BibliotcaSwagger\\BibliotcaSwagger\\Controllers\\PrestamosController.cs",
-              "RelativeToolTip": "BibliotcaSwagger\\Controllers\\PrestamosController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-29T08:19:40.96Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "LibroController.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\BibliotcaSwagger\\BibliotcaSwagger\\Controllers\\LibroController.cs",
-              "RelativeDocumentMoniker": "BibliotcaSwagger\\Controllers\\LibroController.cs",
-              "ToolTip": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\BibliotcaSwagger\\BibliotcaSwagger\\Controllers\\LibroController.cs",
-              "RelativeToolTip": "BibliotcaSwagger\\Controllers\\LibroController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-29T08:18:49.426Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\BibliotcaSwagger\\BibliotcaSwagger\\Program.cs",
-              "RelativeDocumentMoniker": "BibliotcaSwagger\\Program.cs",
-              "ToolTip": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\BibliotcaSwagger\\BibliotcaSwagger\\Program.cs",
-              "RelativeToolTip": "BibliotcaSwagger\\Program.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAAADUAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-29T08:17:16.742Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "LaunchSettings.json",
-              "DocumentMoniker": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\BibliotcaSwagger\\BibliotcaSwagger\\Properties\\LaunchSettings.json",
-              "RelativeDocumentMoniker": "BibliotcaSwagger\\Properties\\LaunchSettings.json",
-              "ToolTip": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\BibliotcaSwagger\\BibliotcaSwagger\\Properties\\LaunchSettings.json",
-              "RelativeToolTip": "BibliotcaSwagger\\Properties\\LaunchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-04-29T07:37:09.943Z",
+              "Title": "prestamo.service.ts",
+              "DocumentMoniker": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\Cursos .NET\\BibliotcaSwagger\\BibliotcaSwagger\\ClientApp\\Biblioteca-app\\src\\app\\service\\prestamo.service.ts",
+              "RelativeDocumentMoniker": "BibliotcaSwagger\\ClientApp\\Biblioteca-app\\src\\app\\service\\prestamo.service.ts",
+              "ToolTip": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\Cursos .NET\\BibliotcaSwagger\\BibliotcaSwagger\\ClientApp\\Biblioteca-app\\src\\app\\service\\prestamo.service.ts",
+              "RelativeToolTip": "BibliotcaSwagger\\ClientApp\\Biblioteca-app\\src\\app\\service\\prestamo.service.ts",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-05-15T11:21:56.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "prestamos.component.ts",
+              "DocumentMoniker": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\Cursos .NET\\BibliotcaSwagger\\BibliotcaSwagger\\ClientApp\\Biblioteca-app\\src\\app\\pages\\prestamos\\prestamos.component.ts",
+              "RelativeDocumentMoniker": "BibliotcaSwagger\\ClientApp\\Biblioteca-app\\src\\app\\pages\\prestamos\\prestamos.component.ts",
+              "ToolTip": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\Cursos .NET\\BibliotcaSwagger\\BibliotcaSwagger\\ClientApp\\Biblioteca-app\\src\\app\\pages\\prestamos\\prestamos.component.ts",
+              "RelativeToolTip": "BibliotcaSwagger\\ClientApp\\Biblioteca-app\\src\\app\\pages\\prestamos\\prestamos.component.ts",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-05-15T10:39:23.96Z",
               "EditorCaption": ""
             }
           ]

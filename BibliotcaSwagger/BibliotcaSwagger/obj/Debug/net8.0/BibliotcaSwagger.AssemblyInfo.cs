@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BibliotcaSwagger")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+537659622e20ec5a3d01c1815d6599e9fdd3da11")]
 [assembly: System.Reflection.AssemblyProductAttribute("BibliotcaSwagger")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BibliotcaSwagger")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

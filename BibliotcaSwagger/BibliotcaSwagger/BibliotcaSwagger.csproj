@@ -15,4 +15,8 @@
     <PackageReference Include="Newtonsoft.Json" Version="13.0.4" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ClientApp\Biblioteca-app\src\app\core\guards\" />
+    <Folder Include="ClientApp\Biblioteca-app\src\app\core\interceptors\" />
+  </ItemGroup>
 </Project>

@@ -26,7 +26,7 @@ namespace BibliotcaSwagger.Controllers {
         public UsuariosController(BibliotecaDbContext db) => _db = db;
 
         [HttpGet]
-        [Authorize(Roles = "Admin,Staff")]
+        [AllowAnonymous]
         public async Task<ActionResult<IEnumerable<UsuarioReadDto>>>
         GetAll([FromQuery] string? q, [FromQuery] int page = 1, [FromQuery] int
             pageSize=20, CancellationToken ct = default) {

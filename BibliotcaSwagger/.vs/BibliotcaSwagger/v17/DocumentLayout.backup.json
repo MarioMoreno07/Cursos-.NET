@@ -1,25 +1,85 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\BibliotcaSwagger\\",
+  "WorkspaceRootPath": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\Cursos .NET\\BibliotcaSwagger\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{95309C11-9A7F-4944-9B42-A30CE83A3B3A}|BibliotcaSwagger\\BibliotcaSwagger.csproj|c:\\users\\usuario ma\u00F1ana\\source\\repos\\bibliotcaswagger\\bibliotcaswagger\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{95309C11-9A7F-4944-9B42-A30CE83A3B3A}|BibliotcaSwagger\\BibliotcaSwagger.csproj|c:\\users\\usuario ma\u00F1ana\\source\\repos\\cursos .net\\bibliotcaswagger\\bibliotcaswagger\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{95309C11-9A7F-4944-9B42-A30CE83A3B3A}|BibliotcaSwagger\\BibliotcaSwagger.csproj|solutionrelative:bibliotcaswagger\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{95309C11-9A7F-4944-9B42-A30CE83A3B3A}|BibliotcaSwagger\\BibliotcaSwagger.csproj|c:\\users\\usuario ma\u00F1ana\\source\\repos\\bibliotcaswagger\\bibliotcaswagger\\controllers\\prestamoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{95309C11-9A7F-4944-9B42-A30CE83A3B3A}|BibliotcaSwagger\\BibliotcaSwagger.csproj|c:\\users\\usuario ma\u00F1ana\\source\\repos\\cursos .net\\bibliotcaswagger\\bibliotcaswagger\\controllers\\prestamoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{95309C11-9A7F-4944-9B42-A30CE83A3B3A}|BibliotcaSwagger\\BibliotcaSwagger.csproj|solutionrelative:bibliotcaswagger\\controllers\\prestamoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{95309C11-9A7F-4944-9B42-A30CE83A3B3A}|BibliotcaSwagger\\BibliotcaSwagger.csproj|c:\\users\\usuario ma\u00F1ana\\source\\repos\\bibliotcaswagger\\bibliotcaswagger\\controllers\\librocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{95309C11-9A7F-4944-9B42-A30CE83A3B3A}|BibliotcaSwagger\\BibliotcaSwagger.csproj|c:\\users\\usuario ma\u00F1ana\\source\\repos\\cursos .net\\bibliotcaswagger\\bibliotcaswagger\\controllers\\librocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{95309C11-9A7F-4944-9B42-A30CE83A3B3A}|BibliotcaSwagger\\BibliotcaSwagger.csproj|solutionrelative:bibliotcaswagger\\controllers\\librocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{95309C11-9A7F-4944-9B42-A30CE83A3B3A}|BibliotcaSwagger\\BibliotcaSwagger.csproj|c:\\users\\usuario ma\u00F1ana\\source\\repos\\bibliotcaswagger\\bibliotcaswagger\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{95309C11-9A7F-4944-9B42-A30CE83A3B3A}|BibliotcaSwagger\\BibliotcaSwagger.csproj|solutionrelative:bibliotcaswagger\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{95309C11-9A7F-4944-9B42-A30CE83A3B3A}|BibliotcaSwagger\\BibliotcaSwagger.csproj|c:\\users\\usuario ma\u00F1ana\\source\\repos\\cursos .net\\bibliotcaswagger\\bibliotcaswagger\\clientapp\\biblioteca-app\\src\\app\\service\\usuario.service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{95309C11-9A7F-4944-9B42-A30CE83A3B3A}|BibliotcaSwagger\\BibliotcaSwagger.csproj|solutionrelative:bibliotcaswagger\\clientapp\\biblioteca-app\\src\\app\\service\\usuario.service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{95309C11-9A7F-4944-9B42-A30CE83A3B3A}|BibliotcaSwagger\\BibliotcaSwagger.csproj|c:\\users\\usuario ma\u00F1ana\\source\\repos\\bibliotcaswagger\\bibliotcaswagger\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{95309C11-9A7F-4944-9B42-A30CE83A3B3A}|BibliotcaSwagger\\BibliotcaSwagger.csproj|c:\\users\\usuario ma\u00F1ana\\source\\repos\\cursos .net\\bibliotcaswagger\\bibliotcaswagger\\dtos\\usuarios\\usuariocreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95309C11-9A7F-4944-9B42-A30CE83A3B3A}|BibliotcaSwagger\\BibliotcaSwagger.csproj|solutionrelative:bibliotcaswagger\\dtos\\usuarios\\usuariocreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95309C11-9A7F-4944-9B42-A30CE83A3B3A}|BibliotcaSwagger\\BibliotcaSwagger.csproj|c:\\users\\usuario ma\u00F1ana\\source\\repos\\cursos .net\\bibliotcaswagger\\bibliotcaswagger\\clientapp\\biblioteca-app\\src\\app\\service\\libro.service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{95309C11-9A7F-4944-9B42-A30CE83A3B3A}|BibliotcaSwagger\\BibliotcaSwagger.csproj|solutionrelative:bibliotcaswagger\\clientapp\\biblioteca-app\\src\\app\\service\\libro.service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95309C11-9A7F-4944-9B42-A30CE83A3B3A}|BibliotcaSwagger\\BibliotcaSwagger.csproj|c:\\users\\usuario ma\u00F1ana\\source\\repos\\cursos .net\\bibliotcaswagger\\bibliotcaswagger\\clientapp\\biblioteca-app\\src\\app\\service\\prestamo.service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{95309C11-9A7F-4944-9B42-A30CE83A3B3A}|BibliotcaSwagger\\BibliotcaSwagger.csproj|solutionrelative:bibliotcaswagger\\clientapp\\biblioteca-app\\src\\app\\service\\prestamo.service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95309C11-9A7F-4944-9B42-A30CE83A3B3A}|BibliotcaSwagger\\BibliotcaSwagger.csproj|c:\\users\\usuario ma\u00F1ana\\source\\repos\\cursos .net\\bibliotcaswagger\\bibliotcaswagger\\clientapp\\biblioteca-app\\src\\app\\pages\\prestamos\\prestamos.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{95309C11-9A7F-4944-9B42-A30CE83A3B3A}|BibliotcaSwagger\\BibliotcaSwagger.csproj|solutionrelative:bibliotcaswagger\\clientapp\\biblioteca-app\\src\\app\\pages\\prestamos\\prestamos.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95309C11-9A7F-4944-9B42-A30CE83A3B3A}|BibliotcaSwagger\\BibliotcaSwagger.csproj|c:\\users\\usuario ma\u00F1ana\\source\\repos\\cursos .net\\bibliotcaswagger\\bibliotcaswagger\\clientapp\\biblioteca-app\\src\\app\\pages\\usuarios\\usuarios.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{95309C11-9A7F-4944-9B42-A30CE83A3B3A}|BibliotcaSwagger\\BibliotcaSwagger.csproj|solutionrelative:bibliotcaswagger\\clientapp\\biblioteca-app\\src\\app\\pages\\usuarios\\usuarios.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95309C11-9A7F-4944-9B42-A30CE83A3B3A}|BibliotcaSwagger\\BibliotcaSwagger.csproj|c:\\users\\usuario ma\u00F1ana\\source\\repos\\cursos .net\\bibliotcaswagger\\bibliotcaswagger\\clientapp\\biblioteca-app\\src\\app\\app.routes.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{95309C11-9A7F-4944-9B42-A30CE83A3B3A}|BibliotcaSwagger\\BibliotcaSwagger.csproj|solutionrelative:bibliotcaswagger\\clientapp\\biblioteca-app\\src\\app\\app.routes.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95309C11-9A7F-4944-9B42-A30CE83A3B3A}|BibliotcaSwagger\\BibliotcaSwagger.csproj|c:\\users\\usuario ma\u00F1ana\\source\\repos\\cursos .net\\bibliotcaswagger\\bibliotcaswagger\\clientapp\\biblioteca-app\\src\\app\\app.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{95309C11-9A7F-4944-9B42-A30CE83A3B3A}|BibliotcaSwagger\\BibliotcaSwagger.csproj|solutionrelative:bibliotcaswagger\\clientapp\\biblioteca-app\\src\\app\\app.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95309C11-9A7F-4944-9B42-A30CE83A3B3A}|BibliotcaSwagger\\BibliotcaSwagger.csproj|c:\\users\\usuario ma\u00F1ana\\source\\repos\\cursos .net\\bibliotcaswagger\\bibliotcaswagger\\clientapp\\biblioteca-app\\src\\environments\\environments.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{95309C11-9A7F-4944-9B42-A30CE83A3B3A}|BibliotcaSwagger\\BibliotcaSwagger.csproj|solutionrelative:bibliotcaswagger\\clientapp\\biblioteca-app\\src\\environments\\environments.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95309C11-9A7F-4944-9B42-A30CE83A3B3A}|BibliotcaSwagger\\BibliotcaSwagger.csproj|c:\\users\\usuario ma\u00F1ana\\source\\repos\\cursos .net\\bibliotcaswagger\\bibliotcaswagger\\clientapp\\biblioteca-app\\src\\app\\pages\\libros\\libros.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{95309C11-9A7F-4944-9B42-A30CE83A3B3A}|BibliotcaSwagger\\BibliotcaSwagger.csproj|solutionrelative:bibliotcaswagger\\clientapp\\biblioteca-app\\src\\app\\pages\\libros\\libros.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95309C11-9A7F-4944-9B42-A30CE83A3B3A}|BibliotcaSwagger\\BibliotcaSwagger.csproj|c:\\users\\usuario ma\u00F1ana\\source\\repos\\cursos .net\\bibliotcaswagger\\bibliotcaswagger\\clientapp\\biblioteca-app\\src\\app\\app.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{95309C11-9A7F-4944-9B42-A30CE83A3B3A}|BibliotcaSwagger\\BibliotcaSwagger.csproj|solutionrelative:bibliotcaswagger\\clientapp\\biblioteca-app\\src\\app\\app.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95309C11-9A7F-4944-9B42-A30CE83A3B3A}|BibliotcaSwagger\\BibliotcaSwagger.csproj|c:\\users\\usuario ma\u00F1ana\\source\\repos\\cursos .net\\bibliotcaswagger\\bibliotcaswagger\\clientapp\\biblioteca-app\\src\\app\\models\\prestamo.model.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{95309C11-9A7F-4944-9B42-A30CE83A3B3A}|BibliotcaSwagger\\BibliotcaSwagger.csproj|solutionrelative:bibliotcaswagger\\clientapp\\biblioteca-app\\src\\app\\models\\prestamo.model.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95309C11-9A7F-4944-9B42-A30CE83A3B3A}|BibliotcaSwagger\\BibliotcaSwagger.csproj|c:\\users\\usuario ma\u00F1ana\\source\\repos\\cursos .net\\bibliotcaswagger\\bibliotcaswagger\\clientapp\\biblioteca-app\\src\\app\\models\\libro.model.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{95309C11-9A7F-4944-9B42-A30CE83A3B3A}|BibliotcaSwagger\\BibliotcaSwagger.csproj|solutionrelative:bibliotcaswagger\\clientapp\\biblioteca-app\\src\\app\\models\\libro.model.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95309C11-9A7F-4944-9B42-A30CE83A3B3A}|BibliotcaSwagger\\BibliotcaSwagger.csproj|c:\\users\\usuario ma\u00F1ana\\source\\repos\\cursos .net\\bibliotcaswagger\\bibliotcaswagger\\clientapp\\biblioteca-app\\src\\app\\models\\usuario.model.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{95309C11-9A7F-4944-9B42-A30CE83A3B3A}|BibliotcaSwagger\\BibliotcaSwagger.csproj|solutionrelative:bibliotcaswagger\\clientapp\\biblioteca-app\\src\\app\\models\\usuario.model.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95309C11-9A7F-4944-9B42-A30CE83A3B3A}|BibliotcaSwagger\\BibliotcaSwagger.csproj|c:\\users\\usuario ma\u00F1ana\\source\\repos\\cursos .net\\bibliotcaswagger\\bibliotcaswagger\\clientapp\\biblioteca-app\\src\\app\\app.config.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{95309C11-9A7F-4944-9B42-A30CE83A3B3A}|BibliotcaSwagger\\BibliotcaSwagger.csproj|solutionrelative:bibliotcaswagger\\clientapp\\biblioteca-app\\src\\app\\app.config.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95309C11-9A7F-4944-9B42-A30CE83A3B3A}|BibliotcaSwagger\\BibliotcaSwagger.csproj|c:\\users\\usuario ma\u00F1ana\\source\\repos\\cursos .net\\bibliotcaswagger\\bibliotcaswagger\\bibliotcaswagger.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{95309C11-9A7F-4944-9B42-A30CE83A3B3A}|BibliotcaSwagger\\BibliotcaSwagger.csproj|solutionrelative:bibliotcaswagger\\bibliotcaswagger.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95309C11-9A7F-4944-9B42-A30CE83A3B3A}|BibliotcaSwagger\\BibliotcaSwagger.csproj|c:\\users\\usuario ma\u00F1ana\\source\\repos\\cursos .net\\bibliotcaswagger\\bibliotcaswagger\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{95309C11-9A7F-4944-9B42-A30CE83A3B3A}|BibliotcaSwagger\\BibliotcaSwagger.csproj|solutionrelative:bibliotcaswagger\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
@@ -30,7 +90,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,13 +98,78 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UsuarioCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\Cursos .NET\\BibliotcaSwagger\\BibliotcaSwagger\\Dtos\\Usuarios\\UsuarioCreateDto.cs",
+              "RelativeDocumentMoniker": "BibliotcaSwagger\\Dtos\\Usuarios\\UsuarioCreateDto.cs",
+              "ToolTip": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\Cursos .NET\\BibliotcaSwagger\\BibliotcaSwagger\\Dtos\\Usuarios\\UsuarioCreateDto.cs",
+              "RelativeToolTip": "BibliotcaSwagger\\Dtos\\Usuarios\\UsuarioCreateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-15T11:00:03.806Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "usuario.service.ts",
+              "DocumentMoniker": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\Cursos .NET\\BibliotcaSwagger\\BibliotcaSwagger\\ClientApp\\Biblioteca-app\\src\\app\\service\\usuario.service.ts",
+              "RelativeDocumentMoniker": "BibliotcaSwagger\\ClientApp\\Biblioteca-app\\src\\app\\service\\usuario.service.ts",
+              "ToolTip": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\Cursos .NET\\BibliotcaSwagger\\BibliotcaSwagger\\ClientApp\\Biblioteca-app\\src\\app\\service\\usuario.service.ts",
+              "RelativeToolTip": "BibliotcaSwagger\\ClientApp\\Biblioteca-app\\src\\app\\service\\usuario.service.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-05-15T10:41:54.18Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "usuarios.component.ts",
+              "DocumentMoniker": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\Cursos .NET\\BibliotcaSwagger\\BibliotcaSwagger\\ClientApp\\Biblioteca-app\\src\\app\\pages\\usuarios\\usuarios.component.ts",
+              "RelativeDocumentMoniker": "BibliotcaSwagger\\ClientApp\\Biblioteca-app\\src\\app\\pages\\usuarios\\usuarios.component.ts",
+              "ToolTip": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\Cursos .NET\\BibliotcaSwagger\\BibliotcaSwagger\\ClientApp\\Biblioteca-app\\src\\app\\pages\\usuarios\\usuarios.component.ts",
+              "RelativeToolTip": "BibliotcaSwagger\\ClientApp\\Biblioteca-app\\src\\app\\pages\\usuarios\\usuarios.component.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-05-15T10:39:42.726Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "prestamos.component.ts",
+              "DocumentMoniker": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\Cursos .NET\\BibliotcaSwagger\\BibliotcaSwagger\\ClientApp\\Biblioteca-app\\src\\app\\pages\\prestamos\\prestamos.component.ts",
+              "RelativeDocumentMoniker": "BibliotcaSwagger\\ClientApp\\Biblioteca-app\\src\\app\\pages\\prestamos\\prestamos.component.ts",
+              "ToolTip": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\Cursos .NET\\BibliotcaSwagger\\BibliotcaSwagger\\ClientApp\\Biblioteca-app\\src\\app\\pages\\prestamos\\prestamos.component.ts",
+              "RelativeToolTip": "BibliotcaSwagger\\ClientApp\\Biblioteca-app\\src\\app\\pages\\prestamos\\prestamos.component.ts",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAjwBsAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-05-15T10:39:23.96Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "libro.service.ts",
+              "DocumentMoniker": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\Cursos .NET\\BibliotcaSwagger\\BibliotcaSwagger\\ClientApp\\Biblioteca-app\\src\\app\\service\\libro.service.ts",
+              "RelativeDocumentMoniker": "BibliotcaSwagger\\ClientApp\\Biblioteca-app\\src\\app\\service\\libro.service.ts",
+              "ToolTip": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\Cursos .NET\\BibliotcaSwagger\\BibliotcaSwagger\\ClientApp\\Biblioteca-app\\src\\app\\service\\libro.service.ts",
+              "RelativeToolTip": "BibliotcaSwagger\\ClientApp\\Biblioteca-app\\src\\app\\service\\libro.service.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-05-15T07:53:58.921Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "UsuariosController.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\BibliotcaSwagger\\BibliotcaSwagger\\Controllers\\UsuariosController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\Cursos .NET\\BibliotcaSwagger\\BibliotcaSwagger\\Controllers\\UsuariosController.cs",
               "RelativeDocumentMoniker": "BibliotcaSwagger\\Controllers\\UsuariosController.cs",
-              "ToolTip": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\BibliotcaSwagger\\BibliotcaSwagger\\Controllers\\UsuariosController.cs",
+              "ToolTip": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\Cursos .NET\\BibliotcaSwagger\\BibliotcaSwagger\\Controllers\\UsuariosController.cs",
               "RelativeToolTip": "BibliotcaSwagger\\Controllers\\UsuariosController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAABwAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-29T08:19:56.193Z",
               "EditorCaption": ""
@@ -53,11 +178,11 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "PrestamosController.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\BibliotcaSwagger\\BibliotcaSwagger\\Controllers\\PrestamosController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\Cursos .NET\\BibliotcaSwagger\\BibliotcaSwagger\\Controllers\\PrestamosController.cs",
               "RelativeDocumentMoniker": "BibliotcaSwagger\\Controllers\\PrestamosController.cs",
-              "ToolTip": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\BibliotcaSwagger\\BibliotcaSwagger\\Controllers\\PrestamosController.cs",
+              "ToolTip": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\Cursos .NET\\BibliotcaSwagger\\BibliotcaSwagger\\Controllers\\PrestamosController.cs",
               "RelativeToolTip": "BibliotcaSwagger\\Controllers\\PrestamosController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAABkAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-29T08:19:40.96Z",
               "EditorCaption": ""
@@ -66,40 +191,168 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "LibroController.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\BibliotcaSwagger\\BibliotcaSwagger\\Controllers\\LibroController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\Cursos .NET\\BibliotcaSwagger\\BibliotcaSwagger\\Controllers\\LibroController.cs",
               "RelativeDocumentMoniker": "BibliotcaSwagger\\Controllers\\LibroController.cs",
-              "ToolTip": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\BibliotcaSwagger\\BibliotcaSwagger\\Controllers\\LibroController.cs",
+              "ToolTip": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\Cursos .NET\\BibliotcaSwagger\\BibliotcaSwagger\\Controllers\\LibroController.cs",
               "RelativeToolTip": "BibliotcaSwagger\\Controllers\\LibroController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABMAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-29T08:18:49.426Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\BibliotcaSwagger\\BibliotcaSwagger\\Program.cs",
-              "RelativeDocumentMoniker": "BibliotcaSwagger\\Program.cs",
-              "ToolTip": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\BibliotcaSwagger\\BibliotcaSwagger\\Program.cs",
-              "RelativeToolTip": "BibliotcaSwagger\\Program.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAAADUAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-29T08:17:16.742Z",
+              "DocumentIndex": 9,
+              "Title": "app.routes.ts",
+              "DocumentMoniker": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\Cursos .NET\\BibliotcaSwagger\\BibliotcaSwagger\\ClientApp\\Biblioteca-app\\src\\app\\app.routes.ts",
+              "RelativeDocumentMoniker": "BibliotcaSwagger\\ClientApp\\Biblioteca-app\\src\\app\\app.routes.ts",
+              "ToolTip": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\Cursos .NET\\BibliotcaSwagger\\BibliotcaSwagger\\ClientApp\\Biblioteca-app\\src\\app\\app.routes.ts",
+              "RelativeToolTip": "BibliotcaSwagger\\ClientApp\\Biblioteca-app\\src\\app\\app.routes.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-05-15T07:40:55.648Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
+              "Title": "app.html",
+              "DocumentMoniker": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\Cursos .NET\\BibliotcaSwagger\\BibliotcaSwagger\\ClientApp\\Biblioteca-app\\src\\app\\app.html",
+              "RelativeDocumentMoniker": "BibliotcaSwagger\\ClientApp\\Biblioteca-app\\src\\app\\app.html",
+              "ToolTip": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\Cursos .NET\\BibliotcaSwagger\\BibliotcaSwagger\\ClientApp\\Biblioteca-app\\src\\app\\app.html",
+              "RelativeToolTip": "BibliotcaSwagger\\ClientApp\\Biblioteca-app\\src\\app\\app.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-05-15T07:47:20.883Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "environments.ts",
+              "DocumentMoniker": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\Cursos .NET\\BibliotcaSwagger\\BibliotcaSwagger\\ClientApp\\Biblioteca-app\\src\\environments\\environments.ts",
+              "RelativeDocumentMoniker": "BibliotcaSwagger\\ClientApp\\Biblioteca-app\\src\\environments\\environments.ts",
+              "ToolTip": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\Cursos .NET\\BibliotcaSwagger\\BibliotcaSwagger\\ClientApp\\Biblioteca-app\\src\\environments\\environments.ts",
+              "RelativeToolTip": "BibliotcaSwagger\\ClientApp\\Biblioteca-app\\src\\environments\\environments.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-05-15T08:10:01.827Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "prestamo.model.ts",
+              "DocumentMoniker": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\Cursos .NET\\BibliotcaSwagger\\BibliotcaSwagger\\ClientApp\\Biblioteca-app\\src\\app\\models\\prestamo.model.ts",
+              "RelativeDocumentMoniker": "BibliotcaSwagger\\ClientApp\\Biblioteca-app\\src\\app\\models\\prestamo.model.ts",
+              "ToolTip": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\Cursos .NET\\BibliotcaSwagger\\BibliotcaSwagger\\ClientApp\\Biblioteca-app\\src\\app\\models\\prestamo.model.ts",
+              "RelativeToolTip": "BibliotcaSwagger\\ClientApp\\Biblioteca-app\\src\\app\\models\\prestamo.model.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-05-15T10:02:15.76Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "prestamo.service.ts",
+              "DocumentMoniker": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\Cursos .NET\\BibliotcaSwagger\\BibliotcaSwagger\\ClientApp\\Biblioteca-app\\src\\app\\service\\prestamo.service.ts",
+              "RelativeDocumentMoniker": "BibliotcaSwagger\\ClientApp\\Biblioteca-app\\src\\app\\service\\prestamo.service.ts",
+              "ToolTip": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\Cursos .NET\\BibliotcaSwagger\\BibliotcaSwagger\\ClientApp\\Biblioteca-app\\src\\app\\service\\prestamo.service.ts",
+              "RelativeToolTip": "BibliotcaSwagger\\ClientApp\\Biblioteca-app\\src\\app\\service\\prestamo.service.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-05-15T10:45:18.883Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "app.ts",
+              "DocumentMoniker": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\Cursos .NET\\BibliotcaSwagger\\BibliotcaSwagger\\ClientApp\\Biblioteca-app\\src\\app\\app.ts",
+              "RelativeDocumentMoniker": "BibliotcaSwagger\\ClientApp\\Biblioteca-app\\src\\app\\app.ts",
+              "ToolTip": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\Cursos .NET\\BibliotcaSwagger\\BibliotcaSwagger\\ClientApp\\Biblioteca-app\\src\\app\\app.ts",
+              "RelativeToolTip": "BibliotcaSwagger\\ClientApp\\Biblioteca-app\\src\\app\\app.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-05-15T07:45:56.199Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "libros.component.ts",
+              "DocumentMoniker": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\Cursos .NET\\BibliotcaSwagger\\BibliotcaSwagger\\ClientApp\\Biblioteca-app\\src\\app\\pages\\libros\\libros.component.ts",
+              "RelativeDocumentMoniker": "BibliotcaSwagger\\ClientApp\\Biblioteca-app\\src\\app\\pages\\libros\\libros.component.ts",
+              "ToolTip": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\Cursos .NET\\BibliotcaSwagger\\BibliotcaSwagger\\ClientApp\\Biblioteca-app\\src\\app\\pages\\libros\\libros.component.ts",
+              "RelativeToolTip": "BibliotcaSwagger\\ClientApp\\Biblioteca-app\\src\\app\\pages\\libros\\libros.component.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-05-15T07:57:31.445Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "libro.model.ts",
+              "DocumentMoniker": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\Cursos .NET\\BibliotcaSwagger\\BibliotcaSwagger\\ClientApp\\Biblioteca-app\\src\\app\\models\\libro.model.ts",
+              "RelativeDocumentMoniker": "BibliotcaSwagger\\ClientApp\\Biblioteca-app\\src\\app\\models\\libro.model.ts",
+              "ToolTip": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\Cursos .NET\\BibliotcaSwagger\\BibliotcaSwagger\\ClientApp\\Biblioteca-app\\src\\app\\models\\libro.model.ts",
+              "RelativeToolTip": "BibliotcaSwagger\\ClientApp\\Biblioteca-app\\src\\app\\models\\libro.model.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-05-15T07:52:00.605Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "usuario.model.ts",
+              "DocumentMoniker": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\Cursos .NET\\BibliotcaSwagger\\BibliotcaSwagger\\ClientApp\\Biblioteca-app\\src\\app\\models\\usuario.model.ts",
+              "RelativeDocumentMoniker": "BibliotcaSwagger\\ClientApp\\Biblioteca-app\\src\\app\\models\\usuario.model.ts",
+              "ToolTip": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\Cursos .NET\\BibliotcaSwagger\\BibliotcaSwagger\\ClientApp\\Biblioteca-app\\src\\app\\models\\usuario.model.ts",
+              "RelativeToolTip": "BibliotcaSwagger\\ClientApp\\Biblioteca-app\\src\\app\\models\\usuario.model.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-05-15T09:59:03.657Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "app.config.ts",
+              "DocumentMoniker": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\Cursos .NET\\BibliotcaSwagger\\BibliotcaSwagger\\ClientApp\\Biblioteca-app\\src\\app\\app.config.ts",
+              "RelativeDocumentMoniker": "BibliotcaSwagger\\ClientApp\\Biblioteca-app\\src\\app\\app.config.ts",
+              "ToolTip": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\Cursos .NET\\BibliotcaSwagger\\BibliotcaSwagger\\ClientApp\\Biblioteca-app\\src\\app\\app.config.ts",
+              "RelativeToolTip": "BibliotcaSwagger\\ClientApp\\Biblioteca-app\\src\\app\\app.config.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-05-15T08:50:07.772Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "BibliotcaSwagger.csproj",
+              "DocumentMoniker": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\Cursos .NET\\BibliotcaSwagger\\BibliotcaSwagger\\BibliotcaSwagger.csproj",
+              "RelativeDocumentMoniker": "BibliotcaSwagger\\BibliotcaSwagger.csproj",
+              "ToolTip": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\Cursos .NET\\BibliotcaSwagger\\BibliotcaSwagger\\BibliotcaSwagger.csproj",
+              "RelativeToolTip": "BibliotcaSwagger\\BibliotcaSwagger.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-15T07:11:09.414Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
               "Title": "LaunchSettings.json",
-              "DocumentMoniker": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\BibliotcaSwagger\\BibliotcaSwagger\\Properties\\LaunchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\Cursos .NET\\BibliotcaSwagger\\BibliotcaSwagger\\Properties\\LaunchSettings.json",
               "RelativeDocumentMoniker": "BibliotcaSwagger\\Properties\\LaunchSettings.json",
-              "ToolTip": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\BibliotcaSwagger\\BibliotcaSwagger\\Properties\\LaunchSettings.json",
+              "ToolTip": "C:\\Users\\Usuario Ma\u00F1ana\\source\\repos\\Cursos .NET\\BibliotcaSwagger\\BibliotcaSwagger\\Properties\\LaunchSettings.json",
               "RelativeToolTip": "BibliotcaSwagger\\Properties\\LaunchSettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-04-29T07:37:09.943Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-29T07:37:09.943Z"
             }
           ]
         }

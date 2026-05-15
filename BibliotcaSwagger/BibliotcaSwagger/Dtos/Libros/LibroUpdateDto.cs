@@ -6,7 +6,6 @@ using System.Threading.Tasks;
 
 namespace BibliotcaSwagger.Dtos.Libros {
     public class LibroUpdateDto {
-        public int Id { get; set; }
         public string Titulo { get; set; }
         public string Autor { get; set; }
         public string Categoria { get; set; }

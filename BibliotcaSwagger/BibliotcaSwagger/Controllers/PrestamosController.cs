@@ -23,7 +23,7 @@ namespace BibliotcaSwagger.Controllers {
         private readonly BibliotecaDbContext _db;
         public PrestamosController(BibliotecaDbContext db) => _db = db;
         [HttpGet]
-        [Authorize(Roles = "Admin,Staff")]
+        [AllowAnonymous]
         public async Task<ActionResult<IEnumerable<PrestamoReadDto>>>
         GetAll([FromQuery] bool? activos, [FromQuery] bool?
         vencidos, CancellationToken ct = default) {
